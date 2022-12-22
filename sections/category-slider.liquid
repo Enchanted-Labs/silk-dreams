@@ -1,0 +1,67 @@
+
+    <div class="page-padding">
+      <div class="container-large">
+        <div data-delay="4000" data-animation="slide" class="categories-slider-collection-page w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="true" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="8" data-duration="500" data-infinite="false">
+          <div class="categorie-item w-slider-mask">
+            {%- for block in section.blocks -%}{%- if block.type == "category_slide_block" -%}<div class="categorie-item-slide w-slide" block.shopify_attributes>
+              <a href="{{ block.settings.collection_link }}" class="categorie-card w-inline-block">
+                <div class="collection-img">{%- if block.settings.collection_image == nil -%}<img src="{{ 'collection-img.png' | asset_url }}" loading="lazy" alt="" class="collection-pic-img">{%- else -%}<img src="{{ block.settings.collection_image.src | img_url: 'master' }}" loading="lazy" alt="{{ block.settings.collection_image.alt | escape }}" class="collection-pic-img" srcset="{{ block.settings.collection_image | img_url: '1920x' }} 1920w,{{ block.settings.collection_image | img_url: '1600x' }} 1600w,{{ block.settings.collection_image | img_url: '1366x' }} 1366w,{{ block.settings.collection_image | img_url: '1024x' }} 1024w,{{ block.settings.collection_image | img_url: '768x' }} 768w,{{ block.settings.collection_image | img_url: '640x' }} 640w">{%- endif -%}</div>
+                <div class="categorie-info-wrapper">
+                  <div class="categorie-information">
+                    <p class="categories-p">{{ block.settings.title }}</p>
+                    <p option:title="Tagline" class="collection-tagline">#1 BESTSELLER</p>
+                  </div>
+                  <div class="icon-regular w-embed"><svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M2.33301 10C2.33301 9.44772 2.78072 9 3.33301 9H14.918L12.6259 6.70711C12.2654 6.34662 12.2377 5.77939 12.5427 5.3871L12.6259 5.29289C12.9864 4.93241 13.5536 4.90468 13.9459 5.2097L14.0401 5.29289L18.0401 9.29289L18.0815 9.33685L18.1367 9.40469L18.2083 9.51594L18.2618 9.62866L18.2972 9.73401L18.3262 9.88253L18.333 10L18.3302 10.0752L18.3128 10.2007L18.2833 10.3121L18.2393 10.4232L18.187 10.5207L18.1202 10.6168C18.0953 10.6485 18.0686 10.6786 18.0401 10.7071L14.0401 14.7071C13.6496 15.0976 13.0164 15.0976 12.6259 14.7071C12.2654 14.3466 12.2377 13.7794 12.5427 13.3871L12.6259 13.2929L14.918 11H3.33301C2.78072 11 2.33301 10.5523 2.33301 10Z" fill="#270E24"></path>
+                    </svg></div>
+                </div>
+              </a>
+            </div>{%- endif -%}{%- endfor -%}
+          </div>
+          <div class="product12_arrow left w-slider-arrow-left"><img src="https://uploads-ssl.webflow.com/624380709031623bfe4aee60/624380709031620b764aee7b_icon_slider-arrow-left.svg" loading="lazy" alt="" class="image-2"></div>
+          <div class="product12_arrow w-slider-arrow-right"><img src="https://uploads-ssl.webflow.com/624380709031623bfe4aee60/6243807090316275724aee79_icon_slider-arrow-right.svg" loading="lazy" alt="" class="image-2"></div>
+          <div class="categories-dots-2 w-slider-nav w-slider-nav-invert w-round"></div>
+        </div>
+      </div>
+    </div>
+  
+
+<script>var currentSection = document.currentScript.closest('.shopify-section');currentSection.setAttribute("class","categories-section home");</script>
+        
+{% schema %}
+{
+  "name": "Category slider",
+  "tag": "section",
+  "class": "categories-section home",
+  "presets": [
+    {
+      "name": "Category Slider"
+    }
+  ],
+  "settings": [],
+  "blocks": [
+    {
+      "name": "Category Slide Block",
+      "type": "category_slide_block",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Kussenslopen"
+        },
+        {
+          "type": "image_picker",
+          "id": "collection_image",
+          "label": "Collection Image"
+        },
+        {
+          "type": "url",
+          "id": "collection_link",
+          "label": "Collection Link"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

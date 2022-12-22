@@ -1,0 +1,174 @@
+
+    <div class="page-padding">
+      <div class="container-916">
+        <div class="title-faq-wrapper">
+          <p class="faq-logo">{{ section.settings.tagline }}</p>
+          <h1 class="faq-h1">{{ section.settings.title }}</h1>
+          <p class="faq-p">{{ section.settings.paragraph }}</p>
+        </div>
+        <div class="faq-block">
+          <div class="faq-block-title">{{ section.settings.faq_first_main_title }}</div>
+          {%- for block in section.blocks -%}{%- if block.type == "faq_block_1" -%}<div data-click="faq" data-aos="fade-in" data-aos-easing="linear" data-aos-duration="500" data-aos-delay="200" class="c-faq-item aos-init aos-animate faq" block.shopify_attributes>
+            <div class="faq-page-accordion">
+              <div class="c-faq-q-text faq">
+                <div class="faq-q-text">{{ block.settings.question }}</div>
+              </div>
+              <div class="c-faq-icon">
+                <div class="faq-accordion-chevron"><img src="{{ 'ic20-plus.svg' | asset_url }}" loading="lazy" alt=""></div>
+              </div>
+            </div>
+            <div class="c-faq-a">
+              <div class="c-faq-a-text">
+                <p class="faq-a-text">{{ block.settings.answer }}</p>
+              </div>
+            </div>
+          </div>{%- endif -%}{%- endfor -%}
+        </div>
+        <div class="faq-block">
+          <div class="faq-block-title">{{ section.settings.faq_second_main_title }}</div>
+          {%- for block in section.blocks -%}{%- if block.type == "faq_block_2" -%}<div data-click="faq" data-aos="fade-in" data-aos-easing="linear" data-aos-duration="500" data-aos-delay="200" class="c-faq-item aos-init aos-animate faq" block.shopify_attributes>
+            <div class="faq-page-accordion">
+              <div class="c-faq-q-text faq">
+                <div class="faq-q-text">{{ block.settings.question }}</div>
+              </div>
+              <div class="c-faq-icon">
+                <div class="faq-accordion-chevron"><img src="{{ 'ic20-plus.svg' | asset_url }}" loading="lazy" alt=""></div>
+              </div>
+            </div>
+            <div class="c-faq-a">
+              <div class="c-faq-a-text">
+                <p class="faq-a-text">{{ block.settings.answer }}</p>
+              </div>
+            </div>
+          </div>{%- endif -%}{%- endfor -%}
+        </div>
+        <div class="faq-block">
+          <div class="faq-block-title">{{ section.settings.faq_third_main_title }}</div>
+          {%- for block in section.blocks -%}{%- if block.type == "faq_block_3" -%}<div data-click="faq" data-aos="fade-in" data-aos-easing="linear" data-aos-duration="500" data-aos-delay="200" class="c-faq-item aos-init aos-animate faq" block.shopify_attributes>
+            <div class="faq-page-accordion">
+              <div class="c-faq-q-text faq">
+                <div class="faq-q-text">{{ block.settings.question }}</div>
+              </div>
+              <div class="c-faq-icon">
+                <div class="faq-accordion-chevron"><img src="{{ 'ic20-plus.svg' | asset_url }}" loading="lazy" alt=""></div>
+              </div>
+            </div>
+            <div class="c-faq-a">
+              <div class="c-faq-a-text">
+                <p class="faq-a-text">{{ block.settings.answer }}</p>
+              </div>
+            </div>
+          </div>{%- endif -%}{%- endfor -%}
+        </div>
+      </div>
+    </div>
+  
+
+<script>var currentSection = document.currentScript.closest('.shopify-section');currentSection.setAttribute("class","collection-section");</script>
+        
+{% schema %}
+{
+  "name": "FAQ Template",
+  "tag": "div",
+  "class": "collection-section",
+  "presets": [
+    {
+      "name": "FAQ Template"
+    }
+  ],
+  "settings": [
+    {
+      "type": "text",
+      "id": "tagline",
+      "label": "Tagline",
+      "default": "SILK DREAMS"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Veelgestelde vragen"
+    },
+    {
+      "type": "text",
+      "id": "paragraph",
+      "label": "Paragraph",
+      "default": "Zie hieronder de meest gestelde vragen. Staat uw vraag er niet bij? Onze klantenservice staat 24/7 voor je klaar om al je vragen te beantwoorden. support@silkdreams.nl"
+    },
+    {
+      "type": "text",
+      "id": "faq_first_main_title",
+      "label": "FAQ - First Main Title",
+      "default": "Vragen over onze producten"
+    },
+    {
+      "type": "text",
+      "id": "faq_second_main_title",
+      "label": "FAQ - Second Main Title",
+      "default": "Vragen over de levering"
+    },
+    {
+      "type": "text",
+      "id": "faq_third_main_title",
+      "label": "FAQ - Third Main Title",
+      "default": "Vragen over retourneringen"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "FAQ Block 1",
+      "type": "faq_block_1",
+      "settings": [
+        {
+          "type": "text",
+          "id": "question",
+          "label": "Question",
+          "default": "Wat houdt 100 nachten proefslapen in?"
+        },
+        {
+          "type": "text",
+          "id": "answer",
+          "label": "Answer",
+          "default": "Basically, you can design anything that you can ever imagine. The main thing here is to have a parent container and two child elements. One for the FAQ question and another for FAQ answer. The child element for FAQ answer should be set to overflow: hidden and transform-origin set to top mid."
+        }
+      ]
+    },
+    {
+      "name": "FAQ Block 2",
+      "type": "faq_block_2",
+      "settings": [
+        {
+          "type": "text",
+          "id": "question",
+          "label": "Question",
+          "default": "Wat houdt 100 nachten proefslapen in?"
+        },
+        {
+          "type": "text",
+          "id": "answer",
+          "label": "Answer",
+          "default": "Basically, you can design anything that you can ever imagine. The main thing here is to have a parent container and two child elements. One for the FAQ question and another for FAQ answer. The child element for FAQ answer should be set to overflow: hidden and transform-origin set to top mid."
+        }
+      ]
+    },
+    {
+      "name": "FAQ Block 3",
+      "type": "faq_block_3",
+      "settings": [
+        {
+          "type": "text",
+          "id": "question",
+          "label": "Question",
+          "default": "Wat houdt 100 nachten proefslapen in?"
+        },
+        {
+          "type": "text",
+          "id": "answer",
+          "label": "Answer",
+          "default": "Basically, you can design anything that you can ever imagine. The main thing here is to have a parent container and two child elements. One for the FAQ question and another for FAQ answer. The child element for FAQ answer should be set to overflow: hidden and transform-origin set to top mid."
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

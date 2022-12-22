@@ -1,0 +1,106 @@
+
+    <div class="header-wrapper">
+      <h1 class="hero-heading">{{ section.settings.headline }}</h1>
+      <p class="hero-p">{{ section.settings.paragraph }}</p>
+      <div class="header-buttons">
+        <a href="{{ section.settings.button_link_shop_now }}" class="button-hero button-white w-button">{{ section.settings.button_link_shop_now_text }}</a>
+        <a href="{{ section.settings.button_link_know_more }}" class="button-hero is-secondary w-button">{{ section.settings.button_link_know_more_text }}</a>
+      </div>
+      <div class="trustpilot-below-button-hero"><img src="{{ 'stars-4.5.svg' | asset_url }}" loading="lazy" alt="" width="125"><img src="{{ 'logo-white.svg' | asset_url }}" loading="lazy" alt="" width="80"></div>
+      <div class="trustpilot-reviews-text">{{ section.settings.how_much_reviews }}</div>
+    </div>
+    <div class="mobile-hero">
+      <div class="section--image">
+        <div class="hero__content">
+          <div class="top-div-mobile">
+            <h1 class="heading-2">{{ section.settings.headline }}</h1>
+            <p class="hero-p">{{ section.settings.paragraph }}</p>
+          </div>
+          <div>
+            <div class="bottom-div-mobile">
+              <div class="header-buttons">
+                <a href="{{ section.settings.button_link_shop_now }}" class="button-hero button-white w-button">{{ section.settings.button_link_shop_now_text }}</a>
+                <a href="{{ section.settings.button_link_know_more }}" class="button-hero is-secondary w-button">{{ section.settings.button_link_know_more_text }}</a>
+              </div>
+              <div class="trustpilot-below-button-hero"><img src="{{ 'stars-4.5.svg' | asset_url }}" loading="lazy" alt="" width="125"><img src="{{ 'logo-white.svg' | asset_url }}" loading="lazy" alt="" width="80"></div>
+            </div>
+          </div>
+        </div>
+        <div class="image-overlay">
+          <div class="image-hero-pane">
+            <div class="image-hero-scale"></div>
+          </div>
+        </div>
+        <div class="background-size-cover"></div>
+      </div>
+    </div>
+    <div class="hero-opacity"></div>
+  
+
+<script>var currentSection = document.currentScript.closest('.shopify-section');currentSection.setAttribute("class","header__home__section wf-section");</script>
+        
+{% schema %}
+{
+  "name": "Hero Section",
+  "tag": "section",
+  "class": "header__home__section wf-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "headline",
+      "label": "Headline",
+      "default": "Beauty made during your dreams."
+    },
+    {
+      "type": "text",
+      "id": "paragraph",
+      "label": "Paragraph",
+      "default": "Een 100% zijden kussensloop, behandeld met zilverionen technologie dat 99.7% van alle bacteriën elimineert. Vermindert acne, puistjes en een geïrriteerde huid."
+    },
+    {
+      "type": "text",
+      "id": "button_text_shop_now",
+      "label": "Button Text - Shop Now",
+      "default": "Shop nu"
+    },
+    {
+      "type": "text",
+      "id": "button_text_know_more",
+      "label": "Button Text - Know More",
+      "default": "Meer weten"
+    },
+    {
+      "type": "richtext",
+      "id": "how_much_reviews",
+      "label": "How much reviews?"
+    },
+    {
+      "type": "url",
+      "id": "button_link_shop_now",
+      "label": "Button Link - Shop Now"
+    },
+    {
+      "type": "text",
+      "id": "button_link_shop_now_text",
+      "label": "Button Link - Shop Now Text",
+      "default": "{{ section.settings.button_text_shop_now }}"
+    },
+    {
+      "type": "url",
+      "id": "button_link_know_more",
+      "label": "Button Link - Know More"
+    },
+    {
+      "type": "text",
+      "id": "button_link_know_more_text",
+      "label": "Button Link - Know More Text",
+      "default": "{{ section.settings.button_text_know_more }}"
+    }
+  ],
+  "presets": [
+        {
+          "name": "Hero Image"
+        }
+      ]
+    }
+{% endschema %}

@@ -1,0 +1,40 @@
+
+              <div>
+                <ul role="list" class="product-usp-list-items w-list-unstyled">
+                  {%- for block in section.blocks -%}{%- if block.type == "benefit_check_mobile" -%}<li class="list-item" block.shopify_attributes><img src="{{ 'benefit-checker.png' | asset_url }}" loading="eager" alt="" class="benefit-checker-img">
+                    <p option:title="Benefit" class="product-benefit-text">Verminderd acne &amp; roodheden</p>
+                  </li>{%- endif -%}{%- endfor -%}
+                  {%- for block in section.blocks -%}{%- if block.type == "benefit_check_mobile" -%}<li class="list-item" block.shopify_attributes><img src="{{ 'benefit-checker.png' | asset_url }}" loading="eager" alt="" class="benefit-checker-img">
+                    <p option:title="Benefit" class="product-benefit-text">Verminderd acne &amp; roodheden</p>
+                  </li>{%- endif -%}{%- endfor -%}
+                  {%- for block in section.blocks -%}{%- if block.type == "benefit_check_mobile" -%}<li class="list-item" block.shopify_attributes><img src="{{ 'benefit-checker.png' | asset_url }}" loading="eager" alt="" class="benefit-checker-img">
+                    <p option:title="Benefit" class="product-benefit-text">Verminderd acne &amp; roodheden</p>
+                  </li>{%- endif -%}{%- endfor -%}
+                  {%- for block in section.blocks -%}{%- if block.type == "benefit_check_mobile" -%}<li class="list-item" block.shopify_attributes><img src="{{ 'benefit-checker.png' | asset_url }}" loading="eager" alt="" class="benefit-checker-img">
+                    <p option:title="Benefit" class="product-benefit-text">Verminderd acne &amp; roodheden</p>
+                  </li>{%- endif -%}{%- endfor -%}
+                </ul>
+              </div>
+            
+
+<script>var currentSection = document.currentScript.closest('.shopify-section');currentSection.setAttribute("class","product-benefits-mobile-viewports");</script>
+        
+{% schema %}
+{
+  "name": "Product Benefits Mobile",
+  "tag": "div",
+  "class": "product-benefits-mobile-viewports",
+  "presets": [
+    {
+      "name": "Product Benefits Mobile"
+    }
+  ],
+  "settings": [],
+  "blocks": [
+    {
+      "name": "Benefit Check Mobile",
+      "type": "benefit_check_mobile"
+    }
+  ]
+}
+{% endschema %}

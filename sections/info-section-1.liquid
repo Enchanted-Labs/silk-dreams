@@ -1,0 +1,65 @@
+
+    <div class="page-padding">
+      <div class="wrapper-product-block">
+        <div id="w-node-a01ab4c8-4085-0b2b-c9cb-beadece7d0b3-ece7d0b0" class="brick_block">
+          <div class="brick-block-image-wrapper">
+            <div class="video-autoplay-wrapper">
+              <div data-poster-url="https://uploads-ssl.webflow.com/624ef4c3e0141389cb7545dd/63508be8604e3f0b9cd3a726_video-render-poster-00001.jpg" data-video-urls="videos/video-render-transcode.mp4,videos/video-render-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" class="background-video w-background-video w-background-video-atom"><video id="a01ab4c8-4085-0b2b-c9cb-beadece7d0b6-video" autoplay="" loop="" style="background-image:url(&quot;https://uploads-ssl.webflow.com/624ef4c3e0141389cb7545dd/63508be8604e3f0b9cd3a726_video-render-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
+                  <source src="{{ 'video-render-transcode.mp4' | asset_url }}" data-wf-ignore="true">
+                  <source src="{{ 'video-render-transcode.webm' | asset_url }}" data-wf-ignore="true">
+                </video></div>
+            </div>
+          </div>
+        </div>
+        <div class="brick_block">
+          <div class="storytelling__info">
+            <h2 class="heading-3">{{ section.settings.title }}</h2>
+            <div class="div-block-32">
+              <p class="info-block-p">{{ section.settings.paragraph }}</p>
+              <a href="{{ section.settings.link }}" class="text__link">{{ section.settings.link_text }}</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+<script>var currentSection = document.currentScript.closest('.shopify-section');currentSection.setAttribute("data-aos","fade-in");currentSection.setAttribute("data-aos-easing","linear");currentSection.setAttribute("data-aos-duration","500");currentSection.setAttribute("data-aos-delay","200");currentSection.setAttribute("class","product-info-section aos-init aos-animate wf-section");</script>
+        
+{% schema %}
+{
+  "name": "Info Section 1",
+  "tag": "div",
+  "class": "product-info-section aos-init aos-animate wf-section",
+  "presets": [
+    {
+      "name": "Info Section - 1"
+    }
+  ],
+  "settings": [
+    {
+      "type": "text",
+      "id": "link_text",
+      "label": "Link Text",
+      "default": "{{ section.settings.link_text }}"
+    },
+    {
+      "type": "textarea",
+      "id": "title",
+      "label": "Title",
+      "default": "Made for your dreams & een stralende huid"
+    },
+    {
+      "type": "textarea",
+      "id": "paragraph",
+      "label": "Paragraph",
+      "default": "Alle kussenslopen van Silk Dreams bevatten zilverionen technologie dat 99.7% van alle bacteriën elimineert. Deze zilverionen voorkomen dat bacteriën je gezicht kunnen bereiken en beschermt je tegen huidproblemen zoals acne, puistjes, onzuiverheden en roodheid."
+    },
+    {
+      "type": "url",
+      "id": "link",
+      "label": "Link"
+    }
+  ]
+}
+{% endschema %}

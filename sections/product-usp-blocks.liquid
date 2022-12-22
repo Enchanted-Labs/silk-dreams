@@ -1,0 +1,41 @@
+
+              {%- for block in section.blocks -%}{%- if block.type == "product_usp" -%}<div class="benefit-div" block.shopify_attributes>
+                <div class="benefit-checkmark">{%- if block.settings.image == nil -%}<img src="{{ 'k..svg' | asset_url }}" loading="lazy" alt="" class="image-45">{%- else -%}<img src="{{ block.settings.image.src | img_url: 'master' }}" loading="lazy" alt="{{ block.settings.image.alt | escape }}" class="image-45" srcset="{{ block.settings.image | img_url: '1920x' }} 1920w,{{ block.settings.image | img_url: '1600x' }} 1600w,{{ block.settings.image | img_url: '1366x' }} 1366w,{{ block.settings.image | img_url: '1024x' }} 1024w,{{ block.settings.image | img_url: '768x' }} 768w,{{ block.settings.image | img_url: '640x' }} 640w">{%- endif -%}</div>
+                <p class="benefit-tekst">{{ block.settings.usp }}</p>
+              </div>{%- endif -%}{%- endfor -%}
+            
+
+<script>var currentSection = document.currentScript.closest('.shopify-section');currentSection.setAttribute("class","product-usps");</script>
+        
+{% schema %}
+{
+  "name": "Product USP Blocks",
+  "tag": "div",
+  "class": "product-usps",
+  "presets": [
+    {
+      "name": "Product USP Blocks"
+    }
+  ],
+  "settings": [],
+  "blocks": [
+    {
+      "name": "Product USP",
+      "type": "product_usp",
+      "settings": [
+        {
+          "type": "text",
+          "id": "usp",
+          "label": "USP",
+          "default": "Betaal later binnen 30 dagen"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

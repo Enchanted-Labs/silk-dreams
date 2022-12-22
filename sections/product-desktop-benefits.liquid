@@ -1,0 +1,39 @@
+
+              <div class="product-usp-list-wrapper">
+                <ul role="list" class="product-usp-list-items w-list-unstyled">
+                  {%- for block in section.blocks -%}{%- if block.type == "benefit_check" -%}<li class="list-item" block.shopify_attributes><img src="{{ 'benefit-checker.png' | asset_url }}" loading="lazy" alt="" class="benefit-checker-img">
+                    <p class="product-benefit-text">{{ block.settings.benefit }}</p>
+                  </li>{%- endif -%}{%- endfor -%}
+                </ul>
+              </div>
+            
+
+<script>var currentSection = document.currentScript.closest('.shopify-section');currentSection.setAttribute("class","product-benefits-desktop");</script>
+        
+{% schema %}
+{
+  "name": "Product desktop benefits",
+  "tag": "div",
+  "class": "product-benefits-desktop",
+  "presets": [
+    {
+      "name": "Product desktop benefits"
+    }
+  ],
+  "settings": [],
+  "blocks": [
+    {
+      "name": "Benefit Check",
+      "type": "benefit_check",
+      "settings": [
+        {
+          "type": "text",
+          "id": "benefit",
+          "label": "Benefit",
+          "default": "Verminderd acne & roodheden"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

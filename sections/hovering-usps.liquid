@@ -1,0 +1,187 @@
+
+    <div class="why-container">
+      <div class="mission-logo-text">{{ section.settings.tagline }}</div>
+      <h1 class="mission-h1">{{ section.settings.headline }}</h1>
+    </div>
+    <div class="hovering-pillowcase-wrapper">
+      <div class="hovering-pillowcase-grid">
+        <div id="w-node-fc235b05-4a5e-8ee8-391b-03f5fab2daa6-fab2da9e" class="why-block">
+          <div class="checkmark-placeholder"><img src="{{ 'checkmark.svg' | asset_url }}" loading="lazy" alt="" class="checkmark-img"></div>
+          <div class="why-content">
+            <h1 class="why-block-h1">{{ section.settings.benefit_1 }}</h1>
+            <p class="why-p">{{ section.settings.benefit_paragraph_1 }}</p>
+          </div>
+        </div>
+        <div id="w-node-fc235b05-4a5e-8ee8-391b-03f5fab2dab1-fab2da9e" class="hover-item-wrapper">{%- if section.settings.image == nil -%}<img src="{{ 'pillow.png' | asset_url }}" loading="lazy" data-w-id="fc235b05-4a5e-8ee8-391b-03f5fab2dab2" srcset="{{ 'pillow-p-500.png' | asset_url }} 500w, {{ 'pillow-p-800.png' | asset_url }} 800w, {{ 'pillow-p-1080.png' | asset_url }} 1080w, {{ 'pillow.png' | asset_url }} 1575w" sizes="(max-width: 991px) 100vw, (max-width: 1279px) 256px, (max-width: 1439px) 27vw, 38vw" alt="" class="hovering-item-image">{%- else -%}<img src="{{ section.settings.image.src | img_url: 'master' }}" loading="lazy" data-w-id="fc235b05-4a5e-8ee8-391b-03f5fab2dab2" alt="{{ section.settings.image.alt | escape }}" class="hovering-item-image" srcset="{{ section.settings.image | img_url: '1920x' }} 1920w,{{ section.settings.image | img_url: '1600x' }} 1600w,{{ section.settings.image | img_url: '1366x' }} 1366w,{{ section.settings.image | img_url: '1024x' }} 1024w,{{ section.settings.image | img_url: '768x' }} 768w,{{ section.settings.image | img_url: '640x' }} 640w">{%- endif -%}<img src="{{ 'pillowshadow.png' | asset_url }}" loading="lazy" sizes="(max-width: 991px) 100vw, (max-width: 1279px) 406px, (max-width: 1439px) 38vw, 40vw" srcset="{{ 'pillowshadow-p-500.png' | asset_url }} 500w, {{ 'pillowshadow-p-800.png' | asset_url }} 800w, {{ 'pillowshadow-p-1080.png' | asset_url }} 1080w, {{ 'pillowshadow.png' | asset_url }} 1129w" alt="" class="hovering-item-dropshadow"></div>
+        <div id="w-node-fc235b05-4a5e-8ee8-391b-03f5fab2dab4-fab2da9e" class="why-block">
+          <div class="checkmark-placeholder"><img src="{{ 'checkmark.svg' | asset_url }}" loading="lazy" alt="" class="checkmark-img"></div>
+          <div class="why-content">
+            <h1 class="why-block-h1">{{ section.settings.benefit_3 }}</h1>
+            <p class="why-p">{{ section.settings.benefit_paragraph_3 }}</p>
+          </div>
+        </div>
+        <div id="w-node-fc235b05-4a5e-8ee8-391b-03f5fab2dabf-fab2da9e" class="why-block">
+          <div class="checkmark-placeholder"><img src="{{ 'checkmark.svg' | asset_url }}" loading="lazy" alt="" class="checkmark-img"></div>
+          <div class="why-content">
+            <h1 class="why-block-h1">{{ section.settings.benefit_2 }}</h1>
+            <p class="why-p">{{ section.settings.benefit_paragraph_2 }}</p>
+          </div>
+        </div>
+        <div id="w-node-fc235b05-4a5e-8ee8-391b-03f5fab2daca-fab2da9e" class="why-block">
+          <div class="checkmark-placeholder"><img src="{{ 'checkmark.svg' | asset_url }}" loading="lazy" alt="" class="checkmark-img"></div>
+          <div class="why-content">
+            <h1 class="why-block-h1">{{ section.settings.benefit_4 }}</h1>
+            <p class="why-p">{{ section.settings.benefit_paragraph_4 }}</p>
+          </div>
+        </div>
+      </div>
+      <div class="mobile-benefit-grid">
+        <div id="w-node-fc235b05-4a5e-8ee8-391b-03f5fab2dad6-fab2da9e" class="benefit-wrapper"><img src="{{ 'benefit-checker.svg' | asset_url }}" loading="lazy" alt="" class="benefit-checker">
+          <div class="benefit-title">{{ section.settings.mobile_benefit_1 }}</div>
+          <div class="benefit-description">{{ section.settings.mob_benefit_text_1 }}</div>
+        </div>
+        <div id="w-node-fc235b05-4a5e-8ee8-391b-03f5fab2dadc-fab2da9e" class="benefit-wrapper"><img src="{{ 'benefit-checker.svg' | asset_url }}" loading="lazy" alt="" class="benefit-checker">
+          <div class="benefit-title">{{ section.settings.mobile_benefit_2 }}</div>
+          <div class="benefit-description">{{ section.settings.mob_benefit_text_2 }}</div>
+        </div>
+        <div id="w-node-fc235b05-4a5e-8ee8-391b-03f5fab2dae2-fab2da9e" class="benefit-wrapper"><img src="{{ 'benefit-checker.svg' | asset_url }}" loading="lazy" alt="" class="benefit-checker">
+          <div class="benefit-title">{{ section.settings.mobile_benefit_3 }}</div>
+          <div class="benefit-description">{{ section.settings.mob_benefit_text_3 }}</div>
+        </div>
+        <div id="w-node-fc235b05-4a5e-8ee8-391b-03f5fab2dae8-fab2da9e" class="benefit-wrapper"><img src="{{ 'benefit-checker.svg' | asset_url }}" loading="lazy" alt="" class="benefit-checker">
+          <div class="benefit-title">{{ section.settings.mobile_benefits_4 }}</div>
+          <div class="benefit-description">{{ section.settings.mob_benefit_text_4 }}</div>
+        </div>
+      </div>
+    </div>
+  
+
+<script>var currentSection = document.currentScript.closest('.shopify-section');currentSection.setAttribute("aos-data","fade-in");currentSection.setAttribute("aos-data-easing","linear");currentSection.setAttribute("aos-data-duration","500");currentSection.setAttribute("aos-data-delay","200");currentSection.setAttribute("class","hovering-silk aos-init aos-animate");</script>
+        
+{% schema %}
+{
+  "name": "Hovering USPS",
+  "tag": "div",
+  "class": "hovering-silk aos-init aos-animate",
+  "presets": [
+    {
+      "name": "Hovering USPS"
+    }
+  ],
+  "settings": [
+    {
+      "type": "text",
+      "id": "tagline",
+      "label": "Tagline",
+      "default": "SILK DREAMS"
+    },
+    {
+      "type": "text",
+      "id": "headline",
+      "label": "Headline",
+      "default": "Haalt het meeste uit jouw schoonheidsslaapje"
+    },
+    {
+      "type": "textarea",
+      "id": "benefit_1",
+      "label": "Benefit 1",
+      "default": "Zorgt voor gezondere harennooit meer een bad-hair day"
+    },
+    {
+      "type": "textarea",
+      "id": "benefit_paragraph_1",
+      "label": "Benefit Paragraph 1",
+      "default": "Vermindert wrijving en houdt het haar gehydrateerd, waardoor klitten en breuk worden voorkomen."
+    },
+    {
+      "type": "textarea",
+      "id": "benefit_3",
+      "label": "Benefit 3",
+      "default": "Zorgt voor gezondere harennooit meer een bad-hair day"
+    },
+    {
+      "type": "textarea",
+      "id": "benefit_paragraph_3",
+      "label": "Benefit Paragraph 3",
+      "default": "Vermindert wrijving en houdt het haar gehydrateerd, waardoor klitten en breuk worden voorkomen."
+    },
+    {
+      "type": "textarea",
+      "id": "benefit_2",
+      "label": "Benefit 2",
+      "default": "Zorgt voor gezondere harennooit meer een bad-hair day"
+    },
+    {
+      "type": "textarea",
+      "id": "benefit_paragraph_2",
+      "label": "Benefit Paragraph 2",
+      "default": "Vermindert wrijving en houdt het haar gehydrateerd, waardoor klitten en breuk worden voorkomen."
+    },
+    {
+      "type": "textarea",
+      "id": "benefit_4",
+      "label": "Benefit 4",
+      "default": "Zorgt voor gezondere harennooit meer een bad-hair day"
+    },
+    {
+      "type": "textarea",
+      "id": "benefit_paragraph_4",
+      "label": "Benefit Paragraph 4",
+      "default": "Vermindert wrijving en houdt het haar gehydrateerd, waardoor klitten en breuk worden voorkomen."
+    },
+    {
+      "type": "textarea",
+      "id": "mobile_benefit_1",
+      "label": "Mobile Benefit 1",
+      "default": "ANTIBACTERIEEL"
+    },
+    {
+      "type": "textarea",
+      "id": "mob_benefit_text_1",
+      "label": "Mob Benefit Text 1",
+      "default": "Behandeld met wetenschappelijk onderbouwde zilveriontechnologie die bacteriën elimineert."
+    },
+    {
+      "type": "textarea",
+      "id": "mobile_benefit_2",
+      "label": "Mobile Benefit 2",
+      "default": "ANTIBACTERIEEL"
+    },
+    {
+      "type": "textarea",
+      "id": "mob_benefit_text_2",
+      "label": "Mob Benefit Text 2",
+      "default": "Behandeld met wetenschappelijk onderbouwde zilveriontechnologie die bacteriën elimineert."
+    },
+    {
+      "type": "textarea",
+      "id": "mobile_benefit_3",
+      "label": "Mobile Benefit 3",
+      "default": "ANTIBACTERIEEL"
+    },
+    {
+      "type": "textarea",
+      "id": "mob_benefit_text_3",
+      "label": "Mob Benefit Text 3",
+      "default": "Behandeld met wetenschappelijk onderbouwde zilveriontechnologie die bacteriën elimineert."
+    },
+    {
+      "type": "textarea",
+      "id": "mobile_benefits_4",
+      "label": "Mobile Benefits 4",
+      "default": "ANTIBACTERIEEL"
+    },
+    {
+      "type": "textarea",
+      "id": "mob_benefit_text_4",
+      "label": "Mob Benefit Text 4",
+      "default": "Behandeld met wetenschappelijk onderbouwde zilveriontechnologie die bacteriën elimineert."
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    }
+  ]
+}
+{% endschema %}

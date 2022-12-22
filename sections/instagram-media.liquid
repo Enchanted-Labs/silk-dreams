@@ -1,0 +1,56 @@
+
+    {%- for block in section.blocks -%}{%- if block.type == "1" -%}<a href="{{ section.settings.link }}" class="insta-feed-img-wrapped _1 w-inline-block" block.shopify_attributes><img src="{{ 'img_2131-7.png' | asset_url }}" loading="lazy" alt="" class="instagram-feed-image"></a>{%- endif -%}{%- endfor -%}
+    {%- for block in section.blocks -%}{%- if block.type == "2" -%}<a href="{{ section.settings.link }}" class="insta-feed-img-wrapped _2 w-inline-block" block.shopify_attributes><img src="{{ 'img_2131-8.png' | asset_url }}" loading="lazy" alt="" class="instagram-feed-image"></a>{%- endif -%}{%- endfor -%}
+    {%- for block in section.blocks -%}{%- if block.type == "3" -%}<a href="{{ section.settings.link }}" class="insta-feed-img-wrapped _3 w-inline-block" block.shopify_attributes><img src="{{ 'img_2131-9.png' | asset_url }}" loading="lazy" alt="" class="instagram-feed-image"></a>{%- endif -%}{%- endfor -%}
+    {%- for block in section.blocks -%}{%- if block.type == "4" -%}<a href="{{ section.settings.link }}" class="insta-feed-img-wrapped _4 w-inline-block" block.shopify_attributes><img src="{{ 'img_2131-10.png' | asset_url }}" loading="lazy" alt="" class="instagram-feed-image"></a>{%- endif -%}{%- endfor -%}
+    {%- for block in section.blocks -%}{%- if block.type == "5" -%}<a href="{{ section.settings.link }}" class="insta-feed-img-wrapped _5 w-inline-block" block.shopify_attributes><img src="{{ 'img_2131-11.png' | asset_url }}" loading="lazy" alt="" class="instagram-feed-image"></a>{%- endif -%}{%- endfor -%}
+    {%- for block in section.blocks -%}{%- if block.type == "6" -%}<a href="{{ section.settings.link }}" class="insta-feed-img-wrapped _6 w-inline-block" block.shopify_attributes><img src="{{ 'img_2131-12.png' | asset_url }}" loading="lazy" alt="" class="instagram-feed-image"></a>{%- endif -%}{%- endfor -%}
+  
+
+<script>var currentSection = document.currentScript.closest('.shopify-section');currentSection.setAttribute("class","instagram-feed-grid");</script>
+        
+{% schema %}
+{
+  "name": "Instagram Media",
+  "tag": "div",
+  "class": "instagram-feed-grid",
+  "presets": [
+    {
+      "name": "Instagram Media"
+    }
+  ],
+  "settings": [
+    {
+      "type": "url",
+      "id": "link",
+      "label": "Link"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "1",
+      "type": "1"
+    },
+    {
+      "name": "2",
+      "type": "2"
+    },
+    {
+      "name": "3",
+      "type": "3"
+    },
+    {
+      "name": "4",
+      "type": "4"
+    },
+    {
+      "name": "5",
+      "type": "5"
+    },
+    {
+      "name": "6",
+      "type": "6"
+    }
+  ]
+}
+{% endschema %}

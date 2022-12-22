@@ -1,0 +1,42 @@
+
+    <div class="page-padding">
+      <div class="container-420">
+        <div class="newsletter-title">{{ section.settings.newsletter_title }}</div>
+        <div class="divider-bar"></div>
+        <p class="newsletter-paragraph">{{ section.settings.newsletter_description }}</p>
+        <div class="newletter-signup-form">
+          <p class="paragraph-28">{{ 't6fd3006f' | t }}</p>
+          <a href="#" class="sign-up-button w-button">{{ 't22d52a' | t }}</a>
+        </div>
+      </div>
+    </div>
+  
+
+<script>var currentSection = document.currentScript.closest('.shopify-section');currentSection.setAttribute("class","newsletter-section");</script>
+        
+{% schema %}
+{
+  "name": "Newsletter Section",
+  "tag": "div",
+  "class": "newsletter-section",
+  "presets": [
+    {
+      "name": "Newsletter Section"
+    }
+  ],
+  "settings": [
+    {
+      "type": "text",
+      "id": "newsletter_title",
+      "label": "Newsletter Title",
+      "default": "Volg ons voor de beste beauty tips."
+    },
+    {
+      "type": "text",
+      "id": "newsletter_description",
+      "label": "Newsletter Description",
+      "default": "Schrijf je in op onze nieuwsbrief en blijf op de hoogte over beauty, health & skincare."
+    }
+  ]
+}
+{% endschema %}

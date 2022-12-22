@@ -1,0 +1,80 @@
+
+    <div data-delay="4000" data-animation="slide" class="social-proof-slider w-slider" data-autoplay="false" data-easing="ease-out" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="200" data-infinite="true">
+      <div class="mask-5 w-slider-mask">
+        {%- for block in section.blocks -%}{%- if block.type == "review" -%}<div class="social-proof-slide w-slide" block.shopify_attributes>
+          <div class="swiper-slide">
+            <div class="review-swiper-block"><img src="{{ 'stars-4.5.svg' | asset_url }}" loading="eager" alt="" width="87">
+              <div>
+                <div class="rw-content">
+                  <h1 class="review-swiper-title">{{ block.settings.headline }}</h1>
+                  <p class="paragraph-27">{{ block.settings.paragraph }}</p>
+                </div>
+              </div>
+              <div class="review-stars-wrapper sp">
+                <p class="review-stars-wrapper">{{ block.settings.name_and_date }}</p>
+              </div>
+            </div>
+          </div>
+        </div>{%- endif -%}{%- endfor -%}
+      </div>
+      <div class="left-arrow-2 w-slider-arrow-left">
+        <div class="arrow-left"><img src="{{ 'arrow.svg' | asset_url }}" loading="lazy" alt=""></div>
+      </div>
+      <div class="right-arrow-2 w-slider-arrow-right">
+        <div class="arrow-right"><img src="{{ 'arrow.svg' | asset_url }}" loading="lazy" alt=""></div>
+      </div>
+      <div class="slide-nav-7 w-slider-nav w-round"></div>
+    </div>
+    <div class="trustpilot-text-container">
+      <p class="trustpilot-info-text">{{ section.settings.trustpilot_text }}</p><img src="{{ 'trustpilot-1.svg' | asset_url }}" loading="lazy" alt="" height="16">
+    </div>
+  
+
+<script>var currentSection = document.currentScript.closest('.shopify-section');currentSection.setAttribute("block","Review Section");currentSection.setAttribute("class","trustpilot-reviews-section aos-init aos-animate");</script>
+        
+{% schema %}
+{
+  "name": "Trustpilot Reviews",
+  "tag": "div",
+  "class": "trustpilot-reviews-section aos-init aos-animate",
+  "presets": [
+    {
+      "name": "Trustpilot Reviews"
+    }
+  ],
+  "settings": [
+    {
+      "type": "text",
+      "id": "trustpilot_text",
+      "label": "Trustpilot Text",
+      "default": "Een score van 4.8 uit 5 op basis van 346 reviews op"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Review",
+      "type": "review",
+      "settings": [
+        {
+          "type": "text",
+          "id": "headline",
+          "label": "Headline",
+          "default": "“Can’t live without it!”"
+        },
+        {
+          "type": "text",
+          "id": "paragraph",
+          "label": "Paragraph",
+          "default": "“Can’t live without it!” It’s so soft to my skin and feels great to sleep on, my sk..."
+        },
+        {
+          "type": "text",
+          "id": "name_and_date",
+          "label": "Name and date",
+          "default": "Jessica, 4 days ago"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

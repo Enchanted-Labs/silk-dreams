@@ -1,0 +1,53 @@
+<ul role="list" class="accordion_list-wrapper w-list-unstyled">
+              {%- for block in section.blocks -%}{%- if block.type == "accordion" -%}<li class="accordion_item-wrapper" block.shopify_attributes>
+                <div data-click="accordion" role="region" data-w-id="30dadfb5-ed14-6d17-3c34-83624bde4c6d" class="accordion_item">
+                  <a aria-expanded="false" role="button" href="#" class="accordion_title-wrapper w-inline-block">
+                    <div class="accordion-paragraph">{{ block.settings.accordion_title }}</div>
+                    <div class="accordion_arrow w-embed"><svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.39486 0.294274C0.558947 0.130237 0.781466 0.0380859 1.01348 0.0380859C1.2455 0.0380859 1.46802 0.130237 1.63211 0.294274L5.96336 4.62552L10.2946 0.294274C10.4596 0.134886 10.6807 0.0466904 10.9101 0.0486841C11.1395 0.0506777 11.359 0.142701 11.5212 0.304933C11.6834 0.467165 11.7755 0.686626 11.7774 0.916048C11.7794 1.14547 11.6912 1.3665 11.5319 1.53152L6.58198 6.4814C6.4179 6.64544 6.19538 6.73759 5.96336 6.73759C5.73134 6.73759 5.50882 6.64544 5.34474 6.4814L0.39486 1.53152C0.230823 1.36744 0.138672 1.14492 0.138672 0.912899C0.138672 0.68088 0.230823 0.458361 0.39486 0.294274Z" fill="currentColor"></path>
+                      </svg></div>
+                  </a>
+                  <div aria-hidden="true" class="accordion_description-wrapper">
+                    <p class="explainer-description">{{ block.settings.accordion_paragraph }}</p>
+                  </div>
+                </div>
+              </li>{%- endif -%}{%- endfor -%}
+            </ul>
+
+{% unless request.design_mode %}
+<script>var currentSection = document.currentScript.closest('.shopify-section'); currentSection.outerHTML = currentSection.innerHTML;</script>
+{% endunless %}
+        
+{% schema %}
+{
+  "name": "Accordion Section",
+  "tag": "div",
+  "class": "accordion_list-wrapper w-list-unstyled",
+  "presets": [
+    {
+      "name": "Accordion Section"
+    }
+  ],
+  "settings": [],
+  "blocks": [
+    {
+      "name": "Accordion",
+      "type": "accordion",
+      "settings": [
+        {
+          "type": "text",
+          "id": "accordion_title",
+          "label": "Accordion Title",
+          "default": "Je zult niet meer zonder kunnen!"
+        },
+        {
+          "type": "textarea",
+          "id": "accordion_paragraph",
+          "label": "Accordion Paragraph",
+          "default": "Niet je gemiddelde zijden kussensloop. Een wereldprimeur, behandeld met natuurlijk zilver om 99,7% van de bacteriën die verband houden met acne en actuele huidproblemen te elimineren. Met een luxe uitstraling dat bij elk interieur en beddengoed past."
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

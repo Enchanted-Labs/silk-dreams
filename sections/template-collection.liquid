@@ -1,0 +1,53 @@
+<div class="collection-section">
+    <div class="page-padding">
+      <div class="container-1116">
+        <div class="title-collection-wrapper">
+          <h1 class="collection-h1">{{ collection.title }}</h1>
+          <p class="collection-p">{{ collection.description }}</p>
+        </div>
+        <div class="collection-filter">
+          <a href="#" class="sort-button w-inline-block">
+            <div class="text-block-8">{{ 'tn4de12eac' | t }}</div>
+            <div class="html-embed-4 w-embed"><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon--wide icon-sort" viewBox="0 0 10 6" width="auto" height="auto">
+                <path d="M0 0h10v1H0zm0 2.5h6v1H0zM3 5H0v1h3z" fill-rule="evenodd"></path>
+              </svg></div>
+          </a>
+        </div>
+        <div class="product-grid-collection">
+            {% for product in collection.products %}
+                  <div id="w-node-_5c187869-e89a-9ba1-46de-13a5e41258d6-1839e046" class="collection-item"><a href="{{ product.url }}"><img class="collection-featured-img" src="{{ product.featured_image | img_url: 'master' }}" loading="lazy" sizes="(max-width: 479px) 55vw, (max-width: 767px) 46vw, (max-width: 991px) 45vw, (max-width: 1279px) 46vw, 542px" srcset="{{ product.featured_image | img_url: 'master' }} 500w, {{ product.featured_image | img_url: 'master' }} 800w, {{ product.featured_image | img_url: 'master' }} 1080w, {{ product.featured_image | img_url: 'master' }} 1084w" alt=""></a>
+                  <a href="{{ product.url }}">
+                  <div class="product-card-content">
+                    <div class="trustpilot-related"><img src="{{ 'stars-4.5.svg' | asset_url }}" loading="lazy" alt="" width="87">
+                      <p class="trustpilot-link-text _14">{{ 't5b5e2c33' | t }}<span class="text-span-7">{{ 'tccb7' | t }}</span>{{ 'tn13165f53' | t }}</p>
+                    </div>
+                    <div class="product-card-details">
+                      <div class="product-card-title">{{ product.title }}</div>
+                      <div class="product-card-pricing-div">
+                        {% if product.metafields.custom.collection_color_variant != blank %}
+                        <div class="product-card-tagline">{{ product.metafields.custom.collection_color_variant }}</div>
+                    {% endif %}
+                        <div class="pricing-div-divider"></div>
+                        <div class="product-card-price-paragraph">{{ product.price | money }}</div>
+                      </div>
+                      {% if product.metafields.custom.number_of_variants != blank %}
+                      <div class="product-card-variant">{{ product.metafields.custom.number_of_variants }} kleuren beschikbaar</div>
+                      {% endif %}
+                    </div>
+                    <a href="#" class="quick-atc w-inline-block"><img src="{{ 'cart.svg' | asset_url }}" loading="lazy" alt=""></a>
+                  </div>
+                  </a>
+                </div>
+            {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {% schema %}
+    {
+      "name": "Template Collection",
+      "settings": [
+      ]
+    }
+    {% endschema %}

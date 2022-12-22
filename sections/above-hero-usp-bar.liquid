@@ -1,0 +1,50 @@
+
+    <div class="custom-section-wrapper">
+      <div class="usp-noti-bar">
+        <div class="usb-bar-text-wrapper"><img src="{{ 'check_89.svg' | asset_url }}" loading="lazy" alt="" class="usp-bar-text-icon">
+          <p class="usp-bar-text">{{ section.settings.usp_bar_text_1 }}</p>
+        </div>
+        <div class="usb-bar-text-wrapper"><img src="{{ 'check_89.svg' | asset_url }}" loading="lazy" alt="" class="usp-bar-text-icon">
+          <p class="usp-bar-text">{{ section.settings.usp_bar_text_2 }}</p>
+        </div>
+        <div class="usb-bar-text-wrapper"><img src="{{ 'check_89.svg' | asset_url }}" loading="lazy" alt="" class="usp-bar-text-icon">
+          <p class="usp-bar-text">{{ section.settings.usp_bar_text_3 }}</p>
+        </div>
+      </div>
+    </div>
+  
+
+<script>var currentSection = document.currentScript.closest('.shopify-section');currentSection.setAttribute("class","usp-bar-section");</script>
+        
+{% schema %}
+{
+  "name": "Above Hero - USP Bar",
+  "tag": "div",
+  "class": "usp-bar-section",
+  "presets": [
+    {
+      "name": "Above Hero - USP Bar"
+    }
+  ],
+  "settings": [
+    {
+      "type": "textarea",
+      "id": "usp_bar_text_1",
+      "label": "USP Bar - Text 1",
+      "default": " Gratis verzending  vanaf €50"
+    },
+    {
+      "type": "textarea",
+      "id": "usp_bar_text_2",
+      "label": "USP Bar - Text 2",
+      "default": "bestel voor 23:59 =  morgen in huis"
+    },
+    {
+      "type": "textarea",
+      "id": "usp_bar_text_3",
+      "label": "USP Bar - Text 3",
+      "default": "bestel nu,  betaal later met klarna"
+    }
+  ]
+}
+{% endschema %}

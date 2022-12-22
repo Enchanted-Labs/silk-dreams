@@ -1,0 +1,121 @@
+<div bind="4e866862-5dbd-d84c-b234-3c072cbfd4a9" class="ugc-slider-section">
+  <div
+    id="happy-images-swiper"
+    data-aos="fade-in"
+    data-aos-easing="linear"
+    data-aos-duration="500"
+    data-aos-delay="200"
+    class="image_slider_section swiper-container aos-init aos-animate">
+    <div class="swiper-wrapper image-slider">
+      {%- for block in section.blocks -%}
+        {% case block.type %}
+          {% when 'image' %}
+          <div block="Image" class="slide__block swiper-slide">
+            <div class="image_parent"><img
+                src="{{ block.settings.image | img_url: 'master' }}"
+                loading="lazy"
+                srcset="{{ block.settings.image | img_url: 'master' }} 500w, {{ block.settings.image | img_url: 'master' }} 511w"
+                alt=""
+                class="swiper-lazy swiper-lazy-loaded"></div>
+          </div>
+        {%- endcase -%}
+      {%- endfor -%}
+    </div>
+  </div>
+  <div class="ugc-padding">
+    <div
+      data-aos-delay="200"
+      data-aos="fade-in"
+      data-aos-easing="linear"
+      data-aos-duration="500"
+      class="ugc-information-content aos-init aos-animate">
+      <div class="logo-textblock">{{ section.settings.tagline }}</div>
+      <h1 class="heading">{{ section.settings.headline }}</h1>
+      <p class="happy-chickies-p">{{ section.settings.paragraph }}</p>
+    </div>
+    <div
+      data-aos-delay="200"
+      data-aos="fade-in"
+      data-aos-easing="linear"
+      data-aos-duration="500"
+      class="icons-mission-wrapper aos-init aos-animate">
+      {%- for block in section.blocks -%}
+        {% case block.type %}
+          {% when 'icon_with_text' %}
+          <div block="Icon with Text" class="mission-ugc-icon">
+            <div bind="4e866862-5dbd-d84c-b234-3c072cbfd4cb" class="w-embed">{{ block.settings.icon }}</div>
+            <div class="mission-text-block">{{ block.settings.paragraph }}</div>
+          </div>
+        {%- endcase -%}
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+
+<script>
+  var currentSection = document.currentScript.closest('.shopify-section');
+  currentSection.setAttribute("class", "ugc-slider-section");
+</script>
+
+
+
+{% schema %}
+  {
+    "name": "Happy Customers",
+    "tag": "div",
+    "class": "ugc-slider-section",
+    "presets": [
+      {
+        "name": "Happy Customers"
+      }
+    ],
+    "settings": [
+      {
+        "type": "text",
+        "id": "tagline",
+        "label": "Tagline",
+        "default": "SILK DREAMS"
+      }, {
+        "type": "text",
+        "id": "headline",
+        "label": "Headline",
+        "default": "Mooier haar en een betere huid, zonder extra moeite"
+      }, {
+        "type": "text",
+        "id": "paragraph",
+        "label": "Paragraph",
+        "default": "Bij Silk Dreams gaat het niet alleen om slapen op luxe maar juist ook om beauty! Alle producten zijn daarom gemaakt van zijde dat doordrenkt is met zilver wat super goed is voor jouw huid en haar."
+      }
+    ],
+    "blocks": [
+      {
+        "name": "image",
+        "type": "image",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          }
+        ]
+      }, {
+        "name": "Icon with Text",
+        "type": "icon_with_text",
+        "settings": [
+          {
+            "type": "text",
+            "id": "paragraph",
+            "label": "Paragraph",
+            "default": "1.300 MEIDENGINGEN JE VOOR"
+          }, {
+            "type": "html",
+            "id": "icon",
+            "label": "Icon",
+            "default": "<svg width=\"25\" height=\"25\" viewBox=\"0 0 25 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path d=\"M9.87537 22.8278L8.19445 18.3473C8.06262 17.9959 7.78533 17.7186 7.43392 17.5868L2.95342 15.9059C2.69392 15.8085 2.69392 15.4415 2.95342 15.3441L7.43392 13.6632C7.78533 13.5314 8.06262 13.2541 8.19445 12.9027L9.87537 8.42217C9.97272 8.16267 10.3398 8.16267 10.4371 8.42217L12.118 12.9027C12.2499 13.2541 12.5272 13.5314 12.8786 13.6632L17.3591 15.3441C17.6186 15.4415 17.6186 15.8085 17.3591 15.9059L12.8786 17.5868C12.5272 17.7186 12.2499 17.9959 12.118 18.3473L10.4371 22.8278C10.3398 23.0873 9.97272 23.0873 9.87537 22.8278Z\" stroke=\"black\"></path>\n              <path d=\"M19.1579 10.4149L18.5132 8.73858C18.3913 8.42165 18.1408 8.1712 17.8239 8.04931L16.1476 7.40459C15.8057 7.2731 15.8057 6.7894 16.1476 6.65791L17.8239 6.01319C18.1408 5.8913 18.3913 5.64085 18.5132 5.32392L19.1579 3.64756C19.2894 3.30567 19.7731 3.30567 19.9046 3.64755L20.5493 5.32392C20.6712 5.64085 20.9217 5.8913 21.2386 6.01319L22.9149 6.65791C23.2568 6.7894 23.2568 7.2731 22.9149 7.40459L21.2386 8.04931C20.9217 8.1712 20.6712 8.42165 20.5493 8.73858L19.9046 10.4149C19.7731 10.7568 19.2894 10.7568 19.1579 10.4149Z\" stroke=\"black\" stroke-width=\"0.8\"></path>\n              <path d=\"M4.24992 7.44664L3.5385 5.50193C3.46263 5.29454 3.29921 5.13112 3.09182 5.05525L1.14711 4.34383C1.13065 4.33781 1.12506 4.3309 1.12222 4.32657C1.11809 4.32031 1.11429 4.31004 1.11429 4.29688C1.11429 4.28371 1.11809 4.27344 1.12222 4.26718C1.12506 4.26285 1.13065 4.25594 1.14711 4.24992L3.09182 3.5385C3.29921 3.46263 3.46263 3.29921 3.5385 3.09182L4.24992 1.14711C4.25594 1.13065 4.26285 1.12506 4.26718 1.12222C4.27344 1.11809 4.28371 1.11429 4.29688 1.11429C4.31004 1.11429 4.32031 1.11809 4.32657 1.12222C4.3309 1.12506 4.33781 1.13065 4.34383 1.14711L5.05525 3.09182C5.13112 3.29921 5.29454 3.46263 5.50193 3.5385L7.44664 4.24992C7.4631 4.25594 7.46869 4.26285 7.47153 4.26718C7.47566 4.27344 7.47946 4.28371 7.47946 4.29687C7.47946 4.31004 7.47566 4.32031 7.47153 4.32657C7.46869 4.3309 7.4631 4.33781 7.44664 4.34383L5.50193 5.05525C5.29454 5.13112 5.13112 5.29454 5.05525 5.50193L4.34383 7.44664C4.33781 7.4631 4.3309 7.46869 4.32657 7.47153C4.32031 7.47566 4.31004 7.47946 4.29688 7.47946C4.28371 7.47946 4.27344 7.47566 4.26718 7.47153C4.26285 7.46869 4.25594 7.4631 4.24992 7.44664Z\" stroke=\"black\" stroke-width=\"0.7\"></path>\n            </svg>"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

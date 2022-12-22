@@ -1,0 +1,99 @@
+
+    <div class="page-padding socialproof">
+      <div class="container-v1">
+        <div class="testimonials-content">
+          <div class="testimonials-tagline">{{ section.settings.tagline }}</div>
+          <h1 class="testimonials-title">{{ section.settings.headline }}</h1>
+          <div class="trustpilot-div"><img src="{{ 'stars-4.5.svg' | asset_url }}" loading="lazy" alt="" width="107"><img src="{{ 'trustpilot-1.svg' | asset_url }}" loading="lazy" alt="" width="76"></div>
+        </div>
+        <div>
+          <div id="review-swiper" class="review-swiper">
+            <div class="swiper-wrapper">
+              {%- for block in section.blocks -%}{%- if block.type == "review_block" -%}<div class="swiper-slide review-card" block.shopify_attributes>
+                <div class="review-swiper-block-2">
+                  <div class="upper-rw-content">
+                    <div class="trustpilot-divje-rw"><img src="{{ 'stars-4.5.svg' | asset_url }}" loading="lazy" alt="" width="87">
+                      <div class="review-name">{{ block.settings.name }}</div>
+                    </div>
+                    <div class="date-rw">{{ block.settings.date }}</div>
+                  </div>
+                  <div class="bottom-rw-content">
+                    <h1 class="review-swiper-title-2">{{ block.settings.title }}</h1>
+                    <p class="review-text">{{ block.settings.description }}</p>
+                  </div>
+                </div>
+              </div>{%- endif -%}{%- endfor -%}
+            </div>
+            <div class="swiper-pagination-container review">
+              <div id="review-pagination" class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets">
+                <div class="swiper-pagination-bullet active"></div>
+                <div class="swiper-pagination-bullet"></div>
+                <div class="swiper-pagination-bullet"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+<script>var currentSection = document.currentScript.closest('.shopify-section');currentSection.setAttribute("class","testimonials-mobile");</script>
+        
+{% schema %}
+{
+  "name": "Testimonials Mobile",
+  "tag": "div",
+  "class": "testimonials-mobile",
+  "presets": [
+    {
+      "name": "Testimonials Mobile"
+    }
+  ],
+  "settings": [
+    {
+      "type": "textarea",
+      "id": "tagline",
+      "label": "Tagline",
+      "default": "Beoordelingen"
+    },
+    {
+      "type": "textarea",
+      "id": "headline",
+      "label": "Headline",
+      "default": "Resultaten waar meiden van dromen."
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Review Block",
+      "type": "review_block",
+      "settings": [
+        {
+          "type": "text",
+          "id": "name",
+          "label": "Name",
+          "default": "Soof Snoek"
+        },
+        {
+          "type": "text",
+          "id": "date",
+          "label": "Date",
+          "default": "22 november 2022"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Echt een aanrader"
+        },
+        {
+          "type": "textarea",
+          "id": "description",
+          "label": "Description",
+          "default": "Echt een aanrader! Ik had de gehele slaap bundel besteld, en het was de volgende dag al geleverd. Ik ben zeer tevreden, het was mooi verpakt in een luxe doos. De producten zijn mooi en van goede kwaliteit. Super service, zou hier zeker nog een keer bestellen! 🥰"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

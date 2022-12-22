@@ -1,0 +1,295 @@
+<div class="page-padding-2">
+  <div class="container-v1">
+    <div class="footer-container">
+      <div class="w-layout-grid footer-grid">
+        <div id="w-node-b0bc4c49-c40f-aa3b-ba44-92089f4fde4d-9f4fde48" class="footer-story">
+          <a href="{{ section.settings.logo_link }}" class="link-block-6 w-inline-block">
+            {%- if section.settings.footer_logo == nil -%}<img
+                src="{{ 'logo.svg' | asset_url }}"
+                loading="lazy"
+                id="w-node-b0bc4c49-c40f-aa3b-ba44-92089f4fde4f-9f4fde48"
+                alt=""
+                class="image-54">{%- else -%}<img
+                src="{{ section.settings.footer_logo.src | img_url: 'master' }}"
+                loading="lazy"
+                id="w-node-b0bc4c49-c40f-aa3b-ba44-92089f4fde4f-9f4fde48"
+                alt="{{ section.settings.footer_logo.alt | escape }}"
+                class="image-54"
+                srcset="{{ section.settings.footer_logo | img_url: '1920x' }} 1920w,{{ section.settings.footer_logo | img_url: '1600x' }} 1600w,{{ section.settings.footer_logo | img_url: '1366x' }} 1366w,{{ section.settings.footer_logo | img_url: '1024x' }} 1024w,{{ section.settings.footer_logo | img_url: '768x' }} 768w,{{ section.settings.footer_logo | img_url: '640x' }} 640w">{%- endif -%}
+          </a>
+          <div class="footer-tagline">{{ section.settings.footer_headline }}</div>
+          <p class="paragraph-25">{{ section.settings.footer_paragraph }}</p>
+          <div class="footer-socials">
+            {%- for block in section.blocks -%}
+              {%- if block.type == "social_link" -%}
+                <a
+                  href="{{ section.settings.link_to_social_platform }}"
+                  class="link-block-5 w-inline-block"
+                  block.shopify_attributes>
+                  {%- if block.settings.social_media_icon == nil -%}<img src="{{ 'instagram.svg' | asset_url }}" alt="">{%- else -%}<img
+                      src="{{ block.settings.social_media_icon.src | img_url: 'master' }}"
+                      alt="{{ block.settings.social_media_icon.alt | escape }}"
+                      srcset="{{ block.settings.social_media_icon | img_url: '1920x' }} 1920w,{{ block.settings.social_media_icon | img_url: '1600x' }} 1600w,{{ block.settings.social_media_icon | img_url: '1366x' }} 1366w,{{ block.settings.social_media_icon | img_url: '1024x' }} 1024w,{{ block.settings.social_media_icon | img_url: '768x' }} 768w,{{ block.settings.social_media_icon | img_url: '640x' }} 640w">{%- endif -%}
+                </a>
+              {%- endif -%}
+            {%- endfor -%}
+          </div>
+          {%- if section.settings.show_cta_button -%}
+            <a href="{{ section.settings.button_link }}" class="main-button footer w-button">{{ section.settings.button_link_text }}</a>
+          {%- endif -%}
+        </div>
+        <div id="w-node-b0bc4c49-c40f-aa3b-ba44-92089f4fde5b-9f4fde48" class="footer-navigation">
+          <div id="w-node-b0bc4c49-c40f-aa3b-ba44-92089f4fde5c-9f4fde48" class="link-footer-block">
+            <div data-w-id="b0bc4c49-c40f-aa3b-ba44-92089f4fde5d" class="footer-navigation-title">
+              <div>{{ section.settings.footer_headline_1 }}</div><img
+                src="{{ 'ic16-chevron-down.svg' | asset_url }}"
+                loading="lazy"
+                alt=""
+                class="footer-chevron">
+            </div>
+            <div class="footer-links-content">
+              <div class="footer-links">
+                {%- for link in linklists[section.settings.menu_1].links -%}
+                  <a href="{{ link.url }}" class="footer-link-3 w-inline-block">{{ link.title }}</a>
+                {%- endfor -%}
+                {%- render 'menu-error', menu: "footer-product" -%}
+              </div>
+            </div>
+          </div>
+          <div class="link-footer-block">
+            <div data-w-id="b0bc4c49-c40f-aa3b-ba44-92089f4fde73" class="footer-navigation-title">
+              <div>{{ section.settings.footer_headline_2 }}</div><img
+                src="{{ 'ic16-chevron-down.svg' | asset_url }}"
+                loading="lazy"
+                alt=""
+                class="footer-chevron">
+            </div>
+            <div class="footer-links-content">
+              <div class="footer-links">
+                {%- for link in linklists[section.settings.menu_2].links -%}
+                  <a href="{{ link.url }}" class="footer-link-3 w-inline-block">{{ link.title }}</a>
+                {%- endfor -%}
+                {%- render 'menu-error', menu: "footer-about" -%}
+              </div>
+            </div>
+          </div>
+          <div class="link-footer-block">
+            <div data-w-id="b0bc4c49-c40f-aa3b-ba44-92089f4fde83" class="footer-navigation-title">
+              <div>{{ section.settings.footer_headline_3 }}</div><img
+                src="{{ 'ic16-chevron-down.svg' | asset_url }}"
+                loading="lazy"
+                alt=""
+                class="footer-chevron">
+            </div>
+            <div class="footer-links-content">
+              <div class="footer-links">
+                {%- for link in linklists[section.settings.menu_3].links -%}
+                  <a href="{{ link.url }}" class="footer-link-3 w-inline-block">{{ link.title }}</a>
+                {%- endfor -%}
+                {%- render 'menu-error', menu: "footer-support" -%}
+              </div>
+            </div>
+          </div>
+          <div class="link-footer-block">
+            <div data-w-id="b0bc4c49-c40f-aa3b-ba44-92089f4fde96" class="footer-navigation-title">
+              <div>{{ section.settings.footer_headline_4 }}</div><img
+                src="{{ 'ic16-chevron-down.svg' | asset_url }}"
+                loading="lazy"
+                alt=""
+                class="footer-chevron">
+            </div>
+            <div class="footer-links-content">
+              <div class="footer-info">
+                {%- for link in linklists[section.settings.menu_4].links -%}
+                  <a href="{{ link.url }}" class="footer-link-3 w-inline-block">{{ link.title }}</a>
+                {%- endfor -%}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="w-node-b0bc4c49-c40f-aa3b-ba44-92089f4fdea4-9f4fde48" class="footer-legal-p">{{ section.settings.copyright_notice }}</div>
+        <div id="w-node-b0bc4c49-c40f-aa3b-ba44-92089f4fdea6-9f4fde48" class="atc-container"><img
+            src="{{ 'group-300.svg' | asset_url }}"
+            loading="lazy"
+            alt=""
+            class="payment-methods"><img
+            src="{{ 'group-319.svg' | asset_url }}"
+            loading="lazy"
+            alt=""
+            class="payment-methods"><img
+            src="{{ 'group-318.svg' | asset_url }}"
+            loading="lazy"
+            alt=""
+            class="payment-methods"><img
+            src="{{ 'mastercard.svg' | asset_url }}"
+            loading="lazy"
+            alt=""
+            class="payment-methods"><img
+            src="{{ 'group-315.svg' | asset_url }}"
+            loading="lazy"
+            alt=""
+            class="payment-methods"><img
+            src="{{ 'group-314.svg' | asset_url }}"
+            loading="lazy"
+            alt=""
+            class="payment-methods"><img
+            src="{{ 'group-313.svg' | asset_url }}"
+            loading="lazy"
+            alt=""
+            class="payment-methods"><img
+            src="{{ 'group-312.svg' | asset_url }}"
+            loading="lazy"
+            alt=""
+            class="payment-methods"><img
+            src="{{ 'group-311.svg' | asset_url }}"
+            loading="lazy"
+            alt=""
+            class="payment-methods"><img
+            src="{{ 'group-310.svg' | asset_url }}"
+            loading="lazy"
+            alt=""
+            class="payment-methods"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script>
+  var currentSection = document.currentScript.closest('.shopify-section');
+  currentSection.setAttribute("class", "footer");
+</script>
+
+{% schema %}
+  {
+    "name": "Footer",
+    "tag": "footer",
+    "class": "footer",
+    "presets": [
+      {
+        "name": "Footer"
+      }
+    ],
+    "settings": [
+      {
+        "type": "link_list",
+        "id": "menu_1",
+        "label": "Menu 1"
+      },
+      {
+        "type": "link_list",
+        "id": "menu_2",
+        "label": "Menu 2"
+      },
+      {
+        "type": "link_list",
+        "id": "menu_3",
+        "label": "Menu 3"
+      },
+      {
+        "type": "link_list",
+        "id": "menu_4",
+        "label": "Menu 4"
+      }, {
+        "type": "text",
+        "id": "footer_headline",
+        "label": "Footer Headline",
+        "default": "Designed for your dreams."
+      }, {
+        "type": "text",
+        "id": "footer_paragraph",
+        "label": "Footer Paragraph",
+        "default": "Bij Silk Dreams gaat het niet alleen om slapen op luxe maar juist om beauty!"
+      }, {
+        "type": "text",
+        "id": "button_text",
+        "label": "Button Text",
+        "default": "Ontdek de most loved collectie"
+      }, {
+        "type": "text",
+        "id": "footer_headline_1",
+        "label": "Footer Headline 1",
+        "default": "PRODUCTEN"
+      }, {
+        "type": "text",
+        "id": "footer_headline_2",
+        "label": "Footer Headline 2",
+        "default": "OVER SILK DREAMS"
+      }, {
+        "type": "text",
+        "id": "footer_headline_3",
+        "label": "Footer Headline 3",
+        "default": "SUPPORT"
+      }, {
+        "type": "text",
+        "id": "footer_headline_4",
+        "label": "Footer Headline 4",
+        "default": "HULP NODIG"
+      }, {
+        "type": "text",
+        "id": "email_field",
+        "label": "Email field",
+        "default": "Support@silkdreams.nl"
+      }, {
+        "type": "text",
+        "id": "streetname",
+        "label": "Streetname",
+        "default": "Dorpsweg 28A"
+      }, {
+        "type": "text",
+        "id": "postal_and_city",
+        "label": "Postal and City",
+        "default": "3245 VC Sommelsdijk"
+      }, {
+        "type": "text",
+        "id": "country",
+        "label": "Country",
+        "default": "Nederland"
+      }, {
+        "type": "text",
+        "id": "copyright_notice",
+        "label": "Copyright Notice",
+        "default": "©2022 Silk Dreams. Alle rechten voorbehouden."
+      }, {
+        "type": "image_picker",
+        "id": "footer_logo",
+        "label": "Footer Logo"
+      }, {
+        "type": "url",
+        "id": "logo_link",
+        "label": "Logo link"
+      }, {
+        "type": "url",
+        "id": "link_to_social_platform",
+        "label": "Link to social platform"
+      }, {
+        "type": "url",
+        "id": "button_link",
+        "label": "Button Link"
+      }, {
+        "type": "text",
+        "id": "button_link_text",
+        "label": "Button Link Text",
+        "default": "{{ section.settings.button_text }}"
+      }, {
+        "type": "checkbox",
+        "id": "show_cta_button",
+        "label": "Show CTA Button",
+        "default": true
+      }
+    ],
+    "blocks": [
+      {
+        "name": "Social Link",
+        "type": "social_link",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "social_media_icon",
+            "label": "Social Media Icon"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

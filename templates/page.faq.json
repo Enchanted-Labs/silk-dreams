@@ -1,0 +1,52 @@
+{
+  "sections": {
+    "template": {
+      "type": "template-page",
+      "settings": {
+      }
+    },
+    "2ae37aa5-9a71-4d42-ad1a-435202fc9f32": {
+      "type": "faq-template",
+      "blocks": {
+        "0ab9720e-262c-4d87-a432-0f28054e107f": {
+          "type": "faq_block_1",
+          "settings": {
+            "question": "Wat houdt 100 nachten proefslapen in?",
+            "answer": "Basically, you can design anything that you can ever imagine. The main thing here is to have a parent container and two child elements. One for the FAQ question and another for FAQ answer. The child element for FAQ answer should be set to overflow: hidden and transform-origin set to top mid."
+          }
+        },
+        "a72f268b-73c4-4444-9c1e-9c2d4341f48c": {
+          "type": "faq_block_2",
+          "settings": {
+            "question": "Wat houdt 100 nachten proefslapen in?",
+            "answer": "Basically, you can design anything that you can ever imagine. The main thing here is to have a parent container and two child elements. One for the FAQ question and another for FAQ answer. The child element for FAQ answer should be set to overflow: hidden and transform-origin set to top mid."
+          }
+        },
+        "a81df415-e9e2-49be-9ba3-fd2b941e9852": {
+          "type": "faq_block_3",
+          "settings": {
+            "question": "Wat houdt 100 nachten proefslapen in?",
+            "answer": "Basically, you can design anything that you can ever imagine. The main thing here is to have a parent container and two child elements. One for the FAQ question and another for FAQ answer. The child element for FAQ answer should be set to overflow: hidden and transform-origin set to top mid."
+          }
+        }
+      },
+      "block_order": [
+        "0ab9720e-262c-4d87-a432-0f28054e107f",
+        "a72f268b-73c4-4444-9c1e-9c2d4341f48c",
+        "a81df415-e9e2-49be-9ba3-fd2b941e9852"
+      ],
+      "settings": {
+        "tagline": "SILK DREAMS",
+        "title": "Veelgestelde vragen",
+        "paragraph": "Zie hieronder de meest gestelde vragen. Staat uw vraag er niet bij? Onze klantenservice staat 24\/7 voor je klaar om al je vragen te beantwoorden. support@silkdreams.nl",
+        "faq_first_main_title": "Vragen over onze producten",
+        "faq_second_main_title": "Vragen over de levering",
+        "faq_third_main_title": "Vragen over retourneringen"
+      }
+    }
+  },
+  "order": [
+    "template",
+    "2ae37aa5-9a71-4d42-ad1a-435202fc9f32"
+  ]
+}

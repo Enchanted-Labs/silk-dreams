@@ -1,0 +1,74 @@
+
+    <ul role="list" class="usp-slider__list">
+      {%- for block in section.blocks -%}{%- if block.type == "text_block" -%}<li class="usp-slider__item" block.shopify_attributes>
+        <div>{{ block.settings.text }}</div>
+      </li>{%- endif -%}{%- endfor -%}
+    </ul>
+    <div class="w-embed">
+      <style>
+	.usp-slider {
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+  }
+  .usp-slider__list {
+    list-style: none;
+    display: flex;
+    min-width: fit-content;
+    animation-name: slide-left;
+    animation-duration: 18s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  .usp-slider__item{
+	width: 100%;
+	display: flex;
+	align-items: center;
+  min-width: fit-content;
+}
+      @keyframes slide-left {
+	0%{
+		transform: translate3d(0, 0, 0);
+	}
+	100%{
+		transform: translate3d(-50%, 0, 0); 
+	}
+}
+/* The css beneath is for the OWL slider on the next section */
+#carousel-silk-benefits {
+	width: calc(100% + 30px);
+  margin: -15px;
+}
+</style>
+    </div>
+  
+
+<script>var currentSection = document.currentScript.closest('.shopify-section');currentSection.setAttribute("aos-data","fade-in");currentSection.setAttribute("aos-data-easing","linear");currentSection.setAttribute("aos-data-duration","500");currentSection.setAttribute("aos-data-delay","200");currentSection.setAttribute("class","usp-slider aos-init aos-animate");</script>
+        
+{% schema %}
+{
+  "name": "Infinite Marquee",
+  "tag": "section",
+  "class": "usp-slider aos-init aos-animate",
+  "presets": [
+    {
+      "name": "Infinite Marquee"
+    }
+  ],
+  "settings": [],
+  "blocks": [
+    {
+      "name": "Text Block",
+      "type": "text_block",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text",
+          "default": "SKIN CLEARING SERIES"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

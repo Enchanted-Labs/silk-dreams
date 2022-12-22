@@ -1,0 +1,141 @@
+
+    <div class="container">
+      <div class="beauty-row-wrappers">
+        <div class="beauty-container aos-init aos-animate">
+          <h1 class="beauty-h1">{{ section.settings.title }}</h1>
+          <p class="beauty-paragraph">{{ section.settings.information }}</p>
+        </div>
+        <div class="beauty-why-content">
+          <div class="beauty-content">
+            <div data-aos-delay="200" data-aos="fade-in" data-aos-easing="linear" data-aos-duration="500" class="beauty-usp-col aos-init aos-animate">
+              <div class="usp-item">
+                <h1 class="usp-item-h1">{{ section.settings.title_1 }}</h1>
+                <p>{{ section.settings.paragraph_1 }}</p>
+              </div>
+            </div>
+            <div data-aos-delay="200" data-aos="fade-in" data-aos-easing="linear" data-aos-duration="500" class="beauty-usp-col aos-init aos-animate">
+              <div class="usp-item">
+                <h1 class="usp-item-h1">{{ section.settings.title_2 }}</h1>
+                <p>{{ section.settings.paragraph_2 }}</p>
+              </div>
+            </div>
+            <div data-aos-delay="200" data-aos="fade-in" data-aos-easing="linear" data-aos-duration="500" class="beauty-usp-col aos-init aos-animate">
+              <div class="usp-item">
+                <h1 class="usp-item-h1">{{ section.settings.title_3 }}</h1>
+                <p>{{ section.settings.paragraph_3 }}</p>
+              </div>
+            </div>
+          </div>
+          <div class="content-img-wrapper"><img src="{{ 'silkbox_0082-1.png' | asset_url }}" loading="lazy" sizes="(max-width: 479px) 76vw, (max-width: 767px) 81vw, (max-width: 991px) 85vw, (max-width: 1279px) 47vw, 601px" srcset="{{ 'silkbox_0082-1-p-500.png' | asset_url }} 500w, {{ 'silkbox_0082-1.png' | asset_url }} 588w" alt="" class="image-beauty-section"></div>
+          <div class="carousel-beauty aos-init aos-animate">
+            <div id="carousel-silk-benefits-product" class="owl-carousel owl-theme dors-custom1 owl-loaded owl-drag">
+              <div class="owl-stage-outer">
+                <div class="owl-stage">
+                  {%- for block in section.blocks -%}{%- if block.type == "benefit_slide" -%}<div class="owl-item card-slide" block.shopify_attributes>
+                    <div class="item-benefits">
+                      <h1 class="usp-title">{{ block.settings.title }}</h1>
+                      <p class="usp-benefit-description">{{ block.settings.paragraph }}</p>
+                    </div>
+                  </div>{%- endif -%}{%- endfor -%}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="w-embed">
+      <style>
+/* The css beneath is for the OWL slider on the next section */
+#carousel-silk-benefits {
+	width: calc(100% + 30px);
+  margin: -15px;
+}
+</style>
+    </div>
+  
+
+<script>var currentSection = document.currentScript.closest('.shopify-section');currentSection.setAttribute("class","beauty-dreaming-section");</script>
+        
+{% schema %}
+{
+  "name": "Mission Section",
+  "tag": "div",
+  "class": "beauty-dreaming-section",
+  "presets": [
+    {
+      "name": "Mission Section"
+    }
+  ],
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Beauty made during your dreams."
+    },
+    {
+      "type": "textarea",
+      "id": "information",
+      "label": "Information",
+      "default": "Naast een glowy skin en een stralende huid geniet je ook nog eens van glanzende haren. Het fijn geweven kussensloop zorgt er voor dat je haar niet klit of afbreekt tijdens het slapen."
+    },
+    {
+      "type": "textarea",
+      "id": "title_1",
+      "label": "Title 1",
+      "default": "Verassende beauty voordelen"
+    },
+    {
+      "type": "textarea",
+      "id": "paragraph_1",
+      "label": "Paragraph 1",
+      "default": "Zijde zorgt dat je wakker wordt met een natuurlijke glans en glanzende haren. Het fijn geweven kussensloop zorgt er voor dat je haar niet klit of afbreekt tijdens het slapen."
+    },
+    {
+      "type": "textarea",
+      "id": "title_2",
+      "label": "Title 2",
+      "default": "Gemaakt voor next-level skincare"
+    },
+    {
+      "type": "textarea",
+      "id": "paragraph_2",
+      "label": "Paragraph 2",
+      "default": "Alle kussenslopen van Silk Dreams bevatten zilverionen technologie dat 99.7% van alle bacteriën elimineert. Zo bescherm je jouw huid tegen huidproblemen zoals acne, puistjes, onzuiverheden en roodheid."
+    },
+    {
+      "type": "textarea",
+      "id": "title_3",
+      "label": "Title 3",
+      "default": "Verwen jezelf of een ander"
+    },
+    {
+      "type": "textarea",
+      "id": "paragraph_3",
+      "label": "Paragraph 3",
+      "default": "Elk item wordt prachtig verpakt en geleverd in een mooie geschenkdoos. Hergebruik je doos om je sieraden of schoonheidsproducten in op te bergen."
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Benefit Slide",
+      "type": "benefit_slide",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Wakker worden met een morning glow"
+        },
+        {
+          "type": "text",
+          "id": "paragraph",
+          "label": "Paragraph",
+          "default": "Zijde zorgt dat je wakker wordt met een natuurlijke glans en glanzende haren. Het fijn geweven kussensloop zorgt er voor dat je haar niet klit of afbreekt tijdens het slapen."
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

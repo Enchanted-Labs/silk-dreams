@@ -1,0 +1,929 @@
+{
+  "current": {
+    "sections": {
+      "header": {
+        "type": "header",
+        "blocks": {
+          "d6622b85-5643-4b6f-8a81-70fb48415215": {
+            "type": "swiper_block",
+            "settings": {
+              "collection": "Kussensloop",
+              "collection_tagline": "#1 BESTSELLER",
+              "link": ""
+            }
+          },
+          "b2ff1e1a-d4ce-4258-9086-ee1f8faec4c1": {
+            "type": "swiper_block",
+            "settings": {
+              "collection": "Kussensloop",
+              "collection_tagline": "#1 BESTSELLER",
+              "link": ""
+            }
+          },
+          "789714b7-1036-47c8-8210-1b96da39db3c": {
+            "type": "swiper_block",
+            "settings": {
+              "collection": "Kussensloop",
+              "collection_tagline": "#1 BESTSELLER",
+              "link": ""
+            }
+          },
+          "438fd108-bc91-4a4b-86cf-d7f564f3132c": {
+            "type": "swiper_block",
+            "settings": {
+              "collection": "Kussensloop",
+              "collection_tagline": "#1 BESTSELLER",
+              "link": ""
+            }
+          },
+          "b4446422-746f-4ee7-8767-3d704a48303a": {
+            "type": "swiper_block",
+            "settings": {
+              "collection": "Kussensloop",
+              "collection_tagline": "#1 BESTSELLER",
+              "link": ""
+            }
+          },
+          "b9c641a7-3429-4081-b361-03fdebc1f650": {
+            "type": "swiper_block",
+            "settings": {
+              "collection": "Kussensloop",
+              "collection_tagline": "#1 BESTSELLER",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "d6622b85-5643-4b6f-8a81-70fb48415215",
+          "b2ff1e1a-d4ce-4258-9086-ee1f8faec4c1",
+          "789714b7-1036-47c8-8210-1b96da39db3c",
+          "438fd108-bc91-4a4b-86cf-d7f564f3132c",
+          "b4446422-746f-4ee7-8767-3d704a48303a",
+          "b9c641a7-3429-4081-b361-03fdebc1f650"
+        ],
+        "settings": {
+          "announcement_bar_text": "Gratis verzending <span class=\"text-span-2\">op bestellingen <\/span>vanaf €49,95",
+          "swiper_tagline": "MOST-WANTED ITEMS 😍",
+          "button_text": "Ontdek het skin clearing kussensloop",
+          "menu": "header-menu",
+          "mobile_menu": "mobile-handle",
+          "announcement_text": "#cbb9a8",
+          "announcement_bar_color": "#f6f3f0"
+        }
+      },
+      "above-hero-usp-bar": {
+        "type": "above-hero-usp-bar",
+        "settings": {
+          "usp_bar_text_1": "<strong>Gratis verzending <\/strong> vanaf €50",
+          "usp_bar_text_2": "<strong>bestel voor 23:59 =<\/strong>  morgen in huis",
+          "usp_bar_text_3": "<strong>Sleep now,<\/strong>  pay later met Klarna"
+        }
+      },
+      "herp-section": {
+        "type": "herp-section",
+        "settings": {
+          "headline": "Beauty made during your dreams.",
+          "paragraph": "Een 100% zijden kussensloop, behandeld met zilverionen technologie dat 99.7% van alle bacteriën elimineert. Vermindert acne, puistjes en een geïrriteerde huid.",
+          "button_text_shop_now": "Shop nu",
+          "button_text_know_more": "Meer weten",
+          "how_much_reviews": "",
+          "button_link_shop_now": "shopify:\/\/collections\/all",
+          "button_link_shop_now_text": "SHOP NU",
+          "button_link_know_more": "shopify:\/\/products\/copy-of-premium-zijden-slaapbundel-3",
+          "button_link_know_more_text": "LEES MEER"
+        }
+      },
+      "category-slider": {
+        "type": "category-slider",
+        "blocks": {
+          "e65447ad-5cb8-4b5f-a358-f3962bdef037": {
+            "type": "category_slide_block",
+            "settings": {
+              "title": "Kussenslopen",
+              "collection_link": "shopify:\/\/collections\/kussenslopen"
+            }
+          },
+          "a4bc3689-34b4-4b7b-b3c5-70d96eb8a690": {
+            "type": "category_slide_block",
+            "settings": {
+              "title": "Kussenslopen",
+              "collection_link": ""
+            }
+          },
+          "ce66620c-4907-455d-9adf-01e7734e098c": {
+            "type": "category_slide_block",
+            "settings": {
+              "title": "Kussenslopen",
+              "collection_link": ""
+            }
+          },
+          "21fc1ce3-78a6-494f-9a1d-f1294275d8db": {
+            "type": "category_slide_block",
+            "settings": {
+              "title": "Kussenslopen",
+              "collection_link": ""
+            }
+          },
+          "fa64a79c-5d30-4fbd-9741-c2b744524b14": {
+            "type": "category_slide_block",
+            "settings": {
+              "title": "Kussenslopen",
+              "collection_link": ""
+            }
+          },
+          "8fa72a3f-15d6-440a-837a-a6a4eacda07e": {
+            "type": "category_slide_block",
+            "settings": {
+              "title": "Kussenslopen",
+              "collection_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "e65447ad-5cb8-4b5f-a358-f3962bdef037",
+          "a4bc3689-34b4-4b7b-b3c5-70d96eb8a690",
+          "ce66620c-4907-455d-9adf-01e7734e098c",
+          "21fc1ce3-78a6-494f-9a1d-f1294275d8db",
+          "fa64a79c-5d30-4fbd-9741-c2b744524b14",
+          "8fa72a3f-15d6-440a-837a-a6a4eacda07e"
+        ],
+        "settings": {
+        }
+      },
+      "hovering-usps": {
+        "type": "hovering-usps",
+        "settings": {
+          "tagline": "SILK DREAMS",
+          "headline": "Haalt het meeste uit jouw schoonheidsslaapje",
+          "benefit_1": "Zorgt voor gezondere harennooit meer een bad-hair day",
+          "benefit_paragraph_1": "Vermindert wrijving en houdt het haar gehydrateerd, waardoor klitten en breuk worden voorkomen.",
+          "benefit_3": "Zorgt voor gezondere harennooit meer een bad-hair day",
+          "benefit_paragraph_3": "Vermindert wrijving en houdt het haar gehydrateerd, waardoor klitten en breuk worden voorkomen.",
+          "benefit_2": "Zorgt voor gezondere harennooit meer een bad-hair day",
+          "benefit_paragraph_2": "Vermindert wrijving en houdt het haar gehydrateerd, waardoor klitten en breuk worden voorkomen.",
+          "benefit_4": "Zorgt voor gezondere harennooit meer een bad-hair day",
+          "benefit_paragraph_4": "Vermindert wrijving en houdt het haar gehydrateerd, waardoor klitten en breuk worden voorkomen.",
+          "mobile_benefit_1": "ANTIBACTERIEEL",
+          "mob_benefit_text_1": "Behandeld met wetenschappelijk onderbouwde zilveriontechnologie die bacteriën elimineert.",
+          "mobile_benefit_2": "ANTIBACTERIEEL",
+          "mob_benefit_text_2": "Behandeld met wetenschappelijk onderbouwde zilveriontechnologie die bacteriën elimineert.",
+          "mobile_benefit_3": "ANTIBACTERIEEL",
+          "mob_benefit_text_3": "Behandeld met wetenschappelijk onderbouwde zilveriontechnologie die bacteriën elimineert.",
+          "mobile_benefits_4": "ANTIBACTERIEEL",
+          "mob_benefit_text_4": "Behandeld met wetenschappelijk onderbouwde zilveriontechnologie die bacteriën elimineert."
+        }
+      },
+      "infinite-marquee-2": {
+        "type": "infinite-marquee-2",
+        "blocks": {
+          "b035e060-2291-40b1-9c36-e9278d72efc5": {
+            "type": "text_block",
+            "settings": {
+              "text": "SKIN CLEARING SERIES"
+            }
+          },
+          "4c9d6847-60dc-49ad-aeac-1199c73b1736": {
+            "type": "text_block",
+            "settings": {
+              "text": "SKIN CLEARING SERIES"
+            }
+          },
+          "12a8d14e-37d9-4815-b0b1-93de9fc3492c": {
+            "type": "text_block",
+            "settings": {
+              "text": "SKIN CLEARING SERIES"
+            }
+          },
+          "f4aca1c0-2e7f-4a4b-b6ea-1bbdc93d1697": {
+            "type": "text_block",
+            "settings": {
+              "text": "SKIN CLEARING SERIES"
+            }
+          },
+          "557dd219-8ab6-4505-8232-5aba15e76826": {
+            "type": "text_block",
+            "settings": {
+              "text": "SKIN CLEARING SERIES"
+            }
+          },
+          "f3ab10cc-1f3f-486a-9c50-11a22b55978a": {
+            "type": "text_block",
+            "settings": {
+              "text": "SKIN CLEARING SERIES"
+            }
+          },
+          "e42f340a-87b8-4c8f-a9ed-d54a0670a8be": {
+            "type": "text_block",
+            "settings": {
+              "text": "SKIN CLEARING SERIES"
+            }
+          },
+          "3c94a271-b8fb-4fa4-a4b1-6b95d34d49a9": {
+            "type": "text_block",
+            "settings": {
+              "text": "SKIN CLEARING SERIES"
+            }
+          }
+        },
+        "block_order": [
+          "b035e060-2291-40b1-9c36-e9278d72efc5",
+          "4c9d6847-60dc-49ad-aeac-1199c73b1736",
+          "12a8d14e-37d9-4815-b0b1-93de9fc3492c",
+          "f4aca1c0-2e7f-4a4b-b6ea-1bbdc93d1697",
+          "557dd219-8ab6-4505-8232-5aba15e76826",
+          "f3ab10cc-1f3f-486a-9c50-11a22b55978a",
+          "e42f340a-87b8-4c8f-a9ed-d54a0670a8be",
+          "3c94a271-b8fb-4fa4-a4b1-6b95d34d49a9"
+        ],
+        "settings": {
+        }
+      },
+      "beauty-dreaming-section": {
+        "type": "beauty-dreaming-section",
+        "blocks": {
+          "54cb9b57-bf53-48ec-b619-c798fff3fc39": {
+            "type": "benefit_slide",
+            "settings": {
+              "headline": "Wakker worden met een morning glow",
+              "paragraph": "Zijde zomet een natuurlijke glans en glanzende haren. Het fijn geweven kussensloop zorgt er voor dat je haar niet klit of afbreekt tijdens het slapen."
+            }
+          },
+          "efe13a2e-1a1e-4e5e-8c15-8cad79fda61e": {
+            "type": "benefit_slide",
+            "settings": {
+              "headline": "Wakker worden met een morning glow",
+              "paragraph": "Zijde zorgt dat je wakker wordt met een natuurlijke glans en glanzende haren. Het fijn geweven kussensloop zorgt er voor dat je haar niet klit of afbreekt tijdens het slapen."
+            }
+          },
+          "eda0b5dc-48ce-4906-bd20-97bc5faadb16": {
+            "type": "benefit_slide",
+            "settings": {
+              "headline": "Wakker worden met een morning glow",
+              "paragraph": "Zijde zorgt dat je wakker wordt met een natuurlijke glans en glanzende haren. Het fijn geweven kussensloop zorgt er voor dat je haar niet klit of afbreekt tijdens het slapen."
+            }
+          }
+        },
+        "block_order": [
+          "54cb9b57-bf53-48ec-b619-c798fff3fc39",
+          "efe13a2e-1a1e-4e5e-8c15-8cad79fda61e",
+          "eda0b5dc-48ce-4906-bd20-97bc5faadb16"
+        ],
+        "settings": {
+          "header": "Beauty made during your dreams.",
+          "benefit_1_headline": "Verassende beauty voordelen",
+          "benefit_1_paragraph": "Zijde zorgt dat je wakker wordt met een natuurlijke glans en glanzende haren. Het fijn geweven kussensloop zorgt er voor dat je haar niet klit of afbreekt tijdens het slapen.",
+          "benefit_2_headline": "Gemaakt voor next-level skincare",
+          "benefit_2_paragraph": "Alle kussenslopen van Silk Dreams bevatten zilverionen technologie dat 99.7% van alle bacteriën elimineert. Zo bescherm je jouw huid tegen huidproblemen zoals acne, puistjes, onzuiverheden en roodheid.",
+          "benefit_3_headline": "Verwen jezelf of een ander",
+          "benefit_3_paragraph": "Elk item wordt prachtig verpakt en geleverd in een mooie geschenkdoos. Hergebruik je doos om je sieraden of schoonheidsproducten in op te bergen.",
+          "paragraph": "Naast een glowy skin en een stralende huid geniet je ook nog eens van glanzende haren. Het fijn geweven kussensloop zorgt er voor dat je haar niet klit of afbreekt tijdens het slapen."
+        }
+      },
+      "info-section-1": {
+        "type": "info-section-1",
+        "settings": {
+          "link_text": "SHOP NU",
+          "title": "Made for your dreams & een stralende huid",
+          "paragraph": "Alle kussenslopen van Silk Dreams bevatten zilverionen technologie dat 99.7% van alle bacteriën elimineert. Deze zilverionen voorkomen dat bacteriën je gezicht kunnen bereiken en beschermt je tegen huidproblemen zoals acne, puistjes, onzuiverheden en roodheid.",
+          "link": ""
+        }
+      },
+      "product-section-2": {
+        "type": "product-section-2",
+        "settings": {
+          "link_text": "SHOP NU",
+          "headline": "Wakker worden zonderbad hair days",
+          "paragraph": "Naast een glowy skin en een stralende huid geniet je ook nog eens van glanzende haren. Het fijn geweven kussensloop zorgt er voor dat je haar niet klit of afbreekt tijdens het slapen.",
+          "link": ""
+        }
+      },
+      "testimonials-desktop": {
+        "type": "testimonials-desktop",
+        "blocks": {
+          "01a5833f-c666-4cca-a496-edeae1d93382": {
+            "type": "testimonial_1",
+            "settings": {
+              "review_name": "Soof Snoek",
+              "review_date": "2 November 2022",
+              "review_title": "Echt een aanrader",
+              "review_paragraph": "Echt een aanrader! Ik had de gehele slaap bundel besteld, en het was de volgende dag al geleverd. Ik ben zeer tevreden, het was mooi verpakt in een luxe doos. De producten zijn mooi en van goede kwaliteit. Super service, zou hier zeker nog een keer bestellen! 🥰"
+            }
+          },
+          "2ee666bc-3b3d-4220-8996-3108f5d5da46": {
+            "type": "testimonial_1",
+            "settings": {
+              "review_name": "Soof Snoek",
+              "review_date": "2 November 2022",
+              "review_title": "Echt een aanrader",
+              "review_paragraph": "Echt een aanrader! Ik had de gehele slaap bundel besteld, en het was de volgende dag al geleverd. Ik ben zeer tevreden, het was mooi verpakt in een luxe doos. De producten zijn mooi en van goede kwaliteit. Super service, zou hier zeker nog een keer bestellen! 🥰"
+            }
+          },
+          "a41c8539-8ba0-4729-b062-b50987be7494": {
+            "type": "testimonial_1",
+            "settings": {
+              "review_name": "Soof Snoek",
+              "review_date": "2 November 2022",
+              "review_title": "Echt een aanrader",
+              "review_paragraph": "Echt een aanrader! Ik had de gehele slaap bundel besteld, en het was de volgende dag al geleverd. Ik ben zeer tevreden, het was mooi verpakt in een luxe doos. De producten zijn mooi en van goede kwaliteit. Super service, zou hier zeker nog een keer bestellen! 🥰"
+            }
+          },
+          "da55dae6-ebc3-4cbf-821a-4b6866354c59": {
+            "type": "testimonial_1",
+            "settings": {
+              "review_name": "Soof Snoek",
+              "review_date": "2 November 2022",
+              "review_title": "Echt een aanrader",
+              "review_paragraph": "Echt een aanrader! Ik had de gehele slaap bundel besteld, en het was de volgende dag al geleverd. Ik ben zeer tevreden, het was mooi verpakt in een luxe doos. De producten zijn mooi en van goede kwaliteit. Super service, zou hier zeker nog een keer bestellen! 🥰"
+            }
+          },
+          "a0218e57-298d-4b07-b44e-c39b79c8c994": {
+            "type": "testimonial_2",
+            "settings": {
+              "review_name": "Soof Snoek",
+              "review_date": "2 November 2022",
+              "review_title": "Echt een aanrader",
+              "review_paragraph": "Echt een aanrader! Ik had de gehele slaap bundel besteld, en het was de volgende dag al geleverd. Ik ben zeer tevreden, het was mooi verpakt in een luxe doos. De producten zijn mooi en van goede kwaliteit. Super service, zou hier zeker nog een keer bestellen! 🥰"
+            }
+          },
+          "c4af95fd-8375-4f40-af69-71e505895793": {
+            "type": "testimonial_2",
+            "settings": {
+              "review_name": "Soof Snoek",
+              "review_date": "2 November 2022",
+              "review_title": "Echt een aanrader",
+              "review_paragraph": "Echt een aanrader! Ik had de gehele slaap bundel besteld, en het was de volgende dag al geleverd. Ik ben zeer tevreden, het was mooi verpakt in een luxe doos. De producten zijn mooi en van goede kwaliteit. Super service, zou hier zeker nog een keer bestellen! 🥰"
+            }
+          },
+          "d70bc307-3cf7-4797-b4df-e1c11b4f4a25": {
+            "type": "testimonial_2",
+            "settings": {
+              "review_name": "Soof Snoek",
+              "review_date": "2 November 2022",
+              "review_title": "Echt een aanrader",
+              "review_paragraph": "Echt een aanrader! Ik had de gehele slaap bundel besteld, en het was de volgende dag al geleverd. Ik ben zeer tevreden, het was mooi verpakt in een luxe doos. De producten zijn mooi en van goede kwaliteit. Super service, zou hier zeker nog een keer bestellen! 🥰"
+            }
+          },
+          "9e270cdb-5fda-47ab-858d-c392bf69a226": {
+            "type": "testimonial_2",
+            "settings": {
+              "review_name": "Soof Snoek",
+              "review_date": "2 November 2022",
+              "review_title": "Echt een aanrader",
+              "review_paragraph": "Echt een aanrader! Ik had de gehele slaap bundel besteld, en het was de volgende dag al geleverd. Ik ben zeer tevreden, het was mooi verpakt in een luxe doos. De producten zijn mooi en van goede kwaliteit. Super service, zou hier zeker nog een keer bestellen! 🥰"
+            }
+          }
+        },
+        "block_order": [
+          "01a5833f-c666-4cca-a496-edeae1d93382",
+          "2ee666bc-3b3d-4220-8996-3108f5d5da46",
+          "a41c8539-8ba0-4729-b062-b50987be7494",
+          "da55dae6-ebc3-4cbf-821a-4b6866354c59",
+          "a0218e57-298d-4b07-b44e-c39b79c8c994",
+          "c4af95fd-8375-4f40-af69-71e505895793",
+          "d70bc307-3cf7-4797-b4df-e1c11b4f4a25",
+          "9e270cdb-5fda-47ab-858d-c392bf69a226"
+        ],
+        "settings": {
+          "tagline": "Beoordelingen",
+          "headline": "Resultaten waar meiden van dromen.",
+          "trustpilot_text": "Uitstekend"
+        }
+      },
+      "testimonial-mobile-section": {
+        "type": "testimonial-mobile-section",
+        "blocks": {
+          "2d39c52d-52c7-4088-bfc7-35856b07a857": {
+            "type": "review_block",
+            "settings": {
+              "name": "Soof Snoek",
+              "date": "22 november 2022",
+              "title": "Echt een aanrader",
+              "description": "Echt een aanrader! Ik had de gehele slaap bundel besteld, en het was de volgende dag al geleverd. Ik ben zeer tevreden, het was mooi verpakt in een luxe doos. De producten zijn mooi en van goede kwaliteit. Super service, zou hier zeker nog een keer bestellen! 🥰"
+            }
+          },
+          "3a9adc7a-5d0a-4ff4-b4bc-5fc2976f7c47": {
+            "type": "review_block",
+            "settings": {
+              "name": "Soof Snoek",
+              "date": "22 november 2022",
+              "title": "Echt een aanrader",
+              "description": "Echt een aanrader! Ik had de gehele slaap bundel besteld, en het was de volgende dag al geleverd. Ik ben zeer tevreden, het was mooi verpakt in een luxe doos. De producten zijn mooi en van goede kwaliteit. Super service, zou hier zeker nog een keer bestellen! 🥰"
+            }
+          },
+          "ee9221e9-5965-4abe-a7bb-69cbd4974c16": {
+            "type": "review_block",
+            "settings": {
+              "name": "Soof Snoek",
+              "date": "22 november 2022",
+              "title": "Echt een aanrader",
+              "description": "Echt een aanrader! Ik had de gehele slaap bundel besteld, en het was de volgende dag al geleverd. Ik ben zeer tevreden, het was mooi verpakt in een luxe doos. De producten zijn mooi en van goede kwaliteit. Super service, zou hier zeker nog een keer bestellen! 🥰"
+            }
+          }
+        },
+        "block_order": [
+          "2d39c52d-52c7-4088-bfc7-35856b07a857",
+          "3a9adc7a-5d0a-4ff4-b4bc-5fc2976f7c47",
+          "ee9221e9-5965-4abe-a7bb-69cbd4974c16"
+        ],
+        "settings": {
+          "tagline": "Beoordelingen",
+          "headline": "Resultaten waar meiden van dromen."
+        }
+      },
+      "category-blocks": {
+        "type": "category-blocks",
+        "blocks": {
+          "49d120ce-df69-4ac9-863c-9112185506d4": {
+            "type": "first_block",
+            "settings": {
+              "category_headline": "Premium Zijden Kussenslopen",
+              "category_information": "Brengt jouw skincare routine naar het volgende niveau",
+              "first_link": ""
+            }
+          },
+          "86430b15-9e1c-48d2-9aa6-9868fc4bfbf4": {
+            "type": "second_block",
+            "settings": {
+              "category_headline": "Slaapbundels",
+              "category_information": "Pefect voor de feestdagen. Het complete pakket.",
+              "second_link": ""
+            }
+          },
+          "aa61413c-7b60-4d7c-9223-9deeac310b2f": {
+            "type": "third_block",
+            "settings": {
+              "category_headline": "Heatless Curlers",
+              "category_information": "Voor mooie krullen gezonde krullen",
+              "third_link": ""
+            }
+          },
+          "d822b951-bec2-4282-9d04-7b504fbefbdd": {
+            "type": "fourth_block",
+            "settings": {
+              "category_headline": "Zijden scrunchies",
+              "category_information": "Stylish, goed voor je haar en matcht met iedere outfit",
+              "fourth_link": ""
+            }
+          },
+          "ed1e7303-bd4b-48a7-8759-cdc916a6d24d": {
+            "type": "fifth_block",
+            "settings": {
+              "category_headline": "Slaapmaskers",
+              "category_information": "Reduceerd opzwollen ogen",
+              "fifth_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "49d120ce-df69-4ac9-863c-9112185506d4",
+          "86430b15-9e1c-48d2-9aa6-9868fc4bfbf4",
+          "aa61413c-7b60-4d7c-9223-9deeac310b2f",
+          "d822b951-bec2-4282-9d04-7b504fbefbdd",
+          "ed1e7303-bd4b-48a7-8759-cdc916a6d24d"
+        ],
+        "settings": {
+        }
+      },
+      "newsletter-section": {
+        "type": "newsletter-section",
+        "settings": {
+          "newsletter_title": "Volg ons voor de beste beauty tips.",
+          "newsletter_description": "Schrijf je in op onze nieuwsbrief en blijf op de hoogte over beauty, health & skincare."
+        }
+      },
+      "instagram-media": {
+        "type": "instagram-media",
+        "settings": {
+          "link": ""
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "18aa70ba-43cb-47a2-8529-6163d07b5dec": {
+            "type": "social_link",
+            "settings": {
+              "social_media_icon": "shopify:\/\/shop_images\/Vector_dcf0abe4-05c5-46b9-bb8a-bb17d5939272.png"
+            }
+          },
+          "6d762216-1753-4706-aa31-19ecf0b80b15": {
+            "type": "social_link",
+            "settings": {
+              "social_media_icon": "shopify:\/\/shop_images\/Instagram.png"
+            }
+          }
+        },
+        "block_order": [
+          "18aa70ba-43cb-47a2-8529-6163d07b5dec",
+          "6d762216-1753-4706-aa31-19ecf0b80b15"
+        ],
+        "settings": {
+          "menu_1": "footer-product",
+          "menu_2": "footer-about",
+          "menu_3": "footer-menu-3",
+          "menu_4": "footer-support",
+          "footer_headline": "Designed for your dreams.",
+          "footer_paragraph": "Bij Silk Dreams gaat het niet alleen om slapen op luxe maar juist om beauty!",
+          "button_text": "Ontdek de most loved collectie",
+          "footer_headline_1": "PRODUCTEN",
+          "footer_headline_2": "OVER SILK DREAMS",
+          "footer_headline_3": "SUPPORT",
+          "footer_headline_4": "HULP NODIG",
+          "email_field": "Support@silkdreams.nl",
+          "streetname": "Dorpsweg 28A",
+          "postal_and_city": "3245 VC Sommelsdijk",
+          "country": "Nederland",
+          "copyright_notice": "©2022 Silk Dreams. Alle rechten voorbehouden.",
+          "logo_link": "",
+          "link_to_social_platform": "",
+          "button_link": "shopify:\/\/collections\/best-sellers",
+          "button_link_text": "Ontdek de most-wanted collectie",
+          "show_cta_button": true
+        }
+      },
+      "product-desktop-benefits": {
+        "type": "product-desktop-benefits",
+        "blocks": {
+          "572f19e3-e682-4046-a56a-517bba549c2c": {
+            "type": "benefit_check",
+            "settings": {
+              "benefit": "Verminderd acne & roodheden"
+            }
+          },
+          "92a4d932-cc7f-4132-b542-7fb96ebb7119": {
+            "type": "benefit_check",
+            "settings": {
+              "benefit": "Verminderd acne & roodheden"
+            }
+          },
+          "602f3c55-2527-47a4-9b98-59e3d0730823": {
+            "type": "benefit_check",
+            "settings": {
+              "benefit": "Verminderd acne & roodheden"
+            }
+          },
+          "ae9738a2-90f8-4ab6-96f7-13b8373b6a08": {
+            "type": "benefit_check",
+            "settings": {
+              "benefit": "Verminderd acne & roodheden"
+            }
+          }
+        },
+        "block_order": [
+          "572f19e3-e682-4046-a56a-517bba549c2c",
+          "92a4d932-cc7f-4132-b542-7fb96ebb7119",
+          "602f3c55-2527-47a4-9b98-59e3d0730823",
+          "ae9738a2-90f8-4ab6-96f7-13b8373b6a08"
+        ],
+        "settings": {
+        }
+      },
+      "product-usp-blocks": {
+        "type": "product-usp-blocks",
+        "blocks": {
+          "8bf339d9-109c-4cce-a118-fb2afad5d28c": {
+            "type": "product_usp",
+            "settings": {
+              "usp": "Betaal later binnen 30 dagen"
+            }
+          },
+          "53e82a91-f7fa-4b0f-b006-75aa612b7414": {
+            "type": "product_usp",
+            "settings": {
+              "usp": "Betaal later binnen 30 dagen"
+            }
+          },
+          "a46fe860-918f-45ac-8188-c090adf3b947": {
+            "type": "product_usp",
+            "settings": {
+              "usp": "Betaal later binnen 30 dagen"
+            }
+          }
+        },
+        "block_order": [
+          "8bf339d9-109c-4cce-a118-fb2afad5d28c",
+          "53e82a91-f7fa-4b0f-b006-75aa612b7414",
+          "a46fe860-918f-45ac-8188-c090adf3b947"
+        ],
+        "settings": {
+        }
+      },
+      "accordion-section": {
+        "type": "accordion-section",
+        "blocks": {
+          "464c33a3-3459-4e1b-8c63-dc9cc21425ec": {
+            "type": "accordion",
+            "settings": {
+              "accordion_title": "Je zult niet meer zonder kunnen!",
+              "accordion_paragraph": "Niet je gemiddelde zijden kussensloop. Een wereldprimeur, behandeld met natuurlijk zilver om 99,7% van de bacteriën die verband houden met acne en actuele huidproblemen te elimineren. Met een luxe uitstraling dat bij elk interieur en beddengoed past."
+            }
+          },
+          "6f3c2f41-3c85-46f0-b3c7-04a33f3a3956": {
+            "type": "accordion",
+            "settings": {
+              "accordion_title": "Je zult niet meer zonder kunnen!",
+              "accordion_paragraph": "Niet je gemiddelde zijden kussensloop. Een wereldprimeur, behandeld met natuurlijk zilver om 99,7% van de bacteriën die verband houden met acne en actuele huidproblemen te elimineren. Met een luxe uitstraling dat bij elk interieur en beddengoed past."
+            }
+          },
+          "4e31365a-7d39-4d20-be72-286387383926": {
+            "type": "accordion",
+            "settings": {
+              "accordion_title": "Je zult niet meer zonder kunnen!",
+              "accordion_paragraph": "Niet je gemiddelde zijden kussensloop. Een wereldprimeur, behandeld met natuurlijk zilver om 99,7% van de bacteriën die verband houden met acne en actuele huidproblemen te elimineren. Met een luxe uitstraling dat bij elk interieur en beddengoed past."
+            }
+          }
+        },
+        "block_order": [
+          "464c33a3-3459-4e1b-8c63-dc9cc21425ec",
+          "6f3c2f41-3c85-46f0-b3c7-04a33f3a3956",
+          "4e31365a-7d39-4d20-be72-286387383926"
+        ],
+        "settings": {
+        }
+      },
+      "product-benefits-mobile": {
+        "type": "product-benefits-mobile",
+        "blocks": {
+          "52cc1ffd-ff4f-4960-969d-22eb68eea60b": {
+            "type": "benefit_check_mobile",
+            "settings": {
+            }
+          }
+        },
+        "block_order": [
+          "52cc1ffd-ff4f-4960-969d-22eb68eea60b"
+        ],
+        "settings": {
+        }
+      },
+      "trustpilot-reviews": {
+        "type": "trustpilot-reviews",
+        "blocks": {
+          "bebfed02-9fbc-4b7b-a25a-c515be915023": {
+            "type": "review",
+            "settings": {
+              "headline": "“Can’t live without it!”",
+              "paragraph": "“Can’t live without it!” It’s so soft to my skin and feels great to sleep on, my sk...",
+              "name_and_date": "Jessica, 4 days ago"
+            }
+          },
+          "614f7bc1-8445-4d50-b98e-05b70f217ac1": {
+            "type": "review",
+            "settings": {
+              "headline": "“Can’t live without it!”",
+              "paragraph": "“Can’t live without it!” It’s so soft to my skin and feels great to sleep on, my sk...",
+              "name_and_date": "Jessica, 4 days ago"
+            }
+          },
+          "9a483851-23d8-4770-8474-2ffe00e7b62d": {
+            "type": "review",
+            "settings": {
+              "headline": "“Can’t live without it!”",
+              "paragraph": "“Can’t live without it!” It’s so soft to my skin and feels great to sleep on, my sk...",
+              "name_and_date": "Jessica, 4 days ago"
+            }
+          },
+          "beb5a24d-7094-4df9-89ea-55fb144e8a46": {
+            "type": "review",
+            "settings": {
+              "headline": "“Can’t live without it!”",
+              "paragraph": "“Can’t live without it!” It’s so soft to my skin and feels great to sleep on, my sk...",
+              "name_and_date": "Jessica, 4 days ago"
+            }
+          }
+        },
+        "block_order": [
+          "bebfed02-9fbc-4b7b-a25a-c515be915023",
+          "614f7bc1-8445-4d50-b98e-05b70f217ac1",
+          "9a483851-23d8-4770-8474-2ffe00e7b62d",
+          "beb5a24d-7094-4df9-89ea-55fb144e8a46"
+        ],
+        "settings": {
+          "trustpilot_text": "Een score van 4.8 uit 5 op basis van 346 reviews op"
+        }
+      },
+      "mission-section": {
+        "type": "mission-section",
+        "blocks": {
+          "a681940c-caf0-47e7-9662-fd2abe4999d0": {
+            "type": "benefit_slide",
+            "settings": {
+              "title": "Wakker worden met een morning glow",
+              "paragraph": "Zijde zorgt dat je wakker wordt met een natuurlijke glans en glanzende haren. Het fijn geweven kussensloop zorgt er voor dat je haar niet klit of afbreekt tijdens het slapen."
+            }
+          },
+          "a9122472-64fe-44c8-96cb-a349a186a887": {
+            "type": "benefit_slide",
+            "settings": {
+              "title": "Wakker worden met een morning glow",
+              "paragraph": "Zijde zorgt dat je wakker wordt met een natuurlijke glans en glanzende haren. Het fijn geweven kussensloop zorgt er voor dat je haar niet klit of afbreekt tijdens het slapen."
+            }
+          },
+          "0d96f330-731f-47dc-b3e6-1de84a6a32c2": {
+            "type": "benefit_slide",
+            "settings": {
+              "title": "Wakker worden met een morning glow",
+              "paragraph": "Zijde zorgt dat je wakker wordt met een natuurlijke glans en glanzende haren. Het fijn geweven kussensloop zorgt er voor dat je haar niet klit of afbreekt tijdens het slapen."
+            }
+          }
+        },
+        "block_order": [
+          "a681940c-caf0-47e7-9662-fd2abe4999d0",
+          "a9122472-64fe-44c8-96cb-a349a186a887",
+          "0d96f330-731f-47dc-b3e6-1de84a6a32c2"
+        ],
+        "settings": {
+          "title": "Beauty made during your dreams.",
+          "information": "Naast een glowy skin en een stralende huid geniet je ook nog eens van glanzende haren. Het fijn geweven kussensloop zorgt er voor dat je haar niet klit of afbreekt tijdens het slapen.",
+          "title_1": "Verassende beauty voordelen",
+          "paragraph_1": "Zijde zorgt dat je wakker wordt met een natuurlijke glans en glanzende haren. Het fijn geweven kussensloop zorgt er voor dat je haar niet klit of afbreekt tijdens het slapen.",
+          "title_2": "Gemaakt voor next-level skincare",
+          "paragraph_2": "Alle kussenslopen van Silk Dreams bevatten zilverionen technologie dat 99.7% van alle bacteriën elimineert. Zo bescherm je jouw huid tegen huidproblemen zoals acne, puistjes, onzuiverheden en roodheid.",
+          "title_3": "Verwen jezelf of een ander",
+          "paragraph_3": "Elk item wordt prachtig verpakt en geleverd in een mooie geschenkdoos. Hergebruik je doos om je sieraden of schoonheidsproducten in op te bergen."
+        }
+      },
+      "happy-customers": {
+        "type": "happy-customers",
+        "blocks": {
+          "205e1849-7cf3-42b7-ba50-731a165e0988": {
+            "type": "image",
+            "settings": {
+            }
+          },
+          "ea2d4644-429a-4ec4-8ae5-1c3bbcf395ee": {
+            "type": "image",
+            "settings": {
+            }
+          },
+          "96ae9e1f-7a6b-44ac-959d-5c39be987a87": {
+            "type": "image",
+            "settings": {
+            }
+          },
+          "b37489ae-f041-4231-b685-9173f391938e": {
+            "type": "image",
+            "settings": {
+            }
+          },
+          "364a6b3c-4126-42c9-bcbd-a8cc8acb2c7c": {
+            "type": "image",
+            "settings": {
+            }
+          },
+          "4950ccdb-c006-4a94-ab80-a3e0f1286136": {
+            "type": "image",
+            "settings": {
+            }
+          },
+          "28aded43-220a-4f07-a856-ba4e50516ca4": {
+            "type": "image",
+            "settings": {
+            }
+          },
+          "350f359b-d5b4-4ce5-8969-b9f56e448b04": {
+            "type": "icon_with_text",
+            "settings": {
+              "paragraph": "1.300 MEIDEN<br>GINGEN JE VOOR",
+              "icon": "<svg width=\"25\" height=\"25\" viewbox=\"0 0 25 25\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n              <path d=\"M9.87537 22.8278L8.19445 18.3473C8.06262 17.9959 7.78533 17.7186 7.43392 17.5868L2.95342 15.9059C2.69392 15.8085 2.69392 15.4415 2.95342 15.3441L7.43392 13.6632C7.78533 13.5314 8.06262 13.2541 8.19445 12.9027L9.87537 8.42217C9.97272 8.16267 10.3398 8.16267 10.4371 8.42217L12.118 12.9027C12.2499 13.2541 12.5272 13.5314 12.8786 13.6632L17.3591 15.3441C17.6186 15.4415 17.6186 15.8085 17.3591 15.9059L12.8786 17.5868C12.5272 17.7186 12.2499 17.9959 12.118 18.3473L10.4371 22.8278C10.3398 23.0873 9.97272 23.0873 9.87537 22.8278Z\" stroke=\"black\"><\/path>\n              <path d=\"M19.1579 10.4149L18.5132 8.73858C18.3913 8.42165 18.1408 8.1712 17.8239 8.04931L16.1476 7.40459C15.8057 7.2731 15.8057 6.7894 16.1476 6.65791L17.8239 6.01319C18.1408 5.8913 18.3913 5.64085 18.5132 5.32392L19.1579 3.64756C19.2894 3.30567 19.7731 3.30567 19.9046 3.64755L20.5493 5.32392C20.6712 5.64085 20.9217 5.8913 21.2386 6.01319L22.9149 6.65791C23.2568 6.7894 23.2568 7.2731 22.9149 7.40459L21.2386 8.04931C20.9217 8.1712 20.6712 8.42165 20.5493 8.73858L19.9046 10.4149C19.7731 10.7568 19.2894 10.7568 19.1579 10.4149Z\" stroke=\"black\" stroke-width=\"0.8\"><\/path>\n              <path d=\"M4.24992 7.44664L3.5385 5.50193C3.46263 5.29454 3.29921 5.13112 3.09182 5.05525L1.14711 4.34383C1.13065 4.33781 1.12506 4.3309 1.12222 4.32657C1.11809 4.32031 1.11429 4.31004 1.11429 4.29688C1.11429 4.28371 1.11809 4.27344 1.12222 4.26718C1.12506 4.26285 1.13065 4.25594 1.14711 4.24992L3.09182 3.5385C3.29921 3.46263 3.46263 3.29921 3.5385 3.09182L4.24992 1.14711C4.25594 1.13065 4.26285 1.12506 4.26718 1.12222C4.27344 1.11809 4.28371 1.11429 4.29688 1.11429C4.31004 1.11429 4.32031 1.11809 4.32657 1.12222C4.3309 1.12506 4.33781 1.13065 4.34383 1.14711L5.05525 3.09182C5.13112 3.29921 5.29454 3.46263 5.50193 3.5385L7.44664 4.24992C7.4631 4.25594 7.46869 4.26285 7.47153 4.26718C7.47566 4.27344 7.47946 4.28371 7.47946 4.29687C7.47946 4.31004 7.47566 4.32031 7.47153 4.32657C7.46869 4.3309 7.4631 4.33781 7.44664 4.34383L5.50193 5.05525C5.29454 5.13112 5.13112 5.29454 5.05525 5.50193L4.34383 7.44664C4.33781 7.4631 4.3309 7.46869 4.32657 7.47153C4.32031 7.47566 4.31004 7.47946 4.29688 7.47946C4.28371 7.47946 4.27344 7.47566 4.26718 7.47153C4.26285 7.46869 4.25594 7.4631 4.24992 7.44664Z\" stroke=\"black\" stroke-width=\"0.7\"><\/path>\n            <\/svg>"
+            }
+          },
+          "3d06986d-ad97-459e-97e5-84ee7aab6953": {
+            "type": "icon_with_text",
+            "settings": {
+              "paragraph": "1.300 MEIDEN<br>GINGEN JE VOOR",
+              "icon": "<svg width=\"25\" height=\"25\" viewbox=\"0 0 25 25\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n              <path d=\"M9.87537 22.8278L8.19445 18.3473C8.06262 17.9959 7.78533 17.7186 7.43392 17.5868L2.95342 15.9059C2.69392 15.8085 2.69392 15.4415 2.95342 15.3441L7.43392 13.6632C7.78533 13.5314 8.06262 13.2541 8.19445 12.9027L9.87537 8.42217C9.97272 8.16267 10.3398 8.16267 10.4371 8.42217L12.118 12.9027C12.2499 13.2541 12.5272 13.5314 12.8786 13.6632L17.3591 15.3441C17.6186 15.4415 17.6186 15.8085 17.3591 15.9059L12.8786 17.5868C12.5272 17.7186 12.2499 17.9959 12.118 18.3473L10.4371 22.8278C10.3398 23.0873 9.97272 23.0873 9.87537 22.8278Z\" stroke=\"black\"><\/path>\n              <path d=\"M19.1579 10.4149L18.5132 8.73858C18.3913 8.42165 18.1408 8.1712 17.8239 8.04931L16.1476 7.40459C15.8057 7.2731 15.8057 6.7894 16.1476 6.65791L17.8239 6.01319C18.1408 5.8913 18.3913 5.64085 18.5132 5.32392L19.1579 3.64756C19.2894 3.30567 19.7731 3.30567 19.9046 3.64755L20.5493 5.32392C20.6712 5.64085 20.9217 5.8913 21.2386 6.01319L22.9149 6.65791C23.2568 6.7894 23.2568 7.2731 22.9149 7.40459L21.2386 8.04931C20.9217 8.1712 20.6712 8.42165 20.5493 8.73858L19.9046 10.4149C19.7731 10.7568 19.2894 10.7568 19.1579 10.4149Z\" stroke=\"black\" stroke-width=\"0.8\"><\/path>\n              <path d=\"M4.24992 7.44664L3.5385 5.50193C3.46263 5.29454 3.29921 5.13112 3.09182 5.05525L1.14711 4.34383C1.13065 4.33781 1.12506 4.3309 1.12222 4.32657C1.11809 4.32031 1.11429 4.31004 1.11429 4.29688C1.11429 4.28371 1.11809 4.27344 1.12222 4.26718C1.12506 4.26285 1.13065 4.25594 1.14711 4.24992L3.09182 3.5385C3.29921 3.46263 3.46263 3.29921 3.5385 3.09182L4.24992 1.14711C4.25594 1.13065 4.26285 1.12506 4.26718 1.12222C4.27344 1.11809 4.28371 1.11429 4.29688 1.11429C4.31004 1.11429 4.32031 1.11809 4.32657 1.12222C4.3309 1.12506 4.33781 1.13065 4.34383 1.14711L5.05525 3.09182C5.13112 3.29921 5.29454 3.46263 5.50193 3.5385L7.44664 4.24992C7.4631 4.25594 7.46869 4.26285 7.47153 4.26718C7.47566 4.27344 7.47946 4.28371 7.47946 4.29687C7.47946 4.31004 7.47566 4.32031 7.47153 4.32657C7.46869 4.3309 7.4631 4.33781 7.44664 4.34383L5.50193 5.05525C5.29454 5.13112 5.13112 5.29454 5.05525 5.50193L4.34383 7.44664C4.33781 7.4631 4.3309 7.46869 4.32657 7.47153C4.32031 7.47566 4.31004 7.47946 4.29688 7.47946C4.28371 7.47946 4.27344 7.47566 4.26718 7.47153C4.26285 7.46869 4.25594 7.4631 4.24992 7.44664Z\" stroke=\"black\" stroke-width=\"0.7\"><\/path>\n            <\/svg>"
+            }
+          },
+          "5fe673aa-fde0-4f83-b711-58dbb902a88c": {
+            "type": "icon_with_text",
+            "settings": {
+              "paragraph": "1.300 MEIDEN<br>GINGEN JE VOOR",
+              "icon": "<svg width=\"25\" height=\"25\" viewbox=\"0 0 25 25\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n              <path d=\"M9.87537 22.8278L8.19445 18.3473C8.06262 17.9959 7.78533 17.7186 7.43392 17.5868L2.95342 15.9059C2.69392 15.8085 2.69392 15.4415 2.95342 15.3441L7.43392 13.6632C7.78533 13.5314 8.06262 13.2541 8.19445 12.9027L9.87537 8.42217C9.97272 8.16267 10.3398 8.16267 10.4371 8.42217L12.118 12.9027C12.2499 13.2541 12.5272 13.5314 12.8786 13.6632L17.3591 15.3441C17.6186 15.4415 17.6186 15.8085 17.3591 15.9059L12.8786 17.5868C12.5272 17.7186 12.2499 17.9959 12.118 18.3473L10.4371 22.8278C10.3398 23.0873 9.97272 23.0873 9.87537 22.8278Z\" stroke=\"black\"><\/path>\n              <path d=\"M19.1579 10.4149L18.5132 8.73858C18.3913 8.42165 18.1408 8.1712 17.8239 8.04931L16.1476 7.40459C15.8057 7.2731 15.8057 6.7894 16.1476 6.65791L17.8239 6.01319C18.1408 5.8913 18.3913 5.64085 18.5132 5.32392L19.1579 3.64756C19.2894 3.30567 19.7731 3.30567 19.9046 3.64755L20.5493 5.32392C20.6712 5.64085 20.9217 5.8913 21.2386 6.01319L22.9149 6.65791C23.2568 6.7894 23.2568 7.2731 22.9149 7.40459L21.2386 8.04931C20.9217 8.1712 20.6712 8.42165 20.5493 8.73858L19.9046 10.4149C19.7731 10.7568 19.2894 10.7568 19.1579 10.4149Z\" stroke=\"black\" stroke-width=\"0.8\"><\/path>\n              <path d=\"M4.24992 7.44664L3.5385 5.50193C3.46263 5.29454 3.29921 5.13112 3.09182 5.05525L1.14711 4.34383C1.13065 4.33781 1.12506 4.3309 1.12222 4.32657C1.11809 4.32031 1.11429 4.31004 1.11429 4.29688C1.11429 4.28371 1.11809 4.27344 1.12222 4.26718C1.12506 4.26285 1.13065 4.25594 1.14711 4.24992L3.09182 3.5385C3.29921 3.46263 3.46263 3.29921 3.5385 3.09182L4.24992 1.14711C4.25594 1.13065 4.26285 1.12506 4.26718 1.12222C4.27344 1.11809 4.28371 1.11429 4.29688 1.11429C4.31004 1.11429 4.32031 1.11809 4.32657 1.12222C4.3309 1.12506 4.33781 1.13065 4.34383 1.14711L5.05525 3.09182C5.13112 3.29921 5.29454 3.46263 5.50193 3.5385L7.44664 4.24992C7.4631 4.25594 7.46869 4.26285 7.47153 4.26718C7.47566 4.27344 7.47946 4.28371 7.47946 4.29687C7.47946 4.31004 7.47566 4.32031 7.47153 4.32657C7.46869 4.3309 7.4631 4.33781 7.44664 4.34383L5.50193 5.05525C5.29454 5.13112 5.13112 5.29454 5.05525 5.50193L4.34383 7.44664C4.33781 7.4631 4.3309 7.46869 4.32657 7.47153C4.32031 7.47566 4.31004 7.47946 4.29688 7.47946C4.28371 7.47946 4.27344 7.47566 4.26718 7.47153C4.26285 7.46869 4.25594 7.4631 4.24992 7.44664Z\" stroke=\"black\" stroke-width=\"0.7\"><\/path>\n            <\/svg>"
+            }
+          }
+        },
+        "block_order": [
+          "205e1849-7cf3-42b7-ba50-731a165e0988",
+          "ea2d4644-429a-4ec4-8ae5-1c3bbcf395ee",
+          "96ae9e1f-7a6b-44ac-959d-5c39be987a87",
+          "b37489ae-f041-4231-b685-9173f391938e",
+          "364a6b3c-4126-42c9-bcbd-a8cc8acb2c7c",
+          "4950ccdb-c006-4a94-ab80-a3e0f1286136",
+          "28aded43-220a-4f07-a856-ba4e50516ca4",
+          "350f359b-d5b4-4ce5-8969-b9f56e448b04",
+          "3d06986d-ad97-459e-97e5-84ee7aab6953",
+          "5fe673aa-fde0-4f83-b711-58dbb902a88c"
+        ],
+        "settings": {
+          "tagline": "SILK DREAMS",
+          "headline": "Mooier haar en een betere huid, zonder extra moeite",
+          "paragraph": "Bij Silk Dreams gaat het niet alleen om slapen op luxe maar juist ook om beauty! Alle producten zijn daarom gemaakt van zijde dat doordrenkt is met zilver wat super goed is voor jouw huid en haar."
+        }
+      },
+      "product-section-video-right": {
+        "type": "product-section-video-right",
+        "settings": {
+          "unique_selling_point": "Verminderd acne & roodheden ✨",
+          "headline": "Zeg vaarwel tegen acne",
+          "paragraph": "Naast een glowy skin en een stralende huid geniet je ook nog eens van glanzende haren. Het fijn geweven kussensloop zorgt er voor dat je haar niet klit of afbreekt tijdens het slapen.",
+          "why_text": "<strong>Waarom je moet overstappen:<\/strong><br>✔️ Zorgt voor mooie glanzende haren<br>✔️ Elimineert bacteriën die acne veroorzaken<br> ✔️ Verminderd vrijving op de huid"
+        }
+      },
+      "product-section-image-left": {
+        "type": "product-section-image-left",
+        "settings": {
+          "unique_selling_point": "Versterkt skincare routines 💖",
+          "headline": "Zeg hallo tegen een natuurlijke glans",
+          "paragraph": "Naast een glowy skin en een stralende huid geniet je ook nog eens van glanzende haren. Het fijn geweven kussensloop zorgt er voor dat je haar niet klit of afbreekt tijdens het slapen.",
+          "why_text": "<strong>Hydratie voordelen:<\/strong><br>✔️ Houdt het gezicht gehydrateerd<br>✔️ Laat gezichtsproducten een beter effect hebben"
+        }
+      },
+      "product-section-image-right": {
+        "type": "product-section-image-right",
+        "settings": {
+          "unique_selling_point": "Breng natuurlijke oliën in balans 💧",
+          "headline": "De perfecte toevoeging tot jouw skincare routine",
+          "paragraph": "Omdat zijde van nature enorm zacht aan voelt. Is het ideaal voor je huid. Het neemt geen vocht op, waardoor nachtcrèmes effectiever kunnen worden gebruikt. Het is daarnaast algemeen bekend dat gehydrateerde huidcellen minder lijntjes en rimpels veroorzaken dan een droge huid.",
+          "why_text": "<strong>Anti-aging voordelen:<\/strong><br>✔️ Absorbeert geen vocht<br>✔️ Minder lijntjes en rimpels"
+        }
+      },
+      "faq": {
+        "type": "faq",
+        "blocks": {
+          "7a969191-136b-4e88-8335-e7b689209d64": {
+            "type": "faq",
+            "settings": {
+              "question": "Wat is het verschil tussen een normaal kussensloop en een zijden kussensloop?",
+              "answer": "Normale zijden kussenslopen zijn vaak gemaakt van zijde tussen de 15 en 19 mm. En zijn alleen van zijde gemaakt. De kussenslopen van Silk Dreams zijn in tegenstelling tot andere merken gemaakt van 22 mm zijde waar zilver in verwerkt is. Dit zorgt ervoor dat het kussensloop antibacterieel is en zorgt er voor dat je minder last van puistjes en verstopte poriën zult hebben."
+            }
+          },
+          "663068d5-86f9-4e39-bdf3-09796da424a0": {
+            "type": "faq",
+            "settings": {
+              "question": "Wat is het verschil tussen een normaal kussensloop en een zijden kussensloop?",
+              "answer": "Normale zijden kussenslopen zijn vaak gemaakt van zijde tussen de 15 en 19 mm. En zijn alleen van zijde gemaakt. De kussenslopen van Silk Dreams zijn in tegenstelling tot andere merken gemaakt van 22 mm zijde waar zilver in verwerkt is. Dit zorgt ervoor dat het kussensloop antibacterieel is en zorgt er voor dat je minder last van puistjes en verstopte poriën zult hebben."
+            }
+          },
+          "77c6b61d-3db7-440e-8aec-b6998a4e4b5f": {
+            "type": "faq",
+            "settings": {
+              "question": "Wat is het verschil tussen een normaal kussensloop en een zijden kussensloop?",
+              "answer": "Normale zijden kussenslopen zijn vaak gemaakt van zijde tussen de 15 en 19 mm. En zijn alleen van zijde gemaakt. De kussenslopen van Silk Dreams zijn in tegenstelling tot andere merken gemaakt van 22 mm zijde waar zilver in verwerkt is. Dit zorgt ervoor dat het kussensloop antibacterieel is en zorgt er voor dat je minder last van puistjes en verstopte poriën zult hebben."
+            }
+          }
+        },
+        "block_order": [
+          "7a969191-136b-4e88-8335-e7b689209d64",
+          "663068d5-86f9-4e39-bdf3-09796da424a0",
+          "77c6b61d-3db7-440e-8aec-b6998a4e4b5f"
+        ],
+        "settings": {
+          "sub_heading": "FAQ",
+          "heading": "Veelgestelde vragen"
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "tagline": "SILK DREAMS",
+          "headline": "Misschien vindt je dit ook leuk"
+        }
+      },
+      "global-settings": {
+        "type": "global-settings",
+        "settings": {
+        }
+      },
+      "sidecart": {
+        "type": "sidecart",
+        "settings": {
+          "title": "Je Winkelwagen",
+          "rewards_title": "Rewards",
+          "shipping_text": "Verzending",
+          "freeshipping_threshold": 4000,
+          "freegift_threshold": 6000,
+          "gift_product": "",
+          "shipping": 499,
+          "free_from1": "(Gratis vanaf",
+          "free_from2": ")",
+          "maak_af": "Eenmalige Deal!",
+          "total": "Totaal",
+          "checkout_btn": "Veilig Afrekenen",
+          "payments": "klarna,visa,master,american_express,maestro,shopify_pay,apple_pay,google_pay",
+          "sidecart_product_list": [
+            "3-pack-skinny-scrunchies-4",
+            "3-pack-large-scrunchies",
+            "3-pack-large-scrunchies-1"
+          ],
+          "swiper-title": "Others also bought",
+          "upsell-button_border": "#000000",
+          "upsell-button_background": ""
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  }
+}

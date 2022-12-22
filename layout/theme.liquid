@@ -1,0 +1,254 @@
+{% assign image_swatch = '' %}
+
+{% capture image_swatch %}
+  {% for variant in product.variants %}
+    {% assign image_swatch = variant.featured_image %}
+  {% endfor %}
+{% endcapture %}
+
+<!DOCTYPE html>
+<html lang="{{ request.locale.iso_code }}">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="">
+
+    <link rel="canonical" href="{{ canonical_url }}">
+    <link
+      rel="preconnect"
+      href="https://cdn.shopify.com"
+      crossorigin>
+
+    {%- if settings.favicon != blank -%}
+      <link
+        rel="icon"
+        type="image/png"
+        href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
+    {%- endif -%}
+
+    {%- unless settings.type_header_font.system? and settings.type_body_font.system? -%}
+      <link
+        rel="preconnect"
+        href="https://fonts.shopifycdn.com"
+        crossorigin>
+    {%- endunless -%}
+
+    <title>
+      {{ page_title }}
+      {%- if current_tags %}
+        &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif -%}
+      {%- if current_page != 1 %}
+        &ndash; Page {{ current_page }}{% endif -%}
+      {%- unless page_title contains shop.name %}
+        &ndash; {{ shop.name }}{% endunless -%}
+    </title>
+
+    {% if page_description %}
+      <meta name="description" content="{{ page_description | escape }}">
+    {% endif %}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.0/flickity.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity-fade@1/flickity-fade.css">
+    <style>
+      udesly-banner {
+        display: none !important;
+      }
+    </style>
+    <style>
+      /* This is for preventing body scrolling when the menu is open */
+      .is-non-scrollable {
+        overflow: hidden;
+        position: fixed;
+        width: 100%;
+      }
+      /* This is the styling for the collection swiper */
+      .swiper-pagination-bullet.swiper-pagination-bullet-active {
+        opacity: 1;
+      }
+      .swiper-pagination-bullet {
+        background-color: #CBB9A8;
+        width: 8px;
+        height: 8px;
+        opacity: 0.24;
+      }
+      .swiper-horizontal > .swiper-pagination-bullets,
+      .swiper-pagination-bullets.swiper-pagination-horizontal,
+      .swiper-pagination-custom,
+      .swiper-pagination-fraction {
+        bottom: 0;
+      }
+      /* this is the end of the styling for the collection swiper */
+      /* Styling why w-slider dots */
+      .why-slide-nav.w-slider-nav-invert > div.w-slider-dot {
+        border: 1px solid #D4CCC5;
+        background-color: #FFF;
+      }
+      .why-slide-nav.w-slider-nav-invert > div.w-slider-dot.w-active {
+        background-color: #E3D3C3;
+        border: 0;
+      }
+      /* Styling collection w-slider dots */
+      .categories-dots-2.w-slider-nav-invert > div.w-slider-dot {
+        background-color: #CBB9A8;
+        opacity: 0.24;
+        margin-left: 8px;
+        margin-right: 8px;
+      }
+      .categories-dots-2.w-slider-nav-invert > div.w-slider-dot.w-active {
+        opacity: 1;
+      }
+      .categories-dots-2 {
+        display: flex;
+        column-gap: 11px;
+      }
+      .wrapper-product-block .brick_block:last-child {
+        margin-right: 32px;
+      }
+      .owl-theme .owl-dots .owl-dot.active span,
+      .owl-theme .owl-dots .owl-dot:hover span {
+        background: #E3D3C3;
+        border: 1px solid #E3D3C3;
+      }
+      .owl-theme .owl-dots .owl-dot span {
+        width: 10px;
+        height: 10px;
+        margin: 0 6px;
+        background: transparent;
+        display: block;
+        -webkit-backface-visibility: visible;
+        transition: opacity 0.2s ease;
+        border-radius: 50%;
+        border: 1px solid #D4CCC5;
+      }
+      .owl-theme .owl-nav.disabled + .owl-dots {
+        margin-top: 24px;
+      }
+      .owl-theme .owl-dots .owl-dot span {
+        margin: 0;
+      }
+      #happy-images-swiper .swiper-pointer-events {
+        touch-action: pan-y;
+      }
+      #happy-images-swiper .swiper-wrapper {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        display: flex;
+        transition-property: transform;
+        box-sizing: content-box;
+      }
+      .slide__block.swiper-slide {
+        padding: 0 5px;
+      }
+      .image_slider_section .slide__block .image_parent {
+        position: relative;
+        padding-top: 124%;
+        width: 100%;
+      }
+      .image_slider_section .slide__block .image_parent img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 2px;
+      }
+      .swiper-container .swiper-wrapper {
+        -webkit-transition-timing-function: linear !important;
+        -o-transition-timing-function: linear !important;
+        transition-timing-function: linear !important;
+      }
+      .w-background-video > video {
+        border-radius: 10px;
+      }
+      button,
+      input,
+      optgroup,
+      select,
+      textarea {
+        color: inherit;
+        font: inherit;
+        margin: 6px;
+      }
+    </style>
+
+    {{ 'normalize.css' | asset_url | stylesheet_tag }}
+    {{ 'webflow.css' | asset_url | stylesheet_tag }}
+    {{ 'silk-dreams.webflow.css' | asset_url | stylesheet_tag }}
+    {{ content_for_header }}
+    {% render 'judgeme_core' %}
+  </head>
+
+  <body>
+    {% section 'header' %}
+    {% section 'global-settings' %}
+    <main
+      id="main"
+      class="main homepage"
+      role="main"
+      tabindex="-1">
+      {{ content_for_layout }}
+    </main>
+    {% unless template contains 'cart' %}
+      {% section 'footer' %}
+    {% endunless %}
+    {% section 'sidecart' %}
+  </body>
+  {% render 'scripts' %}
+  {{ 'udesly-shopify.min.js' | asset_url | script_tag }}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.0/flickity.pkgd.min.js"></script>
+  <script src="https://unpkg.com/flickity-fade@1/flickity-fade.js"></script>
+  <script>
+    window.addEventListener("load", (event) => {
+      $('.slider-wrapper').flickity({
+
+        // options
+        fade: true,
+        cellAlign: 'left',
+        contain: true,
+        prevNextButtons: false,
+        pageDots: false
+      });
+      $('.media__thumb__wrapper').flickity({
+        asNavFor: '.slider-wrapper',
+        contain: true,
+        pageDots: false,
+        prevNextButtons: false,
+        cellAlign: 'left',
+        draggable: false
+      });
+    });
+  </script>
+  <script type="application/json" data-ajax-cart-initial-state>
+    {{ cart | json }}
+  </script>
+
+  <script type="module">
+    import '{{ "liquid-ajax-cart-v1.10.3.js" | asset_url }}';
+  </script>
+
+  <script type="application/json" data-ajax-cart-configuration>
+    {
+    "addToCartCssClass": "js-my-cart-open"
+                     }</script>
+
+
+  <script type="module">
+    import { subscribeToCartAjaxRequests } from '{{ "liquid-ajax-cart-v1.10.3.js" | asset_url }}'
+    subscribeToCartAjaxRequests((requestState, subscribeToResult) => {
+                     // This function will be called before each Shopify Cart API request
+                    console.log('Before: ', requestState);
+                    
+                    subscribeToResult(requestState => {
+                    jQuery.getJSON('/cart.js', function (cart) {
+                     $('.cart-count').html(cart.item_count);
+                    });
+                    }) 
+                    })</script>
+
+</html>

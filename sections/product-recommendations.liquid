@@ -1,0 +1,131 @@
+<div
+  data-aos-delay="200"
+  data-aos="fade-in"
+  data-aos-easing="linear"
+  data-aos-duration="500"
+  class="related-section--header aos-init aos-animate">
+  <div class="silk-tagline">{{ section.settings.tagline }}</div>
+  <h1 class="related-h1">{{ section.settings.headline }}</h1>
+</div>
+<div class="grid-container">
+
+
+  <div
+    data-aos-delay="200"
+    data-aos="fade-in"
+    data-aos-easing="linear"
+    data-aos-duration="500"
+    class="related-grid aos-init aos-animate">
+
+    {% assign recommended_products = section.settings.rec_product_list %}
+    {% for product in recommended_products %}
+
+      <div id="w-node-_3fc2310a-64ae-2512-96d9-8e456ffeea5d-6ffeea55" class="related-item-div">
+        <div class="responsive-img-wrapper"><img
+            class="absolute-img _4-radius"
+            src="{{ product.featured_image | img_url: 'master' }}"
+            where="src"
+            alt="{{ image.alt }}"
+            sizes="(max-width: 479px) 100vw, (max-width: 991px) 31vw, 288px"
+            loading="lazy"
+            srcset="{{ product.featured_image | img_url: 'master' }} 500w, {{ product.featured_image | img_url: 'master' }} 800w, {{ product.featured_image | img_url: 'master' }} 960w"></div>
+        <div class="trustpilot-related"><img
+            src="{{ 'stars-4.5.svg' | asset_url }}"
+            loading="lazy"
+            alt=""
+            width="87">
+          <p class="trustpilot-link-text _14">{{ 't5b5e2c33' | t }}<span class="text-span-7">{{ 'tccb7' | t }}</span>
+            {{ 'tn13165f53' | t }}</p>
+        </div>
+        <div class="content-block-pcard">
+          <p class="related-item-title">{{ product.title }}</p>
+          <div class="product-in-grid-details">
+            <p class="details-p">{{ product.metafields.custom.color_name }}</p>
+            <div class="variant-divider"></div>
+            <p class="details-p">{{ product.price | money }}</p>
+          </div>
+        </div>
+        <a href="{{ product.url }}" class="collection-button w-button">{{ 'tae9d4a5' | t }}</a>
+      </div>
+    {% endfor %}
+  </div>
+
+
+
+  <div
+    data-aos-duration="500"
+    data-aos="fade-in"
+    data-aos-easing="linear"
+    data-aos-delay="200"
+    class="w-layout-grid mobile-grid aos-init aos-animate">
+
+    {% assign recommended_products_mobile = section.settings.rec-product_list_mobile %}
+    {% for product in recommended_products_mobile %}
+      <div id="w-node-_3fc2310a-64ae-2512-96d9-8e456ffeea9d-6ffeea55" class="product-in-grid"><img
+          src="{{ product.featured_image | img_url: 'master' }}"
+          loading="lazy"
+          alt=""
+          class="product-in-grid-img">
+        <div class="collection-content">
+          <p class="collection-title">{{ 'tn7dc55357' | t }}<br>{{ 't757223b0' | t }}</p>
+          <a href="#" class="link-block-3 w-inline-block"><img
+              src="{{ 'cart.svg' | asset_url }}"
+              loading="lazy"
+              alt=""
+              class="image-42"
+              width="24"
+              height="24"></a>
+        </div>
+        <div class="product-in-grid-details">
+          <p class="details-p">{{ 'tn33081804' | t }}</p>
+          <div class="variant-divider"></div>
+          <p class="details-p">{{ 'tn337eadd0' | t }}</p>
+        </div>
+        <a href="#" class="collection-button w-button">{{ 'tae9d4a5' | t }}</a>
+      </div>
+    {% endfor %}
+  </div>
+
+
+
+</div>
+
+
+<script>
+  var currentSection = document.currentScript.closest('.shopify-section');
+  currentSection.setAttribute("class", "related-section");
+</script>
+
+{% schema %}
+  {
+    "name": "Product Recommendations",
+    "tag": "div",
+    "class": "related-section",
+    "presets": [
+      {
+        "name": "Product Recommendations"
+      }
+    ],
+    "settings": [
+      {
+        "type": "text",
+        "id": "tagline",
+        "label": "Tagline",
+        "default": "SILK DREAMS"
+      }, {
+        "type": "text",
+        "id": "headline",
+        "label": "Headline",
+        "default": "Misschien vindt je dit ook leuk"
+      }, {
+        "type": "product_list",
+        "id": "rec_product_list",
+        "label": "Rec Product List"
+      }, {
+        "type": "product_list",
+        "id": "rec-product_list_mobile",
+        "label": "Rec Product List Mobile"
+      }
+    ]
+  }
+{% endschema %}

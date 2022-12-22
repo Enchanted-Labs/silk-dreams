@@ -1,0 +1,161 @@
+
+    <div class="container-fluid container-testimonials">
+      <div class="container-flex">
+        <div class="testimonials-text">
+          <div class="testimonials-tagline">{{ section.settings.tagline }}</div>
+          <h1 class="testimonials-title">{{ section.settings.headline }}</h1>
+          <div class="trustpilot-shower">
+            <div class="trustpilot-text">{{ section.settings.trustpilot_text }}</div>
+            <div class="trustpilot-widget"><img src="{{ 'stars-4.5.svg' | asset_url }}" loading="lazy" alt="" height="20"><img src="{{ 'trustpilot-1.svg' | asset_url }}" loading="lazy" alt="" height="18"></div>
+          </div>
+          <div class="box-slider-testimonials"></div>
+        </div>
+        <div class="testimonial-list">
+          <div class="box-slider-testimonials1">
+            <div class="slider-testimonials">
+              {%- for block in section.blocks -%}{%- if block.type == "testimonial_1" -%}<div class="item-testimonials" block.shopify_attributes>
+                <div class="item-testimonials-stars"><img src="{{ 'review-star.svg' | asset_url }}" loading="lazy" alt="" class="trustpilot-star"><img src="{{ 'review-star.svg' | asset_url }}" loading="lazy" alt="" class="trustpilot-star"><img src="{{ 'review-star.svg' | asset_url }}" loading="lazy" alt="" class="trustpilot-star"><img src="{{ 'review-star.svg' | asset_url }}" loading="lazy" alt="" class="trustpilot-star"><img src="{{ 'review-star.svg' | asset_url }}" loading="lazy" alt="" class="trustpilot-star">
+                  <div class="review-naam">{{ block.settings.review_name }}</div>
+                </div>
+                <p class="item-testimonials-date">{{ block.settings.review_date }}</p>
+                <h1 class="item-testimonials-title">{{ block.settings.review_title }}</h1>
+                <div class="item-testimonials-text">
+                  <p class="testimonial-p">{{ block.settings.review_paragraph }}</p>
+                </div>
+              </div>{%- endif -%}{%- endfor -%}
+            </div>
+            <div class="slider-testimonials clone">
+              {%- for block in section.blocks -%}{%- if block.type == "testimonial_2" -%}<div class="item-testimonials" block.shopify_attributes>
+                <div class="item-testimonials-stars"><img src="{{ 'review-star.svg' | asset_url }}" loading="lazy" alt="" class="trustpilot-star"><img src="{{ 'review-star.svg' | asset_url }}" loading="lazy" alt="" class="trustpilot-star"><img src="{{ 'review-star.svg' | asset_url }}" loading="lazy" alt="" class="trustpilot-star"><img src="{{ 'review-star.svg' | asset_url }}" loading="lazy" alt="" class="trustpilot-star"><img src="{{ 'review-star.svg' | asset_url }}" loading="lazy" alt="" class="trustpilot-star">
+                  <div class="review-naam">{{ block.settings.review_name }}</div>
+                </div>
+                <p class="item-testimonials-date">{{ block.settings.review_date }}</p>
+                <h1 class="item-testimonials-title">{{ block.settings.review_title }}</h1>
+                <div class="item-testimonials-text">
+                  <p class="testimonial-p">{{ block.settings.review_paragraph }}</p>
+                </div>
+              </div>{%- endif -%}{%- endfor -%}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="html-embed w-embed">
+      <style>
+  .slider-testimonials {
+    list-style: none;
+    display: flex;
+    min-width: fit-content;
+    animation-name: slide-left;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+      @keyframes slide-left {
+	0%{
+		transform: translate3d(0, 0, 0);
+	}
+	100%{
+		transform: translate3d(-50%, 0, 0); 
+	}
+}
+</style>
+    </div>
+  
+
+<script>var currentSection = document.currentScript.closest('.shopify-section');currentSection.setAttribute("data-aos","fade-in");currentSection.setAttribute("data-aos-duration","500");currentSection.setAttribute("data-aos-delay","200");currentSection.setAttribute("data-aos-easing","linear");currentSection.setAttribute("class","testimonials-desktop aos-init aos-animate");</script>
+        
+{% schema %}
+{
+  "name": "Testimonials Desktop",
+  "tag": "div",
+  "class": "testimonials-desktop aos-init aos-animate",
+  "presets": [
+    {
+      "name": "Testimonials Desktop"
+    }
+  ],
+  "settings": [
+    {
+      "type": "text",
+      "id": "tagline",
+      "label": "Tagline",
+      "default": "Beoordelingen"
+    },
+    {
+      "type": "text",
+      "id": "headline",
+      "label": "Headline",
+      "default": "Resultaten waar meiden van dromen."
+    },
+    {
+      "type": "text",
+      "id": "trustpilot_text",
+      "label": "Trustpilot Text",
+      "default": "Uitstekend"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Testimonial 1",
+      "type": "testimonial_1",
+      "settings": [
+        {
+          "type": "text",
+          "id": "review_name",
+          "label": "Review Name",
+          "default": "Soof Snoek"
+        },
+        {
+          "type": "text",
+          "id": "review_date",
+          "label": "Review Date",
+          "default": "2 November 2022"
+        },
+        {
+          "type": "text",
+          "id": "review_title",
+          "label": "Review Title",
+          "default": "Echt een aanrader"
+        },
+        {
+          "type": "text",
+          "id": "review_paragraph",
+          "label": "Review Paragraph",
+          "default": "Echt een aanrader! Ik had de gehele slaap bundel besteld, en het was de volgende dag al geleverd. Ik ben zeer tevreden, het was mooi verpakt in een luxe doos. De producten zijn mooi en van goede kwaliteit. Super service, zou hier zeker nog een keer bestellen! 🥰"
+        }
+      ]
+    },
+    {
+      "name": "Testimonial 2",
+      "type": "testimonial_2",
+      "settings": [
+        {
+          "type": "text",
+          "id": "review_name",
+          "label": "Review Name",
+          "default": "Soof Snoek"
+        },
+        {
+          "type": "text",
+          "id": "review_date",
+          "label": "Review Date",
+          "default": "2 November 2022"
+        },
+        {
+          "type": "text",
+          "id": "review_title",
+          "label": "Review Title",
+          "default": "Echt een aanrader"
+        },
+        {
+          "type": "text",
+          "id": "review_paragraph",
+          "label": "Review Paragraph",
+          "default": "Echt een aanrader! Ik had de gehele slaap bundel besteld, en het was de volgende dag al geleverd. Ik ben zeer tevreden, het was mooi verpakt in een luxe doos. De producten zijn mooi en van goede kwaliteit. Super service, zou hier zeker nog een keer bestellen! 🥰"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

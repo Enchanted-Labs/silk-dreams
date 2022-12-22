@@ -1,0 +1,133 @@
+<form action="{{ routes.cart_url }}" method="post">
+  <div class="my-cart" data-ajax-cart-section>
+    <div class="cart-wrapper">
+      <div bind="de3081e2-5cf7-c7bf-8b47-c84ddb5d5066" class="w-form">
+        <p class="cart-title">Jouw winkelwagen</p>
+        <div class="cart-info-grid">
+          <div id="w-node-_1efb106e-5ebe-644b-773e-28cc3c431cb3-7c39e043" class="cart-keep-shopping"><a href="#"
+              class="cart-keep-shopping w-inline-block">
+              <div bind="1001912c-8cce-d175-e5d0-fec1554ff69b" html:unwrap="true" class="cart__heading w-embed">
+                <a class="homepage-link" href="{{ routes.root_url }}"><svg
+                  aria-hidden="true" focusable="false" role="presentation" class="icon icon--wide icon-arrow-long-left"
+                  viewBox="0 0 24 14">
+                  <path d="M24 5.645H7.942V0L0 7l7.942 7V8.594H24z"></path>
+                </svg>Verder winkelen
+
+                <style>
+                  .icon-arrow-long-left {
+                    min-width: 24px;
+                    min-height: 14px;
+                  }
+                </style>
+                </a>
+              </div>
+            </a></div>
+          <div id="w-node-d8665177-9ab0-1da9-d1d2-44a43ba844ec-7c39e043" class="cart-price-items">
+            <p class="cart__heading">Prijs</p>
+          </div>
+          <div id="w-node-_62c7e1f5-211e-cfdd-e8bd-8df9b6a74bf8-7c39e043" class="cart-quantity-items">
+            <p class="cart__heading">aantal</p>
+          </div>
+          <div id="w-node-_3f4c65c8-dc09-cfe1-c162-e7bb8b144a84-7c39e043" class="cart-total-items">
+            <p class="cart__heading">totaal</p>
+          </div>
+        </div>
+        <form id="wf-form-Cart" name="wf-form-Cart" data-name="Cart" method="get" class="cart-template-body"
+          aria-label="Cart">
+          <div class="cart-items">
+            {% for item in cart.items %}
+            <div cart="items" class="cart-item-row"><a item="remove"
+                id="w-node-de3081e2-5cf7-c7bf-8b47-c84ddb5d506f-7c39e043" href="#"
+                class="cart-items-remove">verwijderen</a>
+              <div id="w-node-_1455e23e-68c1-2621-7b40-0e3b35e23660-7c39e043" class="cart-items-image"><a item="link"
+                  href="#" class="w-inline-block"><img
+                    src="{{item.image | img_url: 'master'}}"
+                    loading="lazy" item="featured-image" sizes="90px"
+                    srcset="{{item.image | img_url: 'master'}} 500w, {{item.image | img_url: 'master'}} 800w, {{item.image | img_url: 'master'}} 1080w, {{item.image | img_url: 'master'}} 1084w"
+                    alt="" class="cart-items-img"></a></div>
+              <div id="w-node-b94a95a5-c315-1719-787d-5baf1b3a2caf-7c39e043" class="cart-items-title"><a href="#"
+                  class="cart-item-title-wrapper w-inline-block">
+                  <p item="title" class="cart-item-title">{{ item.title }}</p>
+                </a>
+                <div class="cart_items_metafield-content">
+                  <div class="tha-meta-wrapper">
+                    <p class="cart-meta-color">Kleur: Sky Blue</p>
+                    <p class="cart-meta-quantity">Aantal: {{ item.quantity }}</p>
+                  </div>
+                </div>
+              </div>
+              <div id="w-node-_4a23bb5e-0cd0-bc78-0ba5-177251dc45cf-7c39e043" class="cart_items_price">
+                <div item="price" class="cart-item-price">{{ item.final_price | money }}</div>
+              </div>
+              <div id="w-node-_504f3720-edd4-bde1-a3c7-7dd3f3f865a4-7c39e043" class="cart_items_total">
+                <div item="total" class="cart-item-price">{{ item.final_price | money }}</div>
+              </div>
+              <div id="w-node-de3081e2-5cf7-c7bf-8b47-c84ddb5d506e-7c39e043" class="cart-items-quantity">
+          <input data-ajax-cart-quantity-input="{{ forloop.index }}" class="quantity-button w-input" placeholder="Quantity" value="{{ item.quantity }}" name="updates[]" type="number"/></div>
+            </div>
+            {% endfor %}
+          </div>
+          <div class="cart-footer">
+            <div id="w-node-ed88b2c3-83bf-e48e-a371-704da92f79ec-7c39e043" class="cart-last-step-div">
+              <div class="cart-page-shipping">
+                <p class="cart-message">Gefeliciteerd, je hebt gratis verzending!</p>
+              </div>
+              <div class="footer-price-section">
+                <p class="footer-subtotal"><span class="cart-footer-label">TOTAAL: </span><span cart="total-price"
+                    class="cart-footer-value">{{ cart.total_price | money_with_currency }}</span></p>
+              </div><input type="submit" value="Veilig Afrekenen" data-wait="Please wait..."
+                class="atc checkout__button w-button">
+              <div class="checkout-trust">
+                <div class="klarna-trust">
+                  <p class="klarna-trust-text">Sleep now. Pay later</p>
+                  <div bind="ca491f05-218e-f81e-ce8b-18d098eef18e" html:unwrap="true" class="w-embed"><svg
+                      class="payment-icon-cart" xmlns="http://www.w3.org/2000/svg" role="img" width="38" height="24"
+                      viewBox="0 0 38 24" aria-labelledby="pi-klarna">
+                      <title id="pi-klarna">Klarna</title>
+                      <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <path d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"
+                          fill="#FFB3C7"></path>
+                        <path d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"
+                          fill="#FFB3C7"></path>
+                        <path
+                          d="M34.117 13.184c-.487 0-.882.4-.882.892 0 .493.395.893.882.893.488 0 .883-.4.883-.893a.888.888 0 00-.883-.892zm-2.903-.69c0-.676-.57-1.223-1.274-1.223-.704 0-1.274.547-1.274 1.222 0 .675.57 1.223 1.274 1.223.704 0 1.274-.548 1.274-1.223zm.005-2.376h1.406v4.75h-1.406v-.303a2.446 2.446 0 01-1.394.435c-1.369 0-2.478-1.122-2.478-2.507 0-1.384 1.11-2.506 2.478-2.506.517 0 .996.16 1.394.435v-.304zm-11.253.619v-.619h-1.44v4.75h1.443v-2.217c0-.749.802-1.15 1.359-1.15h.016v-1.382c-.57 0-1.096.247-1.378.618zm-3.586 1.756c0-.675-.57-1.222-1.274-1.222-.703 0-1.274.547-1.274 1.222 0 .675.57 1.223 1.274 1.223.704 0 1.274-.548 1.274-1.223zm.005-2.375h1.406v4.75h-1.406v-.303A2.446 2.446 0 0114.99 15c-1.368 0-2.478-1.122-2.478-2.507 0-1.384 1.11-2.506 2.478-2.506.517 0 .997.16 1.394.435v-.304zm8.463-.128c-.561 0-1.093.177-1.448.663v-.535H22v4.75h1.417v-2.496c0-.722.479-1.076 1.055-1.076.618 0 .973.374.973 1.066v2.507h1.405v-3.021c0-1.106-.87-1.858-2.002-1.858zM10.465 14.87h1.472V8h-1.472v6.868zM4 14.87h1.558V8H4v6.87zM9.45 8a5.497 5.497 0 01-1.593 3.9l2.154 2.97H8.086l-2.341-3.228.604-.458A3.96 3.96 0 007.926 8H9.45z"
+                          fill="#0A0B09" fill-rule="nonzero"></path>
+                      </g>
+                    </svg>
+
+                    <style>
+                      .payment-icon-cart {
+                        width: 35px;
+                        height: 22px;
+                      }
+                    </style>
+                  </div>
+                </div>
+                <div class="trustpilot-tag">
+                  <div class="trustpilot-cart-wrapper"><img
+                      src="https://uploads-ssl.webflow.com/636ecf2d60057116cf39e03f/63962be8883c8507b2e66cf7_Trustpilot-1.svg"
+                      loading="lazy" alt="" width="80"><img
+                      src="https://uploads-ssl.webflow.com/636ecf2d60057116cf39e03f/63962bfb6204a06b509e7f35_trustpilot2.svg"
+                      loading="lazy" alt="" width="80"></div>
+                  <p class="klarna-trust-text">4.7 / 5</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+        <div class="w-form-done" tabindex="-1" role="region" aria-label="Cart success">
+          <div>Thank you! Your submission has been received!</div>
+        </div>
+        <div class="w-form-fail" tabindex="-1" role="region" aria-label="Cart failure">
+          <div>Oops! Something went wrong while submitting the form.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+
+{% schema %}
+{
+"name": "My Cart"
+}
+{% endschema %}

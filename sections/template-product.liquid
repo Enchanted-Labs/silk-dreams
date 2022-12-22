@@ -1,0 +1,687 @@
+{% assign selected_variant = product.selected_or_first_available_variant %}
+
+
+
+
+<style>
+  .lottie-animation-2 svg:nth-child(1) {
+    display: none;
+  }
+
+  .carousel-nav .carousel-cell.is-nav-selected {
+    border-bottom: 2px solid #CCCCCC;
+  }
+
+  .variant-buttons_wrapper label {
+    margin-right: 8px;
+    padding: 10px 26px;
+    border-style: solid;
+    border-color: #e2e2e2;
+    border-radius: 2px;
+    background-color: #fff;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    color: #191919;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+border-top-width: 1px;
+border-bottom-width: 1px;
+border-left-width: 1px;
+border-right-width: 1px;
+cursor: pointer;
+  }
+  
+  .variant-buttons_wrapper input[type="radio"] {
+    display: none;
+  }
+
+  .swatch-group input[type="radio"] {
+    display: none;
+  }
+  
+  .variant-buttons_wrapper input[type="radio"]:checked + label {
+    border-color: #191919;
+background-color: #191919;
+color: #fff;
+font-weight: 400;
+  }
+</style>
+
+{% if image.alt contains 'variant' %} 
+
+{% endif %}
+
+
+{% form 'product', product, id: 'product-form', novalidate: 'novalidate' %}
+<input type="hidden" name="id" value="{{ selected_variant.id }}">
+<div data-aos-delay="200" data-aos="fade-in" data-aos-easing="linear" data-aos-duration="500"
+  class="product-main-section aos-init aos-animate">
+  <div class="product-page">
+    <div class="container-product">
+      <div class="product-grid w-clearfix">
+        <div class="grid__item product__img__wrapper medium-up--one-half">
+
+          <div class="product__grid product__grid--slides flickity-enabled is-draggable is-fade"
+            data-product-slideshow="" data-slideshow-desktop-style="slideshow" data-slideshow-mobile-style="carousel"
+            style="--default-ratio: 100.0%" tabindex="0">
+
+
+
+
+            <div class="flickity-viewport" style="">
+              <div class="slider-wrapper">
+                {% for media in product.media %}
+                <div class="product__media" data-media-slide="" data-media-id="27558687801500"
+                  data-media-src-placeholder="//cdn.shopify.com/s/files/1/0596/9972/4444/products/main-canvas-6373a46472328bd59bac47d5_1x1.png?v=1668523185"
+                  data-type="image" aria-label="{{media.alt}}" data-image-filter=""
+                  data-aspect-ratio="1.0">
+                  <div>
+                    <div class="lazy-image mobile-zoom-wrapper">
+                      <img data-product-image="" class="srcset" data-image-id="27558687801500" alt="{{media.alt}}"
+                        srcset="{{ media | image_url }} 550w,{{ media | image_url }} 1100w,{{ media | image_url }} 1680w,{{ media | image_url }} 2048w,{{ media | image_url }} 2048w"
+                        sizes="(min-width: 768px), 50vw,
+                   100vw" src="{{ media | image_url }}" width="1180" height="1180">
+                      <div class="media__buttons__holder">
+                        <button class="media__button media__button--zoom" data-zoom-button="">
+                          <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-search"
+                            viewBox="0 0 16 16">
+                            <path
+                              d="M16 14.864L14.863 16l-4.24-4.241a6.406 6.406 0 01-4.048 1.392 6.61 6.61 0 01-4.65-1.925A6.493 6.493 0 01.5 9.098 6.51 6.51 0 010 6.575a6.536 6.536 0 011.922-4.652A6.62 6.62 0 014.062.5 6.52 6.52 0 016.575 0 6.5 6.5 0 019.1.5c.8.332 1.51.806 2.129 1.423a6.454 6.454 0 011.436 2.13 6.54 6.54 0 01.498 2.522c0 1.503-.468 2.853-1.4 4.048L16 14.864zM3.053 10.091c.973.972 2.147 1.461 3.522 1.461 1.378 0 2.551-.489 3.525-1.461.968-.967 1.45-2.138 1.45-3.514 0-1.37-.482-2.545-1.45-3.524-.981-.968-2.154-1.45-3.525-1.45-1.376 0-2.547.483-3.513 1.45-.973.973-1.46 2.146-1.46 3.523 0 1.375.483 2.548 1.45 3.515z">
+                            </path>
+                          </svg>
+                          <span class="visually-hidden">Zoom</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="media__thumb__holder " data-thumbs-holder="">
+            <div data-product-thumbs="" class="media__thumb__wrapper">
+              {% for media in product.media %}
+              <div class="media__thumb" data-slideshow-thumbnail="" data-aspect-ratio="1.0"
+                data-media-select="27558687801500" aria-label="{{media.alt}}" data-image-filter="">
+                <img alt="{{media.alt}}" src="{{ media | image_url }}">
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+
+          <div class="product-benefits-desktop">
+          <div class="product-usp-list-wrapper">
+            <ul role="list" class="product-usp-list-items w-list-unstyled">
+              {% for block in section.blocks %}
+              {% case block.type %}
+              {%- when 'benefit_check' -%}
+              <li class="list-item">
+                <img src="{{ 'benefit-checker.png' | asset_url }}" loading="lazy" alt="" class="benefit-checker-img">
+                <p class="product-benefit-text">{{ block.settings.benefit }}</p>
+              </li>
+              {%- endcase -%}
+              {%- endfor -%}
+            </ul>
+          </div>
+          </div>
+
+
+
+
+
+
+        </div>
+        <div class="grid__item medium-up--one-half">
+          {% for block in section.blocks %}
+          {% case block.type %}
+          {% when 'review' %}
+          <a href="#" class="trustpilot-link w-inline-block"><img src="{{ 'stars-4.5.svg' | asset_url }}" loading="lazy"
+              alt="" width="100">
+            <p option:text="Review Count" class="trustpilot-link-text">
+              4.8 /
+              <span class="text-span-7">{{ 'tccb7' | t }}</span>
+              • 342 dromers
+            </p>
+          </a>
+          {% endcase %}
+          {% endfor %}
+          {% for block in section.blocks %}
+          {% case block.type %}
+          {% when 'title' %}
+          <div class="product__title">
+            <div class="product__title__wrapper">
+              <h1 class="product__title-h1">{{ product.title }}</h1>
+            </div>
+          </div>
+          {% endcase %}
+          {% endfor %}
+          {% for block in section.blocks %}
+          {% case block.type %}
+          {% when 'tagline' %}
+          <div class="product__tagline">
+            <p option:text="Product Tagline" class="paragraph-29">Voor glanzende haren en een mooiere huid</p>
+          </div>
+          {% endcase %}
+          {% endfor %}
+          {% for block in section.blocks %}
+          {% case block.type %}
+          {% when 'price' %}
+          <div class="product__price" id="price-{{ section.id }}">
+            <p data-commerce-type="variation-price" class="product-price-p">{{ selected_variant.price | money }}</p>
+          </div>
+          {% endcase %}
+          {% endfor %}
+          
+
+          <div class="color-variant-information">
+            <label class="field-label-3" for="option-{{ section.id }}-{{ forloop.index0 }}">{{section.settings.swatch-title}}</label>
+            <div class="seperator"></div>
+            <div class="selected-text"><p id="color-selected-variant">{{ section.settings.swatch-color }}</p></div>
+          </div>
+          <div class="swatch-group">
+            {% for block in section.blocks %}
+              {% case block.type %}
+              {% when 'swatches' %}
+            <div class="image-swatch"><a href="{{block.settings.swatch-link}}"><img src="{{ block.settings.swatch-image | img_url }}" loading="lazy" alt="{{block.settings.swatch-alt}}" class="swatch-img"></a></div>
+              {% endcase %}
+              {% endfor %}
+          </div>
+
+
+          <div class="product-form">
+            {% for block in section.blocks %}
+              {% case block.type %}
+              {% when 'variant' %}
+                {% unless product.has_only_default_variant %}
+                <variant-selector data-url="{{ product.url }}" data-section="{{ section.id }}">
+                  {% for option in product.options_with_values %}
+                  {% if option.name == 'Color' %}
+                  {% assign color_option_index = forloop.index0 %}
+                  <div class="color-variant-information">
+                    <label class="field-label-3" for="option-{{ section.id }}-{{ forloop.index0 }}">{{ option.name }}</label>
+                    <div class="seperator"></div>
+                    <div class="selected-text"><p id="color-selected-variant">{{ product.metafields.custom.color_name }}</p></div>
+                  </div>
+                  <div class="swatch-group">
+                    {% for value in option.values %}
+                    {% assign image = value | image_swatch %}
+                    {% if image %}
+                    {% for variant in product.variants %}
+                    {% if variant.options[color_option_index] == value %}
+                    {% assign image = variant.featured_image %}
+                    {% endif %}
+                    {% endfor %}
+                    <input type="radio" class="variant-button" name="options[{{ option.name | escape }}]" value="{{ value | escape }}" id="option-{{ section.id }}-{{ forloop.index0 }}-{{ value | escape }}" {% if option.selected_value == value %} checked {% endif %}>
+                    <label aria-label="{{ value }}" class="image-swatch" for="option-{{ section.id }}-{{ forloop.index0 }}-{{ value | escape }}" data-product-url="{{ product-link }}">
+                      {% if forloop.index == 1 %}  
+                    <a class="swatch-link-1" href="{{ product.metafields.custom.product_swatch_1_link }}">
+                      <img class="swatch-img" src="{{ image.src | img_url: 'small' }}" alt="{{ value }}" />
+                      </a>
+                    {% endif %}
+                    {% if forloop.index == 2 %}  
+                    <a class="swatch-link-2" href="{{ product.metafields.custom.product_swatch_2_link }}">
+                      <img class="swatch-img" src="{{ image.src | img_url: 'small' }}" alt="{{ value }}" />
+                      </a>
+                    {% endif %}
+                    {% if forloop.index == 3 %}  
+                    <a class="swatch-link-3" href="{{ product.metafields.custom.product_swatch_3_link }}">
+                      <img class="swatch-img" src="{{ image.src | img_url: 'small' }}" alt="{{ value }}" />
+                      </a>
+                    {% endif %}
+                    {% if forloop.index == 4 %}  
+                    <a class="swatch-link-4" href="{{ product.metafields.custom.product_swatch_4_link }}">
+                      <img class="swatch-img" src="{{ image.src | img_url: 'small' }}" alt="{{ value }}" />
+                      </a>
+                    {% endif %}
+                    {% if forloop.index == 5 %}  
+                    <a class="swatch-link-5" href="{{ product.metafields.custom.product_swatch_5_link }}">
+                      <img class="swatch-img" src="{{ image.src | img_url: 'small' }}" alt="{{ value }}" />
+                      </a>
+                    {% endif %}
+                    {% if forloop.index == 6 %}  
+                    <a class="swatch-link-6" href="{{ product.metafields.custom.product_swatch_6_link }}">
+                      <img class="swatch-img" src="{{ image.src | img_url: 'small' }}" alt="{{ value }}" />
+                      </a>
+                    {% endif %}
+                    {% if forloop.index == 7 %}  
+                    <a class="swatch-link-7" href="{{ product.metafields.custom.product_swatch_7_link }}">
+                      <img class="swatch-img" src="{{ image.src | img_url: 'small' }}" alt="{{ value }}" />
+                      </a>
+                    {% endif %}
+                    {% if forloop.index == 8 %}  
+                    <a class="swatch-link-8" href="{{ product.metafields.custom.product_swatch_8_link }}">
+                      <img class="swatch-img" src="{{ image.src | img_url: 'small' }}" alt="{{ value }}" />
+                      </a>
+                    {% endif %}
+                    {% if forloop.index == 9 %}  
+                    <a class="swatch-link-9" href="{{ product.metafields.custom.product_swatch_9_link }}">
+                      <img class="swatch-img" src="{{ image.src | img_url: 'small' }}" alt="{{ value }}" />
+                      </a>
+                    {% endif %}
+                    {% if forloop.index == 10 %}  
+                    <a class="swatch-link-10" href="{{ product.metafields.custom.product_swatch_10_link }}">
+                      <img class="swatch-img" src="{{ image.src | img_url: 'small' }}" alt="{{ value }}" />
+                      </a>
+                    {% endif %}
+                    {% if forloop.index == 11 %}  
+                    <a class="swatch-link-11" href="{{ product.metafields.custom.product_swatch_11_link }}">
+                      <img class="swatch-img" src="{{ image.src | img_url: 'small' }}" alt="{{ value }}" />
+                      </a>
+                    {% endif %}
+                    {% if forloop.index == 12 %}  
+                    <a class="swatch-link-12" href="{{ product.metafields.custom.product_swatch_12_link }}">
+                      <img class="swatch-img" src="{{ image.src | img_url: 'small' }}" alt="{{ value }}" />
+                      </a>
+                    {% endif %}
+                    </label>
+                    {% endif %}
+                    {% endfor %}
+                  </div>
+                  {% else %}
+                      <div class="variant-information">
+                        <label class="field-label-3" for="option-{{ section.id }}-{{ forloop.index0 }}">{{ option.name }}</label>
+                        <div class="seperator"></div>
+                        <div class="selected-text"><p id="selected-variant"> {{ product.variants.first.title }} </p></div>
+                      </div>
+                      <div name="options[{{ option.name | escape }}]" class="variant-buttons_wrapper w-commerce-commerceaddtocartoptionpillgroup button-group" id="option-{{ section.id }}-{{ forloop.index0 }}">
+                        {% for value in option.values %}
+                          <input type="radio" class="variant-button" name="options[{{ option.name | escape }}]" value="{{ value | escape }}" id="option-{{ section.id }}-{{ forloop.index0 }}-{{ value | escape }}" {% if option.selected_value == value %} checked {% endif %}>
+                          <label for="option-{{ section.id }}-{{ forloop.index0 }}-{{ value | escape }}">{{ value }}</label>
+                        {% endfor %}
+                      </div>
+                    {% endif %}
+                    <script type="application/json">
+                      {{ product.variants | json }}
+                    </script>
+                  {% endfor %}
+                </variant-selector>
+              {% endunless %}
+          {% endcase %}
+        {% endfor %}         
+            {% for block in section.blocks %}
+            {% case block.type %}
+            {% when 'buy-buttons' %}
+              
+            <button type="submit" name="add" class="atc w-inline-block" id="add-to-cart">
+              <div class="text-block-6">Aan het winkelmandje toevoegen</div>
+              <div bind="417c64ce-191a-e341-a26d-ab91ae21c158" class="icon-embed-xsmall w-embed">
+                <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M7 15C7.82843 15 8.5 15.6716 8.5 16.5C8.5 17.3284 7.82843 18 7 18C6.17157 18 5.5 17.3284 5.5 16.5C5.5 15.6716 6.17157 15 7 15ZM14 15C14.8284 15 15.5 15.6716 15.5 16.5C15.5 17.3284 14.8284 18 14 18C13.1716 18 12.5 17.3284 12.5 16.5C12.5 15.6716 13.1716 15 14 15ZM3.5 2H5.5C6.01284 2 6.43551 2.38604 6.49327 2.88338L6.5 3V4H17.5C18.1253 4 18.587 4.56329 18.487 5.16215L18.4615 5.27472L16.876 10.8242C16.5247 12.0535 15.4362 12.9185 14.173 12.9945L13.9914 13H7.5C5.90232 13 4.59634 11.7511 4.50509 10.1763L4.5 10V4H3.5C2.94772 4 2.5 3.55228 2.5 3C2.5 2.48716 2.88604 2.06449 3.38338 2.00673L3.5 2H5.5H3.5ZM16.1743 6H6.5V10C6.5 10.5128 6.88604 10.9355 7.38338 10.9933L7.5 11H13.9914C14.3973 11 14.7585 10.7554 14.9129 10.3884L14.9529 10.2747L16.1743 6Z"
+                    fill="white"></path>
+                </svg>
+              </div>
+            </button>
+            {% endcase %}
+            {% endfor %}
+            {% for block in section.blocks %}
+            {% case block.type %}
+            {% when 'atc-message' %}
+            <div position-id="48c5cfec-8863-8e54-a0bb-3aabb8c7d6ed" class="cta-message">
+              <div class="lottie-animation-2" data-w-id="48c5cfec-8863-8e54-a0bb-3aabb8c7d6ee"
+                data-animation-type="lottie" data-src="{{ 'lf20_lccjnf8m.json' | asset_url }}" data-loop="1"
+                data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg"
+                data-default-duration="16" data-duration="16"></div>
+              <p option:text="Product Announcement" class="cta-message-p">Op voorraad. Vandaag besteld, morgen in huis.
+              </p>
+            </div>
+            {% endcase %}
+            {% endfor %}
+          </div>
+
+
+          <div class="product-usps">
+            {% for block in section.blocks %}
+            {% case block.type %}
+            {% when 'product_usp' %}
+            <div class="benefit-div" block.shopify_attributes>
+              <div class="benefit-checkmark">
+                <img src="{{block.settings.benefit-icon | img_url:'master'}}" alt="">
+              </div>
+              <p class="benefit-tekst">{{ block.settings.usp }}</p>
+            </div>
+            {% endcase %}
+            {% endfor %}
+          </div>
+          <ul role="list" class="accordion_list-wrapper w-list-unstyled">
+            {% for block in section.blocks %}
+            {% case block.type %}
+            {% when 'accordion' %}
+            <li class="accordion_item-wrapper" block.shopify_attributes>
+              <div data-click="accordion" role="region" data-w-id="30dadfb5-ed14-6d17-3c34-83624bde4c6d"
+                class="accordion_item">
+                <a aria-expanded="false" role="button" href="#" class="accordion_title-wrapper w-inline-block">
+                  <div class="accordion-paragraph">{{ block.settings.accordion_title }}</div>
+                  <div class="accordion_arrow w-embed">
+                    <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M0.39486 0.294274C0.558947 0.130237 0.781466 0.0380859 1.01348 0.0380859C1.2455 0.0380859 1.46802 0.130237 1.63211 0.294274L5.96336 4.62552L10.2946 0.294274C10.4596 0.134886 10.6807 0.0466904 10.9101 0.0486841C11.1395 0.0506777 11.359 0.142701 11.5212 0.304933C11.6834 0.467165 11.7755 0.686626 11.7774 0.916048C11.7794 1.14547 11.6912 1.3665 11.5319 1.53152L6.58198 6.4814C6.4179 6.64544 6.19538 6.73759 5.96336 6.73759C5.73134 6.73759 5.50882 6.64544 5.34474 6.4814L0.39486 1.53152C0.230823 1.36744 0.138672 1.14492 0.138672 0.912899C0.138672 0.68088 0.230823 0.458361 0.39486 0.294274Z"
+                        fill="currentColor"></path>
+                    </svg>
+                  </div>
+                </a>
+                <div aria-hidden="true" class="accordion_description-wrapper">
+                  <p class="explainer-description">{{ block.settings.accordion_paragraph }}</p>
+                </div>
+              </div>
+            </li>
+            {% endcase %}
+            {% endfor %}
+          </ul>
+          {% for block in section.blocks %}
+          {% case block.type %}
+          {% when 'payment-icons' %}
+          <div class="payment-methods">
+            <img src="{{ 'group-300.svg' | asset_url }}" loading="lazy" alt="" class="payment-icon"><img
+              src="{{ 'group-319.svg' | asset_url }}" loading="lazy" alt="" class="payment-icon"><img
+              src="{{ 'group-318.svg' | asset_url }}" loading="lazy" alt="" class="payment-icon"><img
+              src="{{ 'mastercard.svg' | asset_url }}" loading="lazy" alt="" class="payment-icon"><img
+              src="{{ 'group-315.svg' | asset_url }}" loading="lazy" alt="" class="payment-icon"><img
+              src="{{ 'group-314.svg' | asset_url }}" loading="lazy" alt="" class="payment-icon"><img
+              src="{{ 'group-313.svg' | asset_url }}" loading="lazy" alt="" class="payment-icon"><img
+              src="{{ 'group-310.svg' | asset_url }}" loading="lazy" alt="" class="payment-icon">
+          </div>
+          {% endcase %}
+          {% endfor %}
+          <div class="product-benefits-mobile-viewports">
+            <div>
+              <ul role="list" class="product-usp-list-items w-list-unstyled">
+                {% for block in section.blocks %}
+                {% case block.type %}
+                {% when 'benefit_check_mobile' %}
+                <li class="list-item">
+                  <img src="{{ 'benefit-checker.png' | asset_url }}" loading="eager" alt="" class="benefit-checker-img">
+                  <p option:title="Benefit" class="product-benefit-text">
+                    {{ block.settings.benefit-mobile }}
+                  </p>
+                </li>
+                {% endcase %}
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endform %}
+
+<script>
+  window.onload = function() {
+  // First, get the element with the ID "color-selected-variant"
+const colorSelectedVariantElement = document.getElementById('color-selected-variant');
+
+// Next, get the text content of that element
+const colorName = colorSelectedVariantElement.textContent;
+
+// Now, get all the images with the class "swatch-img"
+const swatchImages = document.querySelectorAll('.swatch-img');
+
+// Loop through the images and find the one with the matching alt text
+for (const img of swatchImages) {
+  if (img.alt === colorName) {
+    // Add the "active" class to the image
+    img.classList.add('active');
+
+    // Create the "active-selected-swatch" div and append it to the image's parent element
+    const activeSwatchDiv = document.createElement('div');
+    activeSwatchDiv.classList.add('active-selected-swatch');
+    img.parentElement.appendChild(activeSwatchDiv);
+  }
+}
+};
+</script>
+
+<script>
+  class VariantSelector extends HTMLElement {
+    constructor() {
+      super();
+      this.addEventListener("change", this.onVariantChange);
+    }
+    onVariantChange() {
+      this.getSelectedOptions();
+      this.getSelectedVariant();
+      if (this.currentVariant) {
+        this.updateURL();
+        this.updateFormID();
+        this.updatePrice();
+        this.updateSelectedVariantLabel();
+        this.updateColorSelectedVariantLabel()
+      }
+    }
+    getSelectedOptions() {
+      this.options = Array.from(this.querySelectorAll('input[type="radio"]:checked'), (radio) => radio.value);
+      console.log(this.options);
+    }
+    getVariantJSON() {
+      this.variantData = this.variantData || JSON.parse(this.querySelector('[type="application/json"]').textContent);
+      return this.variantData;
+    }
+    getSelectedVariant() {
+      this.currentVariant = this.getVariantJSON().find(variant => {
+        const findings = !variant.options.map((option, index) => {
+          return this.options[index] === option;
+        }).includes(false);
+        if (findings) return variant;
+      });
+      console.log(this.currentVariant);
+    }
+    updateURL() {
+      if (!this.currentVariant) return;
+      window.history.replaceState({}, '', `${this.dataset.url}?variant=${this.currentVariant.id}`);
+    }
+    updateFormID() {
+      const form_input = document.querySelector("#product-form").querySelector('input[name="id"]');
+      form_input.value = this.currentVariant.id;
+    }
+    updatePrice() {
+      fetch(`${this.dataset.url}?variant=${this.currentVariant.id}&section_id=${this.dataset.section}`)
+        .then((response) => response.text())
+        .then((responseText) => {
+          const id = `price-${this.dataset.section}`;
+          const html = new DOMParser().parseFromString(responseText, 'text/html');
+          const oldPrice = document.getElementById(id);
+          const newPrice = html.getElementById(id);
+          if (oldPrice && newPrice) oldPrice.innerHTML = newPrice.innerHTML;
+        });
+    }
+  }
+  customElements.define("variant-selector", VariantSelector);
+</script>
+
+<script>
+  const $swatchDivs = $('div[aria-label="swatch"]');
+
+// Loop through the divs and hide them
+$swatchDivs.each(function() {
+  $(this).hide();
+});
+</script>
+
+
+<script>var currentSection = document.currentScript.closest('.shopify-section'); currentSection.outerHTML = currentSection.innerHTML;</script>
+<script>var currentSection = document.currentScript.closest('.shopify-section'); currentSection.setAttribute("class", "product-usps");</script>
+<script>var currentSection = document.currentScript.closest('.shopify-section'); currentSection.setAttribute("class", "product-benefits-mobile-viewports");</script>
+<script>var currentSection = document.currentScript.closest('.shopify-section'); currentSection.setAttribute("class", "product-benefits-desktop");</script>
+
+{% schema %}
+{
+"name": "Product",
+"settings": [
+{
+"type": "header",
+"content": "Layout"
+},
+{
+"type": "select",
+"id": "layout",
+"label": "Desktop layout",
+"default": "thumbnails-below@slides",
+"options": [
+{ "value": "none@single", "label": "Stacked"},
+{ "value": "none@columns", "label": "Grid"},
+{ "value": "none@mosaic", "label": "Mosaic"},
+{ "value": "thumbnails-left@slides", "label": "Showcase with vertical thumbnails"},
+{ "value": "thumbnails-below@slides", "label": "Showcase with horizontal thumbnails"}
+]
+},
+{
+"type": "select",
+"id": "image_width",
+"label": "Image width",
+"default": "wide",
+"options": [
+{ "value": "wide", "label": "Wide"},
+{ "value": "half", "label": "Half"}
+]
+},
+{
+"type": "range",
+"id": "image_spacing",
+"min": 0,
+"max": 50,
+"step": 1,
+"unit": "px",
+"label": "Image spacing",
+"default": 10
+},
+{
+  "type": "text",
+  "id": "swatch-title",
+  "label": "Swatch Title"
+},
+{
+  "type": "text",
+  "id": "swatch-color",
+  "label": "Swatch Color"
+}
+],
+"blocks": [
+{
+"type": "review",
+"name": "Review",
+"limit": 1
+},
+{
+"type": "title",
+"name": "Title",
+"limit": 1
+},
+{
+"type": "tagline",
+"name": "Tagline",
+"limit": 1
+},
+{
+"type": "price",
+"name": "Price",
+"limit": 1
+},
+{
+"type": "swatches",
+"name": "Swatches",
+"settings": [
+  {
+    "type": "image_picker",
+    "id": "swatch-image",
+    "label": "Swatch Image"
+  },
+  {
+    "type": "url",
+    "id": "swatch-link",
+    "label": "Swatch Link"
+  },
+  {
+    "type": "text",
+    "id": "swatch-alt",
+    "label": "Swatch Alt"
+  }
+]
+},
+{
+"type": "variant",
+"name": "Variant",
+"limit": 1
+},
+{
+"type": "buy-buttons",
+"name": "Buy Buttons",
+"limit": 1
+},
+{
+"type": "atc-message",
+"name": "Atc Message",
+"limit": 1
+},
+{
+"type": "payment-icons",
+"name": "Payment Icons",
+"limit": 1
+},
+{
+"name": "Benefit Check",
+"type": "benefit_check",
+"settings": [
+{
+"type": "text",
+"id": "benefit",
+"label": "Benefit",
+"default": "Verminderd acne & roodheden"
+}
+]
+},
+{
+"name": "Benefit Check Mobile",
+"type": "benefit_check_mobile",
+"settings": [
+{
+"type": "text",
+"id": "benefit-mobile",
+"label": "Benefit",
+"default": "Verminderd acne & roodheden"
+}
+]
+},
+{
+"name": "Product USP",
+"type": "product_usp",
+"settings": [
+{
+"type": "text",
+"id": "usp",
+"label": "USP",
+"default": "Betaal later binnen 30 dagen"
+},
+{
+"type": "image_picker",
+"id": "benefit-icon",
+"label": "Image"
+}
+]
+},
+{
+"name": "Accordion",
+"type": "accordion",
+"settings": [
+{
+"type": "text",
+"id": "accordion_title",
+"label": "Accordion Title",
+"default": "Je zult niet meer zonder kunnen!"
+},
+{
+"type": "textarea",
+"id": "accordion_paragraph",
+"label": "Accordion Paragraph"
+}
+]
+}
+]
+}
+{% endschema %}

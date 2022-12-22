@@ -1,0 +1,66 @@
+{
+  "tn72635b8c": "Uitstekend",
+  "t31": "1",
+  "t6fd3006f": "Vul hier je email adres in!",
+  "t22d52a": "JOIN",
+  "tn729fa454": "Slaapbundels",
+  "t63226c0a": "De slaapbundels van Silk Dreams bevatten een zijden kussensloop, een zijden slaapmasker en een grote zijden scrunchie.",
+  "tn4de12eac": "SORTEER",
+  "t5b5e2c33": "4.8 \/ ",
+  "tccb7": "5.0",
+  "tn13165f53": " • 342 dromers",
+  "tn73b4c119": "Zijden Slaap bundel",
+  "tn33081804": "Champagne",
+  "tn337eadd0": "€69,-",
+  "t5bc63127": "6 kleuren beschikbaar",
+  "tae9d4a5": "Bekijk nu",
+  "tn7dc55357": "ZIJDEN SLAAP",
+  "t757223b0": "BUNDEL",
+  "t45384a1": "Kleur",
+  "t2351b295": "Olijf Groen",
+  "tn4885923d": "Standaard (52*76cm)",
+  "t7aaa2dac": "This product is out of stock.",
+  "tn1c765d0d": "Product is not available in this quantity.",
+  "tn54cb6016": "Customer Information",
+  "t3ff5b7c": "Email",
+  "tn35b49c7e": "Shipping Address",
+  "t12d3df93": "Shipping Method",
+  "tn175ec138": "Payment Info",
+  "t7df1": " \/ ",
+  "t789bff0f": "Billing Address",
+  "tn3eedfb0d": "Items in Order",
+  "tn77079b6c": "Order Summary",
+  "tn76f396dc": "Subtotal",
+  "t4d3eb24": "Total",
+  "tn3c758080": "€44,00",
+  "tn649eed4e": "Here you custom code the variants",
+  "t4a026ec4": "Aan het winkelmandje toevoegen",
+  "t1c734b07": "BETAAL LATER BINNEN 30 DAGEN",
+  "t6d8253b5": "100 NACHTEN PROEFSLAPEN",
+  "tn23fc32c2": "2.000+ TEVREDEN MEIDEN",
+  "t1f6ad604": "4,5 \/ 5,0 OP TRUSTPILOT",
+  "t190bbcf2": "VOLGENDE DAG GRATIS IN HUIS",
+  "t3923e24f": "2,000+ TEVREDEN KLANTEN",
+  "tn604adfd3": "404 - Pagina niet gevonden",
+  "t105703ee": "De pagina waar jij naar zocht is niet beschikbaar. Klik hier om naar onze bestseller geleid te worden.",
+  "general": {
+    "accessibility": {
+      "unit_price_separator": "per"
+    },
+    "meta": {
+      "tags": "Tagged \"{{ tags }}\"",
+      "page": "Page {{ page }}"
+    },
+    "search": {
+      "no_results_html": "Your search for \"{{ terms }}\" did not yield any results.",
+      "results_with_count": {
+        "one": "{{ count }} result for \"{{ terms }}\"",
+        "other": "{{ count }} results for \"{{ terms }}\""
+      },
+      "heading": "Search our site",
+      "placeholder": "Search",
+      "submit": "Submit",
+      "close": "Close search"
+    }
+  }
+}

@@ -1,0 +1,297 @@
+{
+  "sections": {
+    "template": {
+      "type": "template-product",
+      "blocks": {
+        "77fbfca7-51f2-4145-8d18-6aa007f5b6cb": {
+          "type": "review",
+          "settings": {
+          }
+        },
+        "78ad8ea4-bf50-486d-b568-297bfc19f61a": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "7d2180c0-817d-4865-9030-e13e34540371": {
+          "type": "tagline",
+          "settings": {
+          }
+        },
+        "babd0d90-6044-4e65-99f1-853b10478141": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "5afcf6e5-9f04-4a96-9f56-a0cc1ab66952": {
+          "type": "swatches",
+          "settings": {
+            "swatch-link": "",
+            "swatch-alt": ""
+          }
+        },
+        "f603e9d1-d3a5-44f4-b13a-88fa62f28d87": {
+          "type": "variant",
+          "settings": {
+          }
+        },
+        "38e6d554-1b6a-4b8f-98f3-85a205a4e504": {
+          "type": "buy-buttons",
+          "settings": {
+          }
+        },
+        "8ffc1653-d07a-4081-9f86-3caf459818bc": {
+          "type": "atc-message",
+          "settings": {
+          }
+        },
+        "e1ef7f3e-cc00-4838-ada7-80f460e08da7": {
+          "type": "payment-icons",
+          "settings": {
+          }
+        },
+        "8f5d612b-5566-4d2b-a443-0aba758818c7": {
+          "type": "benefit_check",
+          "settings": {
+            "benefit": "Verminderd acne & roodheden"
+          }
+        },
+        "81303b42-552d-4163-a8f0-e5a56661977a": {
+          "type": "benefit_check",
+          "settings": {
+            "benefit": "Verminderd acne & roodheden"
+          }
+        },
+        "6987a2a6-a3f5-40d5-9996-d69f98ec95dc": {
+          "type": "benefit_check",
+          "settings": {
+            "benefit": "Verminderd acne & roodheden"
+          }
+        },
+        "590e56d1-7baf-4104-9df1-4fb3302b63e5": {
+          "type": "benefit_check",
+          "settings": {
+            "benefit": "Verminderd acne & roodheden"
+          }
+        },
+        "83e670eb-b9bb-4e28-8fd9-11114cc84746": {
+          "type": "benefit_check_mobile",
+          "settings": {
+            "benefit-mobile": "Verminderd acne"
+          }
+        },
+        "0b36a27e-f13a-460b-9009-3ac41c58da73": {
+          "type": "benefit_check_mobile",
+          "settings": {
+            "benefit-mobile": "Verminderd idk"
+          }
+        },
+        "2d1e1192-e5c7-4b28-a7c8-1913171c355a": {
+          "type": "product_usp",
+          "settings": {
+            "usp": "Betaal later binnen 30 dagen"
+          }
+        },
+        "191f604e-a674-4355-9e3a-8e4d63c76dd3": {
+          "type": "product_usp",
+          "settings": {
+            "usp": "Betaal later binnen 30 dagen"
+          }
+        },
+        "139dc70a-d718-4c01-8547-07e63799d246": {
+          "type": "product_usp",
+          "settings": {
+            "usp": "Betaal later binnen 30 dagen"
+          }
+        },
+        "4e6da9e5-c454-4bcf-9723-5a606e336d33": {
+          "type": "accordion",
+          "settings": {
+            "accordion_title": "Je zult niet meer zonder kunnen!",
+            "accordion_paragraph": "sdsdasdasdasd"
+          }
+        },
+        "89244d97-2159-466b-a464-1ea30a23d94e": {
+          "type": "accordion",
+          "settings": {
+            "accordion_title": "Je zult niet meer zonder kunnen!",
+            "accordion_paragraph": "aaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        },
+        "9981e15b-81bd-41f2-a6b8-b2bc77d8d2ae": {
+          "type": "accordion",
+          "settings": {
+            "accordion_title": "Je zult niet meer zonder kunnen!",
+            "accordion_paragraph": ""
+          }
+        }
+      },
+      "block_order": [
+        "77fbfca7-51f2-4145-8d18-6aa007f5b6cb",
+        "78ad8ea4-bf50-486d-b568-297bfc19f61a",
+        "7d2180c0-817d-4865-9030-e13e34540371",
+        "babd0d90-6044-4e65-99f1-853b10478141",
+        "5afcf6e5-9f04-4a96-9f56-a0cc1ab66952",
+        "f603e9d1-d3a5-44f4-b13a-88fa62f28d87",
+        "38e6d554-1b6a-4b8f-98f3-85a205a4e504",
+        "8ffc1653-d07a-4081-9f86-3caf459818bc",
+        "e1ef7f3e-cc00-4838-ada7-80f460e08da7",
+        "8f5d612b-5566-4d2b-a443-0aba758818c7",
+        "81303b42-552d-4163-a8f0-e5a56661977a",
+        "6987a2a6-a3f5-40d5-9996-d69f98ec95dc",
+        "590e56d1-7baf-4104-9df1-4fb3302b63e5",
+        "83e670eb-b9bb-4e28-8fd9-11114cc84746",
+        "0b36a27e-f13a-460b-9009-3ac41c58da73",
+        "2d1e1192-e5c7-4b28-a7c8-1913171c355a",
+        "191f604e-a674-4355-9e3a-8e4d63c76dd3",
+        "139dc70a-d718-4c01-8547-07e63799d246",
+        "4e6da9e5-c454-4bcf-9723-5a606e336d33",
+        "89244d97-2159-466b-a464-1ea30a23d94e",
+        "9981e15b-81bd-41f2-a6b8-b2bc77d8d2ae"
+      ],
+      "settings": {
+        "layout": "thumbnails-below@slides",
+        "image_width": "wide",
+        "image_spacing": 10,
+        "swatch-title": "Color",
+        "swatch-color": "{{ product.metafields.custom.color_name.value }}"
+      }
+    },
+    "18fa579e-9793-444e-a989-53fecd0698a1": {
+      "type": "beauty-dreaming-section",
+      "blocks": {
+        "501cedbf-14d8-4560-a58f-0a8e8d5117a1": {
+          "type": "benefit_slide",
+          "settings": {
+            "headline": "Wakker worden met een morning glow",
+            "paragraph": "Zijde zorgt dat je wakker wordt met een natuurlijke glans en glanzende haren. Het fijn geweven kussensloop zorgt er voor dat je haar niet klit of afbreekt tijdens het slapen."
+          }
+        },
+        "602ba771-f7a4-4992-9d0e-77e7f8496857": {
+          "type": "benefit_slide",
+          "settings": {
+            "headline": "Wakker worden met een morning glow",
+            "paragraph": "Zijde zorgt dat je wakker wordt met een natuurlijke glans en glanzende haren. Het fijn geweven kussensloop zorgt er voor dat je haar niet klit of afbreekt tijdens het slapen."
+          }
+        },
+        "49ee425d-3c7a-493e-a63b-1f7ec1460284": {
+          "type": "benefit_slide",
+          "settings": {
+            "headline": "Wakker worden met een morning glow",
+            "paragraph": "Zijde zorgt dat je wakker wordt met een natuurlijke glans en glanzende haren. Het fijn geweven kussensloop zorgt er voor dat je haar niet klit of afbreekt tijdens het slapen."
+          }
+        }
+      },
+      "block_order": [
+        "501cedbf-14d8-4560-a58f-0a8e8d5117a1",
+        "602ba771-f7a4-4992-9d0e-77e7f8496857",
+        "49ee425d-3c7a-493e-a63b-1f7ec1460284"
+      ],
+      "settings": {
+        "header": "Beauty made during your dreams.",
+        "benefit_1_headline": "Verassende beauty voordelen",
+        "benefit_1_paragraph": "Zijde zorgt dat je wakker wordt met een natuurlijke glans en glanzende haren. Het fijn geweven kussensloop zorgt er voor dat je haar niet klit of afbreekt tijdens het slapen.",
+        "benefit_2_headline": "Gemaakt voor next-level skincare",
+        "benefit_2_paragraph": "Alle kussenslopen van Silk Dreams bevatten zilverionen technologie dat 99.7% van alle bacteriën elimineert. Zo bescherm je jouw huid tegen huidproblemen zoals acne, puistjes, onzuiverheden en roodheid.",
+        "benefit_3_headline": "Verwen jezelf of een ander",
+        "benefit_3_paragraph": "Elk item wordt prachtig verpakt en geleverd in een mooie geschenkdoos. Hergebruik je doos om je sieraden of schoonheidsproducten in op te bergen.",
+        "paragraph": "Naast een glowy skin en een stralende huid geniet je ook nog eens van glanzende haren. Het fijn geweven kussensloop zorgt er voor dat je haar niet klit of afbreekt tijdens het slapen."
+      }
+    },
+    "6fb42b08-846c-4bb7-bf71-9edf775f3c20": {
+      "type": "happy-customers",
+      "blocks": {
+        "0d8501f5-1df3-4ea6-9cbd-5790342391d7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/influencer-pic-p-1080.png"
+          }
+        },
+        "9d78789e-31c6-4aaf-8843-8a05045351f5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_2131-11.png"
+          }
+        },
+        "34c5bb7d-2219-4ccd-b315-3ad7d89639ba": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_2131-7.png"
+          }
+        },
+        "df82c91a-22b3-47d2-86f9-24a833d35b56": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_2131-10.png"
+          }
+        },
+        "887a5952-98dd-4217-b7b1-2fd0ba828d30": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/636f4744a81428f137879746_floor-picca-green.webp"
+          }
+        },
+        "48c696a8-d7f0-4da9-ae3e-e155c7fe066a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/636f428371bc73c7389b6bd2_DSC05136.jpg"
+          }
+        },
+        "a31b73f7-4672-427d-821c-77e5915741ab": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_2131-8.png"
+          }
+        },
+        "6f2cb7a0-71b6-4786-acf5-2966e751181f": {
+          "type": "icon_with_text",
+          "settings": {
+            "paragraph": "1.300 MEIDENGINGEN JE VOOR",
+            "icon": "<svg width=\"25\" height=\"25\" viewbox=\"0 0 25 25\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n              <path d=\"M9.87537 22.8278L8.19445 18.3473C8.06262 17.9959 7.78533 17.7186 7.43392 17.5868L2.95342 15.9059C2.69392 15.8085 2.69392 15.4415 2.95342 15.3441L7.43392 13.6632C7.78533 13.5314 8.06262 13.2541 8.19445 12.9027L9.87537 8.42217C9.97272 8.16267 10.3398 8.16267 10.4371 8.42217L12.118 12.9027C12.2499 13.2541 12.5272 13.5314 12.8786 13.6632L17.3591 15.3441C17.6186 15.4415 17.6186 15.8085 17.3591 15.9059L12.8786 17.5868C12.5272 17.7186 12.2499 17.9959 12.118 18.3473L10.4371 22.8278C10.3398 23.0873 9.97272 23.0873 9.87537 22.8278Z\" stroke=\"black\"><\/path>\n              <path d=\"M19.1579 10.4149L18.5132 8.73858C18.3913 8.42165 18.1408 8.1712 17.8239 8.04931L16.1476 7.40459C15.8057 7.2731 15.8057 6.7894 16.1476 6.65791L17.8239 6.01319C18.1408 5.8913 18.3913 5.64085 18.5132 5.32392L19.1579 3.64756C19.2894 3.30567 19.7731 3.30567 19.9046 3.64755L20.5493 5.32392C20.6712 5.64085 20.9217 5.8913 21.2386 6.01319L22.9149 6.65791C23.2568 6.7894 23.2568 7.2731 22.9149 7.40459L21.2386 8.04931C20.9217 8.1712 20.6712 8.42165 20.5493 8.73858L19.9046 10.4149C19.7731 10.7568 19.2894 10.7568 19.1579 10.4149Z\" stroke=\"black\" stroke-width=\"0.8\"><\/path>\n              <path d=\"M4.24992 7.44664L3.5385 5.50193C3.46263 5.29454 3.29921 5.13112 3.09182 5.05525L1.14711 4.34383C1.13065 4.33781 1.12506 4.3309 1.12222 4.32657C1.11809 4.32031 1.11429 4.31004 1.11429 4.29688C1.11429 4.28371 1.11809 4.27344 1.12222 4.26718C1.12506 4.26285 1.13065 4.25594 1.14711 4.24992L3.09182 3.5385C3.29921 3.46263 3.46263 3.29921 3.5385 3.09182L4.24992 1.14711C4.25594 1.13065 4.26285 1.12506 4.26718 1.12222C4.27344 1.11809 4.28371 1.11429 4.29688 1.11429C4.31004 1.11429 4.32031 1.11809 4.32657 1.12222C4.3309 1.12506 4.33781 1.13065 4.34383 1.14711L5.05525 3.09182C5.13112 3.29921 5.29454 3.46263 5.50193 3.5385L7.44664 4.24992C7.4631 4.25594 7.46869 4.26285 7.47153 4.26718C7.47566 4.27344 7.47946 4.28371 7.47946 4.29687C7.47946 4.31004 7.47566 4.32031 7.47153 4.32657C7.46869 4.3309 7.4631 4.33781 7.44664 4.34383L5.50193 5.05525C5.29454 5.13112 5.13112 5.29454 5.05525 5.50193L4.34383 7.44664C4.33781 7.4631 4.3309 7.46869 4.32657 7.47153C4.32031 7.47566 4.31004 7.47946 4.29688 7.47946C4.28371 7.47946 4.27344 7.47566 4.26718 7.47153C4.26285 7.46869 4.25594 7.4631 4.24992 7.44664Z\" stroke=\"black\" stroke-width=\"0.7\"><\/path>\n            <\/svg>"
+          }
+        }
+      },
+      "block_order": [
+        "0d8501f5-1df3-4ea6-9cbd-5790342391d7",
+        "9d78789e-31c6-4aaf-8843-8a05045351f5",
+        "34c5bb7d-2219-4ccd-b315-3ad7d89639ba",
+        "df82c91a-22b3-47d2-86f9-24a833d35b56",
+        "887a5952-98dd-4217-b7b1-2fd0ba828d30",
+        "48c696a8-d7f0-4da9-ae3e-e155c7fe066a",
+        "a31b73f7-4672-427d-821c-77e5915741ab",
+        "6f2cb7a0-71b6-4786-acf5-2966e751181f"
+      ],
+      "settings": {
+        "tagline": "SILK DREAMS",
+        "headline": "Mooier haar en een betere huid, zonder extra moeite",
+        "paragraph": "Bij Silk Dreams gaat het niet alleen om slapen op luxe maar juist ook om beauty! Alle producten zijn daarom gemaakt van zijde dat doordrenkt is met zilver wat super goed is voor jouw huid en haar."
+      }
+    },
+    "0a2faf02-54dc-4745-9244-7e4fe7e31529": {
+      "type": "product-recommendations",
+      "settings": {
+        "tagline": "SILK DREAMS",
+        "headline": "Misschien vindt je dit ook leuk",
+        "rec_product_list": [
+          "3-pack-skinny-scrunchies-4",
+          "3-pack-large-scrunchies",
+          "3-pack-large-scrunchies-1"
+        ],
+        "rec-product_list_mobile": [
+          "large-scrunchie-5",
+          "large-scrunchie-4",
+          "large-scrunchie-3",
+          "copy-of-large-scrunchie",
+          "large-scrunchie-2",
+          "large-scrunchie-1"
+        ]
+      }
+    }
+  },
+  "order": [
+    "template",
+    "18fa579e-9793-444e-a989-53fecd0698a1",
+    "6fb42b08-846c-4bb7-bf71-9edf775f3c20",
+    "0a2faf02-54dc-4745-9244-7e4fe7e31529"
+  ]
+}

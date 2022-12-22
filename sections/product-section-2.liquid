@@ -1,0 +1,65 @@
+
+    <div class="page-padding">
+      <div class="wrapper-product-block">
+        <div class="brick_block">
+          <div class="brick-block-image-wrapper">
+            <div class="image-wrapper">{%- if section.settings.image == nil -%}<img src="{{ 'influencer-pic.png' | asset_url }}" loading="lazy" sizes="(max-width: 479px) 93vw, (max-width: 767px) 96vw, (max-width: 991px) 94vw, (max-width: 1439px) 47vw, 50vw" srcset="{{ 'influencer-pic-p-500.png' | asset_url }} 500w, {{ 'influencer-pic-p-800.png' | asset_url }} 800w, {{ 'influencer-pic-p-1080.png' | asset_url }} 1080w, {{ 'influencer-pic.png' | asset_url }} 1097w" alt="" class="storytelling-image">{%- else -%}<img src="{{ section.settings.image.src | img_url: 'master' }}" loading="lazy" alt="{{ section.settings.image.alt | escape }}" class="storytelling-image" srcset="{{ section.settings.image | img_url: '1920x' }} 1920w,{{ section.settings.image | img_url: '1600x' }} 1600w,{{ section.settings.image | img_url: '1366x' }} 1366w,{{ section.settings.image | img_url: '1024x' }} 1024w,{{ section.settings.image | img_url: '768x' }} 768w,{{ section.settings.image | img_url: '640x' }} 640w">{%- endif -%}</div>
+          </div>
+        </div>
+        <div class="brick_block">
+          <div class="storytelling__info">
+            <h2 class="heading-3">{{ section.settings.headline }}</h2>
+            <div class="div-block-32">
+              <p class="info-block-p">{{ section.settings.paragraph }}</p>
+              <a href="{{ section.settings.link }}" class="text__link no-margin mt-2">{{ section.settings.link_text }}</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+<script>var currentSection = document.currentScript.closest('.shopify-section');currentSection.setAttribute("data-aos","fade-in");currentSection.setAttribute("data-aos-duration","500");currentSection.setAttribute("data-aos-delay","200");currentSection.setAttribute("data-aos-easing","linear");currentSection.setAttribute("class","product-info-section aos-init aos-animate wf-section");</script>
+        
+{% schema %}
+{
+  "name": "Product Section 2",
+  "tag": "div",
+  "class": "product-info-section aos-init aos-animate wf-section",
+  "presets": [
+    {
+      "name": "Product Section 2"
+    }
+  ],
+  "settings": [
+    {
+      "type": "text",
+      "id": "link_text",
+      "label": "Link Text",
+      "default": "{{ section.settings.link_text }}"
+    },
+    {
+      "type": "textarea",
+      "id": "headline",
+      "label": "Headline",
+      "default": "Wakker worden zonderbad hair days"
+    },
+    {
+      "type": "textarea",
+      "id": "paragraph",
+      "label": "Paragraph",
+      "default": "Naast een glowy skin en een stralende huid geniet je ook nog eens van glanzende haren. Het fijn geweven kussensloop zorgt er voor dat je haar niet klit of afbreekt tijdens het slapen."
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "url",
+      "id": "link",
+      "label": "Link"
+    }
+  ]
+}
+{% endschema %}

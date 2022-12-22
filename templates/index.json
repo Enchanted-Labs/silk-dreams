@@ -1,0 +1,418 @@
+{
+  "sections": {
+    "4a5123b9-46c2-47b8-9b52-fc3a94121c83": {
+      "type": "herp-section",
+      "settings": {
+        "headline": "Beauty made during your dreams.",
+        "paragraph": "Een 100% zijden kussensloop, behandeld met zilverionen technologie dat 99.7% van alle bacteriën elimineert. Vermindert acne, puistjes en een geïrriteerde huid.",
+        "button_text_shop_now": "Shop nu",
+        "button_text_know_more": "Meer Weten",
+        "how_much_reviews": "",
+        "button_link_shop_now": "shopify:\/\/products\/premium-zijden-slaapbundel-1",
+        "button_link_shop_now_text": "Shop nu",
+        "button_link_know_more": "shopify:\/\/products\/premium-zijden-slaapbundel-1",
+        "button_link_know_more_text": "Lees meer"
+      }
+    },
+    "4364f7c3-42ee-4f1b-a770-78daa760972b": {
+      "type": "category-slider",
+      "blocks": {
+        "8ade2a5c-cb7d-42f1-9dee-a577b49f335d": {
+          "type": "category_slide_block",
+          "settings": {
+            "title": "Kussenslopen",
+            "collection_link": ""
+          }
+        },
+        "375608ef-79ba-4bb4-b41c-36c0c9686abc": {
+          "type": "category_slide_block",
+          "settings": {
+            "title": "Kussenslopen",
+            "collection_link": ""
+          }
+        },
+        "ab3dd1d5-c6e9-41b5-9240-5152caa37cd2": {
+          "type": "category_slide_block",
+          "settings": {
+            "title": "Kussenslopen",
+            "collection_link": ""
+          }
+        },
+        "8b38b341-ca68-4b15-a67a-274dfb8f63fe": {
+          "type": "category_slide_block",
+          "settings": {
+            "title": "Kussenslopen",
+            "collection_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "8ade2a5c-cb7d-42f1-9dee-a577b49f335d",
+        "375608ef-79ba-4bb4-b41c-36c0c9686abc",
+        "ab3dd1d5-c6e9-41b5-9240-5152caa37cd2",
+        "8b38b341-ca68-4b15-a67a-274dfb8f63fe"
+      ],
+      "settings": {
+      }
+    },
+    "0a67c109-9a53-450e-b92f-f13f51959138": {
+      "type": "hovering-usps",
+      "settings": {
+        "tagline": "SILK DREAMS",
+        "headline": "Haalt het meeste uit jouw schoonheidsslaapje",
+        "benefit_1": "Zorgt voor gezondere harennooit meer een bad-hair day",
+        "benefit_paragraph_1": "Vermindert wrijving en houdt het haar gehydrateerd, waardoor klitten en breuk worden voorkomen.",
+        "benefit_3": "Zorgt voor gezondere harennooit meer een bad-hair day",
+        "benefit_paragraph_3": "Vermindert wrijving en houdt het haar gehydrateerd, waardoor klitten en breuk worden voorkomen.",
+        "benefit_2": "Zorgt voor gezondere harennooit meer een bad-hair day",
+        "benefit_paragraph_2": "Vermindert wrijving en houdt het haar gehydrateerd, waardoor klitten en breuk worden voorkomen.",
+        "benefit_4": "Zorgt voor gezondere harennooit meer een bad-hair day",
+        "benefit_paragraph_4": "Vermindert wrijving en houdt het haar gehydrateerd, waardoor klitten en breuk worden voorkomen.",
+        "mobile_benefit_1": "ANTIBACTERIEEL",
+        "mob_benefit_text_1": "Behandeld met wetenschappelijk onderbouwde zilveriontechnologie die bacteriën elimineert.",
+        "mobile_benefit_2": "ANTIBACTERIEEL",
+        "mob_benefit_text_2": "Behandeld met wetenschappelijk onderbouwde zilveriontechnologie die bacteriën elimineert.",
+        "mobile_benefit_3": "ANTIBACTERIEEL",
+        "mob_benefit_text_3": "Behandeld met wetenschappelijk onderbouwde zilveriontechnologie die bacteriën elimineert.",
+        "mobile_benefits_4": "ANTIBACTERIEEL",
+        "mob_benefit_text_4": "Behandeld met wetenschappelijk onderbouwde zilveriontechnologie die bacteriën elimineert."
+      }
+    },
+    "c7e99ba0-1cf6-463d-adde-e817ded80d57": {
+      "type": "infinite-marquee-2",
+      "blocks": {
+        "79ddda4b-670d-4325-919f-a4692ef41ae2": {
+          "type": "text_block",
+          "settings": {
+            "text": "ANTI-BACTERIEEL"
+          }
+        },
+        "724596ed-02ba-458b-8872-1c6b8b3564df": {
+          "type": "text_block",
+          "settings": {
+            "text": "GEZOND"
+          }
+        },
+        "f7bea6f8-b6b4-420d-b5af-5ecae81de711": {
+          "type": "text_block",
+          "settings": {
+            "text": "MAKKELIJK"
+          }
+        },
+        "3277b00e-88b8-47d5-8577-630eac1747c4": {
+          "type": "text_block",
+          "settings": {
+            "text": "SKINCARE"
+          }
+        },
+        "94a03d5d-fba7-4c1a-96e0-d100370c522c": {
+          "type": "text_block",
+          "settings": {
+            "text": "2MM ZIJDE"
+          }
+        },
+        "88468872-986c-4534-b46d-93997c89117b": {
+          "type": "text_block",
+          "settings": {
+            "text": "ANTI-BACTERIEEL"
+          }
+        },
+        "afc7069c-ee18-45a2-a610-a8d559e47398": {
+          "type": "text_block",
+          "settings": {
+            "text": "GEZOND"
+          }
+        },
+        "beeaf58e-8a30-4da5-93c8-baf47711a4fd": {
+          "type": "text_block",
+          "settings": {
+            "text": "MAKKELIJK"
+          }
+        },
+        "f818eee6-d33c-4640-baf4-cc90ba95ed04": {
+          "type": "text_block",
+          "settings": {
+            "text": "SKINCARE"
+          }
+        },
+        "f3ec1c62-8288-475f-96b8-bfaedd1acbc9": {
+          "type": "text_block",
+          "settings": {
+            "text": "22MM ZIJDE"
+          }
+        }
+      },
+      "block_order": [
+        "79ddda4b-670d-4325-919f-a4692ef41ae2",
+        "724596ed-02ba-458b-8872-1c6b8b3564df",
+        "f7bea6f8-b6b4-420d-b5af-5ecae81de711",
+        "3277b00e-88b8-47d5-8577-630eac1747c4",
+        "94a03d5d-fba7-4c1a-96e0-d100370c522c",
+        "88468872-986c-4534-b46d-93997c89117b",
+        "afc7069c-ee18-45a2-a610-a8d559e47398",
+        "beeaf58e-8a30-4da5-93c8-baf47711a4fd",
+        "f818eee6-d33c-4640-baf4-cc90ba95ed04",
+        "f3ec1c62-8288-475f-96b8-bfaedd1acbc9"
+      ],
+      "settings": {
+      }
+    },
+    "d86555a2-1454-4d56-b51d-9eacc21cb7f1": {
+      "type": "beauty-dreaming-section",
+      "blocks": {
+        "3eb39e47-f5d3-4fa1-8aaa-de841a264c85": {
+          "type": "benefit_slide",
+          "settings": {
+            "headline": "Wakker worden met een morning glow",
+            "paragraph": "Zijde zorgt dat je wakker wordt met een natuurlijke glans en glanzende haren. Het fijn geweven kussensloop zorgt er voor dat je haar niet klit of afbreekt tijdens het slapen."
+          }
+        },
+        "7d3ed3d7-9e5e-4b86-a89d-d33bee0a275e": {
+          "type": "benefit_slide",
+          "settings": {
+            "headline": "Wakker worden met een morning glow",
+            "paragraph": "Zijde zorgt dat je wakker wordt met een natuurlijke glans en glanzende haren. Het fijn geweven kussensloop zorgt er voor dat je haar niet klit of afbreekt tijdens het slapen."
+          }
+        },
+        "31ce9230-4026-46ab-bbb0-f311cc1f8911": {
+          "type": "benefit_slide",
+          "settings": {
+            "headline": "Wakker worden met een morning glow",
+            "paragraph": "Zijde zorgt dat je wakker wordt met een natuurlijke glans en glanzende haren. Het fijn geweven kussensloop zorgt er voor dat je haar niet klit of afbreekt tijdens het slapen."
+          }
+        }
+      },
+      "block_order": [
+        "3eb39e47-f5d3-4fa1-8aaa-de841a264c85",
+        "7d3ed3d7-9e5e-4b86-a89d-d33bee0a275e",
+        "31ce9230-4026-46ab-bbb0-f311cc1f8911"
+      ],
+      "settings": {
+        "header": "Beauty made during your dreams.",
+        "benefit_1_headline": "Verassende beauty voordelen",
+        "benefit_1_paragraph": "Zijde zorgt dat je wakker wordt met een natuurlijke glans en glanzende haren. Het fijn geweven kussensloop zorgt er voor dat je haar niet klit of afbreekt tijdens het slapen.",
+        "benefit_2_headline": "Gemaakt voor next-level skincare",
+        "benefit_2_paragraph": "Alle kussenslopen van Silk Dreams bevatten zilverionen technologie dat 99.7% van alle bacteriën elimineert. Zo bescherm je jouw huid tegen huidproblemen zoals acne, puistjes, onzuiverheden en roodheid.",
+        "benefit_3_headline": "Verwen jezelf of een ander",
+        "benefit_3_paragraph": "Elk item wordt prachtig verpakt en geleverd in een mooie geschenkdoos. Hergebruik je doos om je sieraden of schoonheidsproducten in op te bergen.",
+        "paragraph": "Naast een glowy skin en een stralende huid geniet je ook nog eens van glanzende haren. Het fijn geweven kussensloop zorgt er voor dat je haar niet klit of afbreekt tijdens het slapen."
+      }
+    },
+    "4afbf917-8a83-4398-afa0-1334878d85ec": {
+      "type": "info-section-1",
+      "settings": {
+        "link_text": "SHOP NU",
+        "title": "Made for your dreams & een stralende huid",
+        "paragraph": "Alle kussenslopen van Silk Dreams bevatten zilverionen technologie dat 99.7% van alle bacteriën elimineert. Deze zilverionen voorkomen dat bacteriën je gezicht kunnen bereiken en beschermt je tegen huidproblemen zoals acne, puistjes, onzuiverheden en roodheid.",
+        "link": "shopify:\/\/products\/premium-zijden-slaapbundel-1"
+      }
+    },
+    "96bfefbb-13c6-4abd-a6c8-d453c9c1b5b7": {
+      "type": "trustpilot-reviews",
+      "settings": {
+        "trustpilot_text": "Een score van 4.8 uit 5 op basis van 346 reviews op"
+      }
+    },
+    "c0ac047f-07dd-4c08-b3c8-f3f00e2e2eec": {
+      "type": "product-section-2",
+      "settings": {
+        "link_text": "SHOP NU",
+        "headline": "Wakker worden zonderbad hair days",
+        "paragraph": "Naast een glowy skin en een stralende huid geniet je ook nog eens van glanzende haren. Het fijn geweven kussensloop zorgt er voor dat je haar niet klit of afbreekt tijdens het slapen.",
+        "link": "shopify:\/\/products\/premium-zijden-slaapbundel-1"
+      }
+    },
+    "d75e7238-ba93-43d1-9880-d9682fc55ba1": {
+      "type": "infinite-marquee-2",
+      "blocks": {
+        "3cb12b60-63a8-40ec-b8d6-6e086eb93406": {
+          "type": "text_block",
+          "settings": {
+            "text": "ANTI-BACTERIEEL"
+          }
+        },
+        "5e45f8ea-507d-4ac6-a27e-abe19516816e": {
+          "type": "text_block",
+          "settings": {
+            "text": "GEZOND"
+          }
+        },
+        "6a4d1859-a595-4bf8-a87a-39394a26252a": {
+          "type": "text_block",
+          "settings": {
+            "text": "MAKKELIJK"
+          }
+        },
+        "1ed16c94-1c26-492e-aad7-ef54c9cdebbc": {
+          "type": "text_block",
+          "settings": {
+            "text": "SKINCARE"
+          }
+        },
+        "79a911f9-ae89-4f63-bfe2-708e746c42d3": {
+          "type": "text_block",
+          "settings": {
+            "text": "22MM ZIJDE"
+          }
+        },
+        "827bb484-19ae-4234-b1f4-a5eca7d57762": {
+          "type": "text_block",
+          "settings": {
+            "text": "ANTI-BACTERIEEL"
+          }
+        },
+        "a31b35fc-da9a-46a7-81f3-441457378c31": {
+          "type": "text_block",
+          "settings": {
+            "text": "GEZOND"
+          }
+        },
+        "d2b6cf49-36d5-4b24-85b7-8368b0bded4b": {
+          "type": "text_block",
+          "settings": {
+            "text": "MAKKELIJK"
+          }
+        },
+        "a9980fa3-d323-4f58-b3f5-0d8472d40654": {
+          "type": "text_block",
+          "settings": {
+            "text": "SKINCARE"
+          }
+        },
+        "8a4c0c09-031a-4713-bbf6-def0c92c3691": {
+          "type": "text_block",
+          "settings": {
+            "text": "22MM ZIJDE"
+          }
+        }
+      },
+      "block_order": [
+        "3cb12b60-63a8-40ec-b8d6-6e086eb93406",
+        "5e45f8ea-507d-4ac6-a27e-abe19516816e",
+        "6a4d1859-a595-4bf8-a87a-39394a26252a",
+        "1ed16c94-1c26-492e-aad7-ef54c9cdebbc",
+        "79a911f9-ae89-4f63-bfe2-708e746c42d3",
+        "827bb484-19ae-4234-b1f4-a5eca7d57762",
+        "a31b35fc-da9a-46a7-81f3-441457378c31",
+        "d2b6cf49-36d5-4b24-85b7-8368b0bded4b",
+        "a9980fa3-d323-4f58-b3f5-0d8472d40654",
+        "8a4c0c09-031a-4713-bbf6-def0c92c3691"
+      ],
+      "settings": {
+      }
+    },
+    "c48a5cd6-f629-4096-9bc3-68429fa32bef": {
+      "type": "category-blocks",
+      "blocks": {
+        "b7fc4fe2-2b19-44dd-b340-2f74c63cd2d6": {
+          "type": "first_block",
+          "settings": {
+            "category_headline": "Premium Zijden Kussenslopen",
+            "category_information": "Brengt jouw skincare routine naar het volgende niveau",
+            "first_link": "shopify:\/\/products\/copy-of-premium-zijden-slaapbundel-3"
+          }
+        },
+        "877637a8-874e-4275-8b42-8624feb5dbcc": {
+          "type": "second_block",
+          "settings": {
+            "category_headline": "Slaapbundels",
+            "category_information": "Pefect voor de feestdagen. Het complete pakket.",
+            "second_link": "shopify:\/\/products\/premium-zijden-kussensloop-10"
+          }
+        },
+        "7908f6c2-0e2c-4fa0-8b77-e5b23e36b1c9": {
+          "type": "third_block",
+          "settings": {
+            "category_headline": "Heatless Curlers",
+            "category_information": "Voor mooie krullen gezonde krullen",
+            "third_link": "shopify:\/\/products\/heatless-curler-1"
+          }
+        },
+        "59f6d7a4-2627-44d4-87fa-6a83ef3e04dd": {
+          "type": "fourth_block",
+          "settings": {
+            "category_headline": "Zijden scrunchies",
+            "category_information": "Stylish, goed voor je haar en matcht met iedere outfit",
+            "fourth_link": "shopify:\/\/products\/3-pack-large-scrunchies"
+          }
+        },
+        "3701eb4b-657a-497b-b164-c08e6bbd941e": {
+          "type": "fifth_block",
+          "settings": {
+            "category_headline": "Slaapmaskers",
+            "category_information": "Reduceerd opzwollen ogen",
+            "fifth_link": "shopify:\/\/products\/copy-of-zijden-slaapmasker"
+          }
+        }
+      },
+      "block_order": [
+        "b7fc4fe2-2b19-44dd-b340-2f74c63cd2d6",
+        "877637a8-874e-4275-8b42-8624feb5dbcc",
+        "7908f6c2-0e2c-4fa0-8b77-e5b23e36b1c9",
+        "59f6d7a4-2627-44d4-87fa-6a83ef3e04dd",
+        "3701eb4b-657a-497b-b164-c08e6bbd941e"
+      ],
+      "settings": {
+      }
+    },
+    "187d3941-00f5-484b-9f69-85f03d884bc7": {
+      "type": "instagram-media",
+      "blocks": {
+        "12a3d1a9-a34b-443a-824b-f808cb12eaca": {
+          "type": "1",
+          "settings": {
+          }
+        },
+        "d8865e62-f161-473e-a0e0-29e28408f39b": {
+          "type": "2",
+          "settings": {
+          }
+        },
+        "c54e020c-6e69-4de8-9cdd-4c03bcba38cd": {
+          "type": "3",
+          "settings": {
+          }
+        },
+        "7821ae34-ffd2-4f40-b574-4fe084827719": {
+          "type": "4",
+          "settings": {
+          }
+        },
+        "15fa0da5-32d3-4bbc-bf34-e997b58b6f09": {
+          "type": "5",
+          "settings": {
+          }
+        },
+        "8cd65185-1130-4422-a4ae-97ac8133644b": {
+          "type": "6",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "12a3d1a9-a34b-443a-824b-f808cb12eaca",
+        "d8865e62-f161-473e-a0e0-29e28408f39b",
+        "c54e020c-6e69-4de8-9cdd-4c03bcba38cd",
+        "7821ae34-ffd2-4f40-b574-4fe084827719",
+        "15fa0da5-32d3-4bbc-bf34-e997b58b6f09",
+        "8cd65185-1130-4422-a4ae-97ac8133644b"
+      ],
+      "settings": {
+        "link": ""
+      }
+    }
+  },
+  "order": [
+    "4a5123b9-46c2-47b8-9b52-fc3a94121c83",
+    "4364f7c3-42ee-4f1b-a770-78daa760972b",
+    "0a67c109-9a53-450e-b92f-f13f51959138",
+    "c7e99ba0-1cf6-463d-adde-e817ded80d57",
+    "d86555a2-1454-4d56-b51d-9eacc21cb7f1",
+    "4afbf917-8a83-4398-afa0-1334878d85ec",
+    "96bfefbb-13c6-4abd-a6c8-d453c9c1b5b7",
+    "c0ac047f-07dd-4c08-b3c8-f3f00e2e2eec",
+    "d75e7238-ba93-43d1-9880-d9682fc55ba1",
+    "c48a5cd6-f629-4096-9bc3-68429fa32bef",
+    "187d3941-00f5-484b-9f69-85f03d884bc7"
+  ]
+}
