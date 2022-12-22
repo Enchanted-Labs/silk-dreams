@@ -184,47 +184,6 @@
         "trustpilot_text": "Een score van 4.8 uit 5 op basis van 346 reviews op"
       }
     },
-    "90a1c975-381b-45d5-9b25-57b3d3608ad8": {
-      "type": "beauty-dreaming-section",
-      "blocks": {
-        "c5e822cb-46c6-4c82-a3bc-6a77e92290e4": {
-          "type": "benefit_slide",
-          "settings": {
-            "headline": "Wakker worden met een morning glow",
-            "paragraph": "Zijde zorgt dat je wakker wordt met een natuurlijke glans en glanzende haren. Het fijn geweven kussensloop zorgt er voor dat je haar niet klit of afbreekt tijdens het slapen."
-          }
-        },
-        "5b88048a-3320-441c-a0a2-bea15329d4c5": {
-          "type": "benefit_slide",
-          "settings": {
-            "headline": "Nooit meer een bad-hair day",
-            "paragraph": "De stof zorgt voor minder wrijving. Hierdoor gaat je haar minder pluizen en wordt je wakker met glanzende haren!"
-          }
-        },
-        "6e00aa45-bbdf-49b4-93cf-9b0d3c375742": {
-          "type": "benefit_slide",
-          "settings": {
-            "headline": "Wakker worden met een morning glow",
-            "paragraph": "Zijde zorgt dat je wakker wordt met een natuurlijke glans en glanzende haren. Het fijn geweven kussensloop zorgt er voor dat je haar niet klit of afbreekt tijdens het slapen."
-          }
-        }
-      },
-      "block_order": [
-        "c5e822cb-46c6-4c82-a3bc-6a77e92290e4",
-        "5b88048a-3320-441c-a0a2-bea15329d4c5",
-        "6e00aa45-bbdf-49b4-93cf-9b0d3c375742"
-      ],
-      "settings": {
-        "header": "Beauty made during your dreams.",
-        "benefit_1_headline": "Verassende beauty voordelen",
-        "benefit_1_paragraph": "Zijde zorgt dat je wakker wordt met een natuurlijke glans en glanzende haren. Het fijn geweven kussensloop zorgt er voor dat je haar niet klit of afbreekt tijdens het slapen.",
-        "benefit_2_headline": "Gemaakt voor next-level skincare",
-        "benefit_2_paragraph": "Alle kussenslopen van Silk Dreams bevatten zilverionen technologie dat 99.7% van alle bacteriën elimineert. Zo bescherm je jouw huid tegen huidproblemen zoals acne, puistjes, onzuiverheden en roodheid.",
-        "benefit_3_headline": "Verwen jezelf of een ander",
-        "benefit_3_paragraph": "Elk item wordt prachtig verpakt en geleverd in een mooie geschenkdoos. Hergebruik je doos om je sieraden of schoonheidsproducten in op te bergen.",
-        "paragraph": "Naast een glowy skin en een stralende huid geniet je ook nog eens van glanzende haren. Het fijn geweven kussensloop zorgt er voor dat je haar niet klit of afbreekt tijdens het slapen."
-      }
-    },
     "903be29f-6ad7-4682-b9e6-8fce691cc565": {
       "type": "happy-customers",
       "blocks": {
@@ -303,20 +262,11 @@
         "paragraph": "Bij Silk Dreams gaat het niet alleen om slapen op luxe maar juist ook om beauty! Alle producten zijn daarom gemaakt van zijde dat doordrenkt is met zilver wat super goed is voor jouw huid en haar."
       }
     },
-    "82c53c75-e933-4431-80b0-486e2a943694": {
-      "type": "product-section-video-right",
-      "settings": {
-        "unique_selling_point": "Verminderd acne & roodheden ✨",
-        "headline": "De magische kracht van zijde",
-        "paragraph": "Deze kussensloop van zijde is behandeld met een speciale zilverionentechnologie die 99,7% van de bacteriën doodt. Zo maken bacteriën geen kans hebben en bescherm je jouw huid tegen huidproblemen zoals roodheid, acne en uitslag. Laat de magische kracht van zijde werken en geniet van een gezonde, stralende huid terwijl je heerlijk slaapt.",
-        "why_text": "<strong>Waarom je moet overstappen:<\/strong><br>✔️ Zorgt voor mooie glanzende haren<br>✔️ Elimineert bacteriën die acne veroorzaken <br>✔️ Verminderd vrijving op de huid"
-      }
-    },
     "b9dba73f-84cd-4b95-9f58-1332cbae7294": {
       "type": "product-section-image-left",
       "settings": {
         "unique_selling_point": "Versterkt skincare routines 💖",
-        "headline": "De perfecte toevoeging tot jouw skincare routine",
+        "headline": "Het beste voor jouw haar.",
         "paragraph": "Omdat zijde van nature enorm zacht aan voelt. Is het ideaal voor je huid. Het neemt geen vocht op, waardoor nachtcrèmes effectiever kunnen worden gebruikt. Het is daarnaast algemeen bekend dat gehydrateerde huidcellen minder lijntjes en rimpels veroorzaken dan een droge huid.",
         "why_text": "<strong>Anti-aging voordelen:<\/strong><br>✔️ Absorbeert geen vocht<br>✔️ Minder lijntjes en rimpels"
       }
@@ -413,9 +363,7 @@
   "order": [
     "template",
     "b1e1b0c7-8b5a-4348-a3ef-faa400b94c5e",
-    "90a1c975-381b-45d5-9b25-57b3d3608ad8",
     "903be29f-6ad7-4682-b9e6-8fce691cc565",
-    "82c53c75-e933-4431-80b0-486e2a943694",
     "b9dba73f-84cd-4b95-9f58-1332cbae7294",
     "a7c13b44-a68e-44a7-8a14-95f47eef3bad",
     "b3cd23a2-3f9a-4e11-b727-9effd8ad6b3e",
