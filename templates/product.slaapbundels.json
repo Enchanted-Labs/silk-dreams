@@ -78,18 +78,25 @@
             "accordion_paragraph": "sdsdasdasdasd"
           }
         },
+        "574957e8-6c92-4e1e-8ca7-fafdaf0b57cb": {
+          "type": "accordion",
+          "settings": {
+            "accordion_title": "Vandaag besteld, morgen in huis",
+            "accordion_paragraph": "We verwerken alle Nederlandse en Belgische bestellingen direct na de bestelling bij ons binnenkomt.\n<br><br>\nVoor 23:59 uur besteld = morgen in huis!"
+          }
+        },
         "89244d97-2159-466b-a464-1ea30a23d94e": {
           "type": "accordion",
           "settings": {
-            "accordion_title": "Je zult niet meer zonder kunnen!",
-            "accordion_paragraph": "aaaaaaaaaaaaaaaaaaaaaaa"
+            "accordion_title": "Huid & haar voordelen",
+            "accordion_paragraph": "✔︎ Voorkomt acne, puistje & droge huid.<br>✔︎ Anti-aging, hydraterend.<br>✔︎ Geen haarklitten, pluizig haar & gespleten punten.<br>✔︎ Houdt het haar gehydrateerd<br>✔︎ Voorkomt haaruitval<br>✔︎ Zorgt voor een betere werking van jouw huidverzorgingsproducten."
           }
         },
         "9981e15b-81bd-41f2-a6b8-b2bc77d8d2ae": {
           "type": "accordion",
           "settings": {
-            "accordion_title": "Je zult niet meer zonder kunnen!",
-            "accordion_paragraph": ""
+            "accordion_title": "100 nachten proefslapen",
+            "accordion_paragraph": "We weten dat sommige dingen tijd nodig hebben, daarom bieden we een proefperiode van 100 nachten aan. Als je om wat voor reden dan ook niet van je kussensloop houdt, zelfs niet na 100 dagen, stuur hem dan terug voor een volledige terugbetaling + verzendkosten."
           }
         },
         "2d323637-888f-446a-b498-de48d5147a00": {
@@ -131,6 +138,7 @@
         "2d1e1192-e5c7-4b28-a7c8-1913171c355a",
         "139dc70a-d718-4c01-8547-07e63799d246",
         "4e6da9e5-c454-4bcf-9723-5a606e336d33",
+        "574957e8-6c92-4e1e-8ca7-fafdaf0b57cb",
         "89244d97-2159-466b-a464-1ea30a23d94e",
         "9981e15b-81bd-41f2-a6b8-b2bc77d8d2ae",
         "2d323637-888f-446a-b498-de48d5147a00",
@@ -335,7 +343,7 @@
         "bf50a822-0592-4573-9a22-ec0e0daaf71d": {
           "type": "faq",
           "settings": {
-            "question": "Wanneer wordt mijn bestelling bezorgd?",
+            "question": "Wanneer wordt mijn item bezorgd?",
             "answer": "Na het ontvangen van jouw bestelling zullen wij hem op werkdagen voor 23:59 uur naar jou opsturen. En dan heb je hem de volgende dag meteen in huis!"
           }
         },
@@ -379,10 +387,14 @@
         "tagline": "SILK DREAMS",
         "headline": "Misschien vindt je dit ook leuk",
         "rec_product_list": [
-
+          "3-pack-large-scrunchies",
+          "heatless-curler-1",
+          "3-pack-skinny-scrunchies-3"
         ],
         "rec-product_list_mobile": [
-
+          "3-pack-skinny-scrunchies-3",
+          "heatless-curler-1",
+          "3-pack-large-scrunchies"
         ]
       }
     }
