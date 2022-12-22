@@ -109,13 +109,6 @@
             "accordion_paragraph": "✔︎ Voorkomt acne, puistje & droge huid.<br>✔︎ Anti-aging, hydraterend.<br>✔︎ Geen haarklitten, pluizig haar & gespleten punten.<br>✔︎ Houdt het haar gehydrateerd<br>✔︎ Voorkomt haaruitval<br>✔︎ Zorgt voor een betere werking van jouw huidverzorgingsproducten."
           }
         },
-        "9981e15b-81bd-41f2-a6b8-b2bc77d8d2ae": {
-          "type": "accordion",
-          "settings": {
-            "accordion_title": "100 nachten proefslapen",
-            "accordion_paragraph": "We weten dat sommige dingen tijd nodig hebben, daarom bieden we een proefperiode van 100 nachten aan. Als je om wat voor reden dan ook niet van je kussensloop houdt, zelfs niet na 100 dagen, stuur hem dan terug voor een volledige terugbetaling + verzendkosten."
-          }
-        },
         "2d323637-888f-446a-b498-de48d5147a00": {
           "type": "benefit_check_mobile",
           "settings": {
@@ -159,7 +152,6 @@
         "4e6da9e5-c454-4bcf-9723-5a606e336d33",
         "574957e8-6c92-4e1e-8ca7-fafdaf0b57cb",
         "89244d97-2159-466b-a464-1ea30a23d94e",
-        "9981e15b-81bd-41f2-a6b8-b2bc77d8d2ae",
         "2d323637-888f-446a-b498-de48d5147a00",
         "1d97c2b2-654a-40de-8569-c5f0e9728b22",
         "2ac31be4-dede-4329-81bf-421feed169d7",
@@ -190,47 +182,6 @@
       ],
       "settings": {
         "trustpilot_text": "Een score van 4.8 uit 5 op basis van 346 reviews op"
-      }
-    },
-    "90a1c975-381b-45d5-9b25-57b3d3608ad8": {
-      "type": "beauty-dreaming-section",
-      "blocks": {
-        "c5e822cb-46c6-4c82-a3bc-6a77e92290e4": {
-          "type": "benefit_slide",
-          "settings": {
-            "headline": "Wakker worden met een morning glow",
-            "paragraph": "Zijde zorgt dat je wakker wordt met een natuurlijke glans en glanzende haren. Het fijn geweven kussensloop zorgt er voor dat je haar niet klit of afbreekt tijdens het slapen."
-          }
-        },
-        "5b88048a-3320-441c-a0a2-bea15329d4c5": {
-          "type": "benefit_slide",
-          "settings": {
-            "headline": "Nooit meer een bad-hair day",
-            "paragraph": "De stof zorgt voor minder wrijving. Hierdoor gaat je haar minder pluizen en wordt je wakker met glanzende haren!"
-          }
-        },
-        "6e00aa45-bbdf-49b4-93cf-9b0d3c375742": {
-          "type": "benefit_slide",
-          "settings": {
-            "headline": "Wakker worden met een morning glow",
-            "paragraph": "Zijde zorgt dat je wakker wordt met een natuurlijke glans en glanzende haren. Het fijn geweven kussensloop zorgt er voor dat je haar niet klit of afbreekt tijdens het slapen."
-          }
-        }
-      },
-      "block_order": [
-        "c5e822cb-46c6-4c82-a3bc-6a77e92290e4",
-        "5b88048a-3320-441c-a0a2-bea15329d4c5",
-        "6e00aa45-bbdf-49b4-93cf-9b0d3c375742"
-      ],
-      "settings": {
-        "header": "Beauty made during your dreams.",
-        "benefit_1_headline": "Verassende beauty voordelen",
-        "benefit_1_paragraph": "Zijde zorgt dat je wakker wordt met een natuurlijke glans en glanzende haren. Het fijn geweven kussensloop zorgt er voor dat je haar niet klit of afbreekt tijdens het slapen.",
-        "benefit_2_headline": "Gemaakt voor next-level skincare",
-        "benefit_2_paragraph": "Alle kussenslopen van Silk Dreams bevatten zilverionen technologie dat 99.7% van alle bacteriën elimineert. Zo bescherm je jouw huid tegen huidproblemen zoals acne, puistjes, onzuiverheden en roodheid.",
-        "benefit_3_headline": "Verwen jezelf of een ander",
-        "benefit_3_paragraph": "Elk item wordt prachtig verpakt en geleverd in een mooie geschenkdoos. Hergebruik je doos om je sieraden of schoonheidsproducten in op te bergen.",
-        "paragraph": "Naast een glowy skin en een stralende huid geniet je ook nog eens van glanzende haren. Het fijn geweven kussensloop zorgt er voor dat je haar niet klit of afbreekt tijdens het slapen."
       }
     },
     "903be29f-6ad7-4682-b9e6-8fce691cc565": {
@@ -421,7 +372,6 @@
   "order": [
     "template",
     "b1e1b0c7-8b5a-4348-a3ef-faa400b94c5e",
-    "90a1c975-381b-45d5-9b25-57b3d3608ad8",
     "903be29f-6ad7-4682-b9e6-8fce691cc565",
     "82c53c75-e933-4431-80b0-486e2a943694",
     "b9dba73f-84cd-4b95-9f58-1332cbae7294",
