@@ -26,8 +26,25 @@
         "5afcf6e5-9f04-4a96-9f56-a0cc1ab66952": {
           "type": "swatches",
           "settings": {
-            "swatch-link": "",
-            "swatch-alt": ""
+            "swatch-image": "{{ product.metafields.custom.swatch_1_image.value }}",
+            "swatch-link": "{{ product.metafields.custom.product_swatch_1_link.value }}",
+            "swatch-alt": "{{ product.metafields.custom.swatch_1_alt.value }}"
+          }
+        },
+        "c59a61ec-fbdc-417f-ae95-0ed9927abca2": {
+          "type": "swatches",
+          "settings": {
+            "swatch-image": "{{ product.metafields.custom.swatch_2_image.value }}",
+            "swatch-link": "{{ product.metafields.custom.product_swatch_2_link.value }}",
+            "swatch-alt": "{{ product.metafields.custom.swatch_2_alt.value }}"
+          }
+        },
+        "8b526677-cebb-42f6-8deb-9ee15f4c6881": {
+          "type": "swatches",
+          "settings": {
+            "swatch-image": "{{ product.metafields.custom.swatch_3_image.value }}",
+            "swatch-link": "{{ product.metafields.custom.product_swatch_3_link.value }}",
+            "swatch-alt": "{{ product.metafields.custom.swatch_3_alt.value }}"
           }
         },
         "f603e9d1-d3a5-44f4-b13a-88fa62f28d87": {
@@ -130,6 +147,8 @@
         "7d2180c0-817d-4865-9030-e13e34540371",
         "babd0d90-6044-4e65-99f1-853b10478141",
         "5afcf6e5-9f04-4a96-9f56-a0cc1ab66952",
+        "c59a61ec-fbdc-417f-ae95-0ed9927abca2",
+        "8b526677-cebb-42f6-8deb-9ee15f4c6881",
         "f603e9d1-d3a5-44f4-b13a-88fa62f28d87",
         "38e6d554-1b6a-4b8f-98f3-85a205a4e504",
         "8ffc1653-d07a-4081-9f86-3caf459818bc",
