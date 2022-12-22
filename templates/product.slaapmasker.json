@@ -267,8 +267,8 @@
       "settings": {
         "unique_selling_point": "Verminderd acne & roodheden ✨",
         "headline": "De magische kracht van zijde",
-        "paragraph": "Deze kussensloop van zijde is behandeld met een speciale zilverionentechnologie die 99,7% van de bacteriën doodt. Zo maken bacteriën geen kans hebben en bescherm je jouw huid tegen huidproblemen zoals roodheid, acne en uitslag. Laat de magische kracht van zijde werken en geniet van een gezonde, stralende huid terwijl je heerlijk slaapt.",
-        "why_text": "<strong>Waarom je moet overstappen:<\/strong><br>✔️ Zorgt voor mooie glanzende haren<br>✔️ Elimineert bacteriën die acne veroorzaken <br>✔️ Verminderd vrijving op de huid"
+        "paragraph": "Dit slaapmasker van zijde is behandeld met een speciale zilverionentechnologie die 99,7% van de bacteriën doodt. Zo maken bacteriën geen kans hebben en bescherm je jouw huid tegen huidproblemen zoals roodheid, acne en uitslag. Laat de magische kracht van zijde werken en geniet van een gezonde, stralende huid terwijl je heerlijk slaapt.",
+        "why_text": "<strong>Waarom je moet overstappen:<\/strong><br>✔️ Zorgt voor mooie glanzende haren<br>✔️ Elimineert bacteriën die acne veroorzaken <br>✔️ Verminderd vrijving op de huid"
       }
     },
     "b9dba73f-84cd-4b95-9f58-1332cbae7294": {
@@ -277,27 +277,18 @@
         "unique_selling_point": "Versterkt skincare routines 💖",
         "headline": "De perfecte toevoeging tot jouw skincare routine",
         "paragraph": "Omdat zijde van nature enorm zacht aan voelt. Is het ideaal voor je huid. Het neemt geen vocht op, waardoor nachtcrèmes effectiever kunnen worden gebruikt. Het is daarnaast algemeen bekend dat gehydrateerde huidcellen minder lijntjes en rimpels veroorzaken dan een droge huid.",
-        "why_text": "<strong>Anti-aging voordelen:<\/strong><br>✔️ Absorbeert geen vocht<br>✔️ Minder lijntjes en rimpels"
+        "why_text": "<strong>Anti-aging voordelen:<\/strong><br>✔️ Absorbeert geen vocht<br>✔️ Minder lijntjes en rimpels",
+        "image": "shopify:\/\/shop_images\/IMG_2131_801f77e0-f983-4f24-8200-056f3dbd77f4.jpg"
       }
     },
     "a7c13b44-a68e-44a7-8a14-95f47eef3bad": {
       "type": "product-section-image-right",
       "settings": {
-        "unique_selling_point": "Mooie en gezonde haren 😍",
+        "unique_selling_point": "Mooie en gezonde huid 😍",
         "headline": "Goed voor je haar & huid",
-        "paragraph": "Zijde helpt het vocht en collageen van je huid vast te houden, wat cruciaal is voor een natuurlijke glans. Daarnaast is de stof zacht voor het haar wat breuk in je haar voorkomt.",
-        "why_text": "<strong>Huid & haar voordelen:<\/strong><br>✔️ Zorgt voor een natuurlijke glans<br>✔️ Verminderd kans op wrijving en haar breuk",
-        "image": "shopify:\/\/shop_images\/IMG_5581.jpg"
-      }
-    },
-    "b3cd23a2-3f9a-4e11-b727-9effd8ad6b3e": {
-      "type": "product-section-image-left",
-      "settings": {
-        "unique_selling_point": "Het perfecte cadeau  💝",
-        "headline": "Verwen jezelf of een ander",
-        "paragraph": "Elk item wordt prachtig verpakt en geleverd in een mooie geschenkdoos. Hergebruik je doos om je sieraden in op te bergen.",
-        "why_text": "<strong>Silk Dreams Sleepbundle:<\/strong><br>✔️ Verpakt in een luxe giftbox<br>✔️ Natuurlijke beauty voordelen\n<br>✔️ 100 nachten proefslapen",
-        "image": "shopify:\/\/shop_images\/DSC05102-p-1600.jpg"
+        "paragraph": "Zijde helpt het vocht en collageen van je huid vast te houden, wat cruciaal is voor een natuurlijke glans. Daarnaast is de stof zacht en vermijd dus irritaties op de huid.",
+        "why_text": "<strong>Huid & haar voordelen:<\/strong><br>✔️ Zorgt voor een natuurlijke glans<br>✔️ Verminderd kans op irritaties",
+        "image": "shopify:\/\/shop_images\/d0bdd19c-ba1c-4ba5-8780-345174cd9147.jpg"
       }
     },
     "60a30f7a-4ec1-41b8-9dbf-ce8f01369078": {
@@ -376,7 +367,6 @@
     "82c53c75-e933-4431-80b0-486e2a943694",
     "b9dba73f-84cd-4b95-9f58-1332cbae7294",
     "a7c13b44-a68e-44a7-8a14-95f47eef3bad",
-    "b3cd23a2-3f9a-4e11-b727-9effd8ad6b3e",
     "60a30f7a-4ec1-41b8-9dbf-ce8f01369078",
     "2863ee1d-378c-4264-8ea1-6338ab18112a"
   ]
