@@ -139,6 +139,28 @@
           "settings": {
             "benefit-mobile": "Brengt de natuurlijke oliën van de huid weer in balans"
           }
+        },
+        "54163494-22c4-43fe-b876-19eb756fb9a1": {
+          "type": "swatches",
+          "settings": {
+            "swatch-image": "{{ product.metafields.custom.swatch_4_image.value }}",
+            "swatch-link": "{{ product.metafields.custom.product_swatch_4_link.value }}",
+            "swatch-alt": "{{ product.metafields.custom.swatch_4_alt.value }}"
+          }
+        },
+        "ff699b76-5f14-4b96-b1a9-b126e8ce73e5": {
+          "type": "swatches",
+          "settings": {
+            "swatch-link": "",
+            "swatch-alt": ""
+          }
+        },
+        "e1cd8fcf-adbf-4faf-b424-582fa465e1ee": {
+          "type": "swatches",
+          "settings": {
+            "swatch-link": "",
+            "swatch-alt": ""
+          }
         }
       },
       "block_order": [
@@ -163,7 +185,10 @@
         "2d323637-888f-446a-b498-de48d5147a00",
         "1d97c2b2-654a-40de-8569-c5f0e9728b22",
         "2ac31be4-dede-4329-81bf-421feed169d7",
-        "8ab4b6c6-cd50-44da-ba8c-3337de64ad8a"
+        "8ab4b6c6-cd50-44da-ba8c-3337de64ad8a",
+        "54163494-22c4-43fe-b876-19eb756fb9a1",
+        "ff699b76-5f14-4b96-b1a9-b126e8ce73e5",
+        "e1cd8fcf-adbf-4faf-b424-582fa465e1ee"
       ],
       "settings": {
         "layout": "thumbnails-below@slides",
