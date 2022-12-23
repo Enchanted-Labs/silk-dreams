@@ -162,7 +162,7 @@
         "image_width": "wide",
         "image_spacing": 10,
         "swatch-title": "Color",
-        "swatch-color": "{{ product.metafields.custom.color_name.value }} Black"
+        "swatch-color": "{{ product.metafields.custom.color_name.value }}"
       }
     },
     "b1e1b0c7-8b5a-4348-a3ef-faa400b94c5e": {
