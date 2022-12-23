@@ -43,8 +43,9 @@
           "b4446422-746f-4ee7-8767-3d704a48303a": {
             "type": "swiper_block",
             "settings": {
-              "collection": "Kussensloop",
-              "collection_tagline": "#1 BESTSELLER",
+              "collection": "Bestsellers",
+              "collection_tagline": "MOST WANTED",
+              "collection_image": "shopify:\/\/shop_images\/DSC05102-p-1600.jpg",
               "link": ""
             }
           },
