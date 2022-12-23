@@ -27,7 +27,7 @@
           "type": "swatches",
           "settings": {
             "swatch-image": "{{ product.metafields.custom.swatch_1_image.value }}",
-            "swatch-link": "https:\/\/mysilkdreams.myshopify.com\/products\/3-pack-skinny-scrunchies-4",
+            "swatch-link": "{{ product.metafields.custom.product_swatch_1_link.value }}",
             "swatch-alt": "{{ product.metafields.custom.swatch_1_alt.value }}"
           }
         },
