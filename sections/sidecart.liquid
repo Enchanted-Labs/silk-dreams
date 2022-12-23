@@ -156,10 +156,10 @@ href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
             <div class="slidecart-item-row">
               <div class="cart-item-grid">
                 <div class="left-side"><img
-                    src="https://uploads-ssl.webflow.com/636ecf2d60057116cf39e03f/63781e3b7127a387647819ef_product-collection.png"
+                    src="{{item.image | img_url: 'master'}}"
                     loading="lazy" id="w-node-c5bd3160-2f8a-cbc8-a4af-0203c71389ca-e5dd5c56"
                     sizes="(max-width: 479px) 26vw, 90px"
-                    srcset="https://uploads-ssl.webflow.com/636ecf2d60057116cf39e03f/63781e3b7127a387647819ef_product-collection-p-500.png 500w, https://uploads-ssl.webflow.com/636ecf2d60057116cf39e03f/63781e3b7127a387647819ef_product-collection-p-800.png 800w, https://uploads-ssl.webflow.com/636ecf2d60057116cf39e03f/63781e3b7127a387647819ef_product-collection-p-1080.png 1080w, https://uploads-ssl.webflow.com/636ecf2d60057116cf39e03f/63781e3b7127a387647819ef_product-collection.png 1084w"
+                    srcset="{{item.image | img_url: 'master'}} 500w, {{item.image | img_url: 'master'}} 800w, {{item.image | img_url: 'master'}} 1080w, {{item.image | img_url: 'master'}} 1084w"
                     alt=""></div>
                 <div class="right-side">
                   <div id="w-node-_9e43d82e-c437-f783-1636-95996e63de33-e5dd5c56" class="slidecart-items-title-content">

@@ -68,13 +68,29 @@
           class="product-in-grid-img">
         <div class="collection-content">
           <p class="collection-title">{{ product.title }}</p>
-          <a href="#" class="link-block-3 w-inline-block"><img
-              src="{{ 'cart.svg' | asset_url }}"
-              loading="lazy"
-              alt=""
-              class="image-42"
-              width="24"
-              height="24"></a>
+          <form method="post" action="/cart/add">
+            <input
+              type="hidden"
+              name="id"
+              value="{{ product.variants.first.id }}" />
+            <input
+              min="1"
+              type="hidden"
+              type="number"
+              id="quantity"
+              name="quantity"
+              value="1" />
+            <button
+              type="submit"
+              name="add"
+              class="link-block-3 w-inline-block recomm-button"><img
+                src="{{ 'cart.svg' | asset_url }}"
+                loading="lazy"
+                alt=""
+                class="image-42"
+                width="24"
+                height="24"></button>
+          </form>
         </div>
         <div class="product-in-grid-details">
           <p class="details-p">{{ product.metafields.custom.color_name }}</p>
