@@ -192,15 +192,17 @@
         "f447a319-e48a-488f-8cff-8b79f395c9cd": {
           "type": "swatches",
           "settings": {
-            "swatch-link": "",
-            "swatch-alt": ""
+            "swatch-image": "{{ product.metafields.custom.swatch_11_image.value }}",
+            "swatch-link": "{{ product.metafields.custom.product_swatch_11_link.value }}",
+            "swatch-alt": "{{ product.metafields.custom.swatch_11_alt.value }}"
           }
         },
         "eca0c99e-3bc3-4f89-b4e0-1295c831d30b": {
           "type": "swatches",
           "settings": {
-            "swatch-link": "",
-            "swatch-alt": ""
+            "swatch-image": "{{ product.metafields.custom.swatch_12_image.value }}",
+            "swatch-link": "{{ product.metafields.custom.product_swatch_12_link.value }}",
+            "swatch-alt": "{{ product.metafields.custom.swatch_12_alt.value }}"
           }
         },
         "916c98b1-0556-45eb-ad47-7d4614cb3607": {
