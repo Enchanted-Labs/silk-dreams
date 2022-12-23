@@ -422,15 +422,16 @@
     "b9dba73f-84cd-4b95-9f58-1332cbae7294": {
       "type": "product-section-image-left",
       "settings": {
-        "unique_selling_point": "Mooi en gezond haar 💖",
-        "headline": "Het beste voor jouw haar.",
-        "paragraph": "Deze scrunchies voorkomen breuken en schade aan jouw haar, wat belangrijk is om het gezond en mooi te houden.",
+        "unique_selling_point": "Voorkomt haarbeuk & klitten 💖",
+        "headline": "Het beste voor jouw haar",
+        "paragraph": "Scrunchies van zijde helpen haarbreuk te voorkomen en zijn een belangrijk product voor het behoud van gezond haar. Ze laten geen knikken achter en zijn de meest delicate scrunchies die je ooit zult gebruiken.",
         "why_text": "<strong>Zijde Scrunchie voordelen:<\/strong><br>✔️ Voorkomt breuken en schade <br>✔️ Houd het haar mooi en gezond",
         "image": "shopify:\/\/shop_images\/IMG_4137_ee16afd4-6a1b-41ed-b35e-ae847d018d18.jpg"
       }
     },
     "a7c13b44-a68e-44a7-8a14-95f47eef3bad": {
       "type": "product-section-image-right",
+      "disabled": true,
       "settings": {
         "unique_selling_point": "Luxe en stylish design 😍",
         "headline": "Perfect voor iedere outfit",
@@ -439,8 +440,18 @@
         "image": "shopify:\/\/shop_images\/IMG_5740.jpg"
       }
     },
+    "b44828b2-9751-4c2d-b0dc-d826744c6c67": {
+      "type": "product-section-image-right",
+      "settings": {
+        "unique_selling_point": "Het perfecte cadeau  💝",
+        "headline": "Verwen jezelf of een ander",
+        "paragraph": "Elk item wordt prachtig verpakt en geleverd in een mooie geschenkdoos. Hergebruik je doos om je sieraden in op te bergen.",
+        "why_text": "<strong>Silk Dreams Scrunchies:<\/strong><br>\n✔️ Verpakt in een luxe schuif giftbox\n<br>✔️ Houd jouw haar mooi & gezond<br>✔️ Matcht elke outfit"
+      }
+    },
     "b3cd23a2-3f9a-4e11-b727-9effd8ad6b3e": {
       "type": "product-section-image-left",
+      "disabled": true,
       "settings": {
         "unique_selling_point": "Het perfecte cadeau  💝",
         "headline": "Verwen jezelf of een ander",
@@ -524,6 +535,7 @@
     "903be29f-6ad7-4682-b9e6-8fce691cc565",
     "b9dba73f-84cd-4b95-9f58-1332cbae7294",
     "a7c13b44-a68e-44a7-8a14-95f47eef3bad",
+    "b44828b2-9751-4c2d-b0dc-d826744c6c67",
     "b3cd23a2-3f9a-4e11-b727-9effd8ad6b3e",
     "60a30f7a-4ec1-41b8-9dbf-ce8f01369078",
     "2863ee1d-378c-4264-8ea1-6338ab18112a"
