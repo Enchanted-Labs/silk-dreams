@@ -1,63 +1,91 @@
-
-    <div class="content-container">
-      <div class="w-layout-grid content-grid">
-        <div data-aos-delay="200" data-aos="fade-in" data-aos-easing="linear" data-aos-duration="500" id="w-node-_2a076274-7466-563d-8e3b-e18442c87ce9-42c87ce6" class="content-block aos-init aos-animate">
-          <div id="w-node-_2a076274-7466-563d-8e3b-e18442c87cea-42c87ce6" class="content__regular">
-            <h2 class="h2-product-section">{{ section.settings.headline }}</h2>
-            <p class="product-paragraph">{{ section.settings.paragraph }}</p>
-          </div>
-          <p class="benefit-paragraphs">{{ section.settings.why_text }}</p>
-        </div>
-        <div data-aos-easing="linear" data-aos="fade-in" data-aos-duration="500" data-delay="200" id="w-node-_2a076274-7466-563d-8e3b-e18442c87cf9-42c87ce6" class="content-image-block aos-init aos-animate">
-          <div class="content-image">
-            <div data-poster-url="{{ 'video-render-transcode-poster-00001.jpg' | asset_url }}" data-video-urls="videos/video-render-transcode-transcode.mp4,videos/video-render-transcode-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" class="absolute-content w-background-video w-background-video-atom"><video id="2a076274-7466-563d-8e3b-e18442c87cfb-video" autoplay="" loop="" style="background-image:url(&quot;videos/video-render-transcode-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
-                <source src="{{ 'video-render-transcode-transcode.mp4' | asset_url }}" data-wf-ignore="true">
-                <source src="{{ 'video-render-transcode-transcode.webm' | asset_url }}" data-wf-ignore="true">
-              </video></div>
-          </div>
-          <div class="benefit-bar">{{ section.settings.unique_selling_point }}</div>
+<div class="content-container">
+  <div class="w-layout-grid content-grid">
+    <div
+      data-aos-delay="200"
+      data-aos="fade-in"
+      data-aos-easing="linear"
+      data-aos-duration="500"
+      id="w-node-_2a076274-7466-563d-8e3b-e18442c87ce9-42c87ce6"
+      class="content-block aos-init aos-animate">
+      <div id="w-node-_2a076274-7466-563d-8e3b-e18442c87cea-42c87ce6" class="content__regular">
+        <h2 class="h2-product-section">{{ section.settings.headline }}</h2>
+        <p class="product-paragraph">{{ section.settings.paragraph }}</p>
+      </div>
+      <p class="benefit-paragraphs">{{ section.settings.why_text }}</p>
+    </div>
+    <div
+      data-aos-easing="linear"
+      data-aos="fade-in"
+      data-aos-duration="500"
+      data-delay="200"
+      id="w-node-_2a076274-7466-563d-8e3b-e18442c87cf9-42c87ce6"
+      class="content-image-block aos-init aos-animate">
+      <div class="content-image">
+        <div
+          data-poster-url="{{ 'video-render-transcode-poster-00001.jpg' | asset_url }}"
+          data-video-urls="videos/video-render-transcode-transcode.mp4,videos/video-render-transcode-transcode.webm"
+          data-autoplay="true"
+          data-loop="true"
+          data-wf-ignore="true"
+          class="absolute-content w-background-video w-background-video-atom">
+          <video
+            id="2a076274-7466-563d-8e3b-e18442c87cfb-video"
+            playsinline
+            autoplay=""
+            loop=""
+            style="background-image:url(&quot;videos/video-render-transcode-poster-00001.jpg&quot;)"
+            muted=""
+            playsinline=""
+            data-wf-ignore="true"
+            data-object-fit="cover">
+            <source src="{{ 'video-render-transcode-transcode.mp4' | asset_url }}" data-wf-ignore="true">
+            <source src="{{ 'video-render-transcode-transcode.webm' | asset_url }}" data-wf-ignore="true">
+          </video>
         </div>
       </div>
+      <div class="benefit-bar">{{ section.settings.unique_selling_point }}</div>
     </div>
-  
+  </div>
+</div>
 
-<script>var currentSection = document.currentScript.closest('.shopify-section');currentSection.setAttribute("class","product-info-block-section");</script>
-        
+
+<script>
+  var currentSection = document.currentScript.closest('.shopify-section');
+  currentSection.setAttribute("class", "product-info-block-section");
+</script>
+
 {% schema %}
-{
-  "name": "Product Section | Video R",
-  "tag": "div",
-  "class": "product-info-block-section",
-  "presets": [
-    {
-      "name": "Product Section | Video R"
-    }
-  ],
-  "settings": [
-    {
-      "type": "text",
-      "id": "unique_selling_point",
-      "label": "Unique Selling Point",
-      "default": "Verminderd acne & roodheden ✨"
-    },
-    {
-      "type": "textarea",
-      "id": "headline",
-      "label": "Headline",
-      "default": "Zeg vaarwel tegen acne"
-    },
-    {
-      "type": "textarea",
-      "id": "paragraph",
-      "label": "Paragraph",
-      "default": "Naast een glowy skin en een stralende huid geniet je ook nog eens van glanzende haren. Het fijn geweven kussensloop zorgt er voor dat je haar niet klit of afbreekt tijdens het slapen."
-    },
-    {
-      "type": "textarea",
-      "id": "why_text",
-      "label": "Why Text",
-      "default": "Waarom je moet overstappen:✔️ Zorgt voor mooie glanzende haren✔️ Elimineert bacteriën die acne veroorzaken ✔️ Verminderd vrijving op de huid"
-    }
-  ]
-}
+  {
+    "name": "Product Section | Video R",
+    "tag": "div",
+    "class": "product-info-block-section",
+    "presets": [
+      {
+        "name": "Product Section | Video R"
+      }
+    ],
+    "settings": [
+      {
+        "type": "text",
+        "id": "unique_selling_point",
+        "label": "Unique Selling Point",
+        "default": "Verminderd acne & roodheden ✨"
+      }, {
+        "type": "textarea",
+        "id": "headline",
+        "label": "Headline",
+        "default": "Zeg vaarwel tegen acne"
+      }, {
+        "type": "textarea",
+        "id": "paragraph",
+        "label": "Paragraph",
+        "default": "Naast een glowy skin en een stralende huid geniet je ook nog eens van glanzende haren. Het fijn geweven kussensloop zorgt er voor dat je haar niet klit of afbreekt tijdens het slapen."
+      }, {
+        "type": "textarea",
+        "id": "why_text",
+        "label": "Why Text",
+        "default": "Waarom je moet overstappen:✔️ Zorgt voor mooie glanzende haren✔️ Elimineert bacteriën die acne veroorzaken ✔️ Verminderd vrijving op de huid"
+      }
+    ]
+  }
 {% endschema %}
