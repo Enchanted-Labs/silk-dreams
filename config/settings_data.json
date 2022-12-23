@@ -4,24 +4,6 @@
       "header": {
         "type": "header",
         "blocks": {
-          "d6622b85-5643-4b6f-8a81-70fb48415215": {
-            "type": "swiper_block",
-            "settings": {
-              "collection": "Slaapmaskers",
-              "collection_tagline": "",
-              "collection_image": "shopify:\/\/shop_images\/IMG_5606.jpg",
-              "link": ""
-            }
-          },
-          "b2ff1e1a-d4ce-4258-9086-ee1f8faec4c1": {
-            "type": "swiper_block",
-            "settings": {
-              "collection": "Scrunchies",
-              "collection_tagline": "PAST BIJ ELK OUTJE",
-              "collection_image": "shopify:\/\/shop_images\/IMG_5575.jpg",
-              "link": ""
-            }
-          },
           "789714b7-1036-47c8-8210-1b96da39db3c": {
             "type": "swiper_block",
             "settings": {
@@ -31,12 +13,30 @@
               "link": ""
             }
           },
+          "d6622b85-5643-4b6f-8a81-70fb48415215": {
+            "type": "swiper_block",
+            "settings": {
+              "collection": "Slaapmaskers",
+              "collection_tagline": "",
+              "collection_image": "shopify:\/\/shop_images\/IMG_5606.jpg",
+              "link": ""
+            }
+          },
           "438fd108-bc91-4a4b-86cf-d7f564f3132c": {
             "type": "swiper_block",
             "settings": {
               "collection": "Sleepbundle",
               "collection_tagline": "HET PERFECTE CADEAU",
               "collection_image": "shopify:\/\/shop_images\/3671a759-b5fa-4b16-9f6c-d1cb8f3cdb5b.jpg",
+              "link": ""
+            }
+          },
+          "b2ff1e1a-d4ce-4258-9086-ee1f8faec4c1": {
+            "type": "swiper_block",
+            "settings": {
+              "collection": "Scrunchies",
+              "collection_tagline": "PAST BIJ ELK OUTJE",
+              "collection_image": "shopify:\/\/shop_images\/IMG_5575.jpg",
               "link": ""
             }
           },
@@ -59,10 +59,10 @@
           }
         },
         "block_order": [
-          "d6622b85-5643-4b6f-8a81-70fb48415215",
-          "b2ff1e1a-d4ce-4258-9086-ee1f8faec4c1",
           "789714b7-1036-47c8-8210-1b96da39db3c",
+          "d6622b85-5643-4b6f-8a81-70fb48415215",
           "438fd108-bc91-4a4b-86cf-d7f564f3132c",
+          "b2ff1e1a-d4ce-4258-9086-ee1f8faec4c1",
           "b4446422-746f-4ee7-8767-3d704a48303a",
           "b9c641a7-3429-4081-b361-03fdebc1f650"
         ],
