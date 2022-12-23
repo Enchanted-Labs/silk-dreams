@@ -112,25 +112,25 @@
         "2d323637-888f-446a-b498-de48d5147a00": {
           "type": "benefit_check_mobile",
           "settings": {
-            "benefit-mobile": "Verminderd acne & roodheden"
+            "benefit-mobile": "Voorkomt fijne lijntjes en rimpels"
           }
         },
         "1d97c2b2-654a-40de-8569-c5f0e9728b22": {
           "type": "benefit_check_mobile",
           "settings": {
-            "benefit-mobile": "Versterkt andere huidverzorgingsproducten"
+            "benefit-mobile": "Vermindert verstopte poriën"
           }
         },
         "2ac31be4-dede-4329-81bf-421feed169d7": {
           "type": "benefit_check_mobile",
           "settings": {
-            "benefit-mobile": "Voorkomt fijne lijntjes en rimpels"
+            "benefit-mobile": "Oogverkoelend & \"depuffing\" effect"
           }
         },
         "8ab4b6c6-cd50-44da-ba8c-3337de64ad8a": {
           "type": "benefit_check_mobile",
           "settings": {
-            "benefit-mobile": "Brengt de natuurlijke oliën van de huid weer in balans"
+            "benefit-mobile": "Verbetert slaapkwaliteit"
           }
         }
       },
