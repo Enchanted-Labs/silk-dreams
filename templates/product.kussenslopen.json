@@ -159,8 +159,9 @@
         "4b8ee105-8a73-45f0-b46a-bc16ed002d15": {
           "type": "swatches",
           "settings": {
-            "swatch-link": "",
-            "swatch-alt": ""
+            "swatch-image": "{{ product.metafields.custom.swatch_6_image.value }}",
+            "swatch-link": "{{ product.metafields.custom.product_swatch_6_link.value }}",
+            "swatch-alt": "{{ product.metafields.custom.swatch_6_alt.value }}"
           }
         }
       },
