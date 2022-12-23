@@ -26,7 +26,6 @@
         "5afcf6e5-9f04-4a96-9f56-a0cc1ab66952": {
           "type": "swatches",
           "settings": {
-            "swatch-image": "{{ product.metafields.custom.swatch_1_image.value }}",
             "swatch-link": "{{ product.metafields.custom.product_swatch_1_link.value }}",
             "swatch-alt": "{{ product.metafields.custom.swatch_1_alt.value }}"
           }
@@ -162,7 +161,7 @@
         "image_width": "wide",
         "image_spacing": 10,
         "swatch-title": "Color",
-        "swatch-color": "{{ product.metafields.custom.color_name.value }}"
+        "swatch-color": "{{ product.metafields.custom.color_name.value }} Black"
       }
     },
     "b1e1b0c7-8b5a-4348-a3ef-faa400b94c5e": {
