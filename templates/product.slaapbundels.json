@@ -226,14 +226,7 @@
           "type": "benefit_slide",
           "settings": {
             "headline": "Wakker worden met een morning glow",
-            "paragraph": "Zijde zorgt dat je wakker wordt met een natuurlijke glans en glanzende haren. Het fijn geweven kussensloop zorgt er voor dat je haar niet klit of afbreekt tijdens het slapen."
-          }
-        },
-        "5b88048a-3320-441c-a0a2-bea15329d4c5": {
-          "type": "benefit_slide",
-          "settings": {
-            "headline": "Nooit meer een bad-hair day",
-            "paragraph": "De stof zorgt voor minder wrijving. Hierdoor gaat je haar minder pluizen en wordt je wakker met glanzende haren!"
+            "paragraph": "Zijde helpt het vocht en collageen van je huid vast te houden, wat cruciaal is voor een natuurlijke glans. Daarnaast is de stof zacht voor het haar wat breuk in je haar voorkomt."
           }
         },
         "6e00aa45-bbdf-49b4-93cf-9b0d3c375742": {
@@ -246,7 +239,6 @@
       },
       "block_order": [
         "c5e822cb-46c6-4c82-a3bc-6a77e92290e4",
-        "5b88048a-3320-441c-a0a2-bea15329d4c5",
         "6e00aa45-bbdf-49b4-93cf-9b0d3c375742"
       ],
       "settings": {
