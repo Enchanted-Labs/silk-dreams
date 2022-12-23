@@ -140,7 +140,7 @@
             "benefit-mobile": "Brengt de natuurlijke oliën van de huid weer in balans"
           }
         },
-        "54163494-22c4-43fe-b876-19eb756fb9a1": {
+        "8b07b71a-a530-44a6-a909-7ae0a4ada70b": {
           "type": "swatches",
           "settings": {
             "swatch-image": "{{ product.metafields.custom.swatch_4_image.value }}",
@@ -148,7 +148,7 @@
             "swatch-alt": "{{ product.metafields.custom.swatch_4_alt.value }}"
           }
         },
-        "ff699b76-5f14-4b96-b1a9-b126e8ce73e5": {
+        "fd50ca86-662d-4ebf-b1bc-900176e7abbe": {
           "type": "swatches",
           "settings": {
             "swatch-image": "{{ product.metafields.custom.swatch_5_image.value }}",
@@ -156,7 +156,7 @@
             "swatch-alt": "{{ product.metafields.custom.swatch_5_alt.value }}"
           }
         },
-        "e1cd8fcf-adbf-4faf-b424-582fa465e1ee": {
+        "4b8ee105-8a73-45f0-b46a-bc16ed002d15": {
           "type": "swatches",
           "settings": {
             "swatch-image": "{{ product.metafields.custom.swatch_6_image.value }}",
@@ -188,9 +188,9 @@
         "1d97c2b2-654a-40de-8569-c5f0e9728b22",
         "2ac31be4-dede-4329-81bf-421feed169d7",
         "8ab4b6c6-cd50-44da-ba8c-3337de64ad8a",
-        "54163494-22c4-43fe-b876-19eb756fb9a1",
-        "ff699b76-5f14-4b96-b1a9-b126e8ce73e5",
-        "e1cd8fcf-adbf-4faf-b424-582fa465e1ee"
+        "8b07b71a-a530-44a6-a909-7ae0a4ada70b",
+        "fd50ca86-662d-4ebf-b1bc-900176e7abbe",
+        "4b8ee105-8a73-45f0-b46a-bc16ed002d15"
       ],
       "settings": {
         "layout": "thumbnails-below@slides",
@@ -353,7 +353,8 @@
         "unique_selling_point": "Versterkt skincare routines 💖",
         "headline": "De perfecte toevoeging tot jouw skincare routine",
         "paragraph": "Omdat zijde van nature enorm zacht aan voelt. Is het ideaal voor je huid. Het neemt geen vocht op, waardoor nachtcrèmes effectiever kunnen worden gebruikt. Het is daarnaast algemeen bekend dat gehydrateerde huidcellen minder lijntjes en rimpels veroorzaken dan een droge huid.",
-        "why_text": "<strong>Anti-aging voordelen:<\/strong><br>✔️ Absorbeert geen vocht<br>✔️ Minder lijntjes en rimpels"
+        "why_text": "<strong>Anti-aging voordelen:<\/strong><br>✔️ Absorbeert geen vocht<br>✔️ Minder lijntjes en rimpels",
+        "image": "shopify:\/\/shop_images\/IMG_2127.jpg"
       }
     },
     "a7c13b44-a68e-44a7-8a14-95f47eef3bad": {
@@ -363,7 +364,7 @@
         "headline": "Goed voor je haar & huid",
         "paragraph": "Zijde helpt het vocht en collageen van je huid vast te houden, wat cruciaal is voor een natuurlijke glans. Daarnaast is de stof zacht voor het haar wat breuk in je haar voorkomt.",
         "why_text": "<strong>Huid & haar voordelen:<\/strong><br>✔️ Zorgt voor een natuurlijke glans<br>✔️ Verminderd kans op wrijving en haar breuk",
-        "image": "shopify:\/\/shop_images\/IMG_5581.jpg"
+        "image": "shopify:\/\/shop_images\/IMG_9580.jpg"
       }
     },
     "b3cd23a2-3f9a-4e11-b727-9effd8ad6b3e": {

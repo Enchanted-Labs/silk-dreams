@@ -109,13 +109,6 @@
             "accordion_paragraph": "✔︎ Voorkomt acne, puistje & droge huid.<br>✔︎ Anti-aging, hydraterend.<br>✔︎ Geen haarklitten, pluizig haar & gespleten punten.<br>✔︎ Houdt het haar gehydrateerd<br>✔︎ Voorkomt haaruitval<br>✔︎ Zorgt voor een betere werking van jouw huidverzorgingsproducten."
           }
         },
-        "9981e15b-81bd-41f2-a6b8-b2bc77d8d2ae": {
-          "type": "accordion",
-          "settings": {
-            "accordion_title": "100 nachten proefslapen",
-            "accordion_paragraph": "We weten dat sommige dingen tijd nodig hebben, daarom bieden we een proefperiode van 100 nachten aan. Als je om wat voor reden dan ook niet van je kussensloop houdt, zelfs niet na 100 dagen, stuur hem dan terug voor een volledige terugbetaling + verzendkosten."
-          }
-        },
         "2d323637-888f-446a-b498-de48d5147a00": {
           "type": "benefit_check_mobile",
           "settings": {
@@ -140,7 +133,7 @@
             "benefit-mobile": "Brengt de natuurlijke oliën van de huid weer in balans"
           }
         },
-        "54163494-22c4-43fe-b876-19eb756fb9a1": {
+        "67106319-8da7-42d1-8abd-0fc1727d76c3": {
           "type": "swatches",
           "settings": {
             "swatch-image": "{{ product.metafields.custom.swatch_4_image.value }}",
@@ -148,7 +141,7 @@
             "swatch-alt": "{{ product.metafields.custom.swatch_4_alt.value }}"
           }
         },
-        "ff699b76-5f14-4b96-b1a9-b126e8ce73e5": {
+        "9bd5fdcf-d752-4073-8e3d-329a3a986bf6": {
           "type": "swatches",
           "settings": {
             "swatch-image": "{{ product.metafields.custom.swatch_5_image.value }}",
@@ -156,12 +149,127 @@
             "swatch-alt": "{{ product.metafields.custom.swatch_5_alt.value }}"
           }
         },
-        "e1cd8fcf-adbf-4faf-b424-582fa465e1ee": {
+        "2eabe08e-6096-4f2b-8ae2-7e3dbd34a4f0": {
           "type": "swatches",
           "settings": {
             "swatch-image": "{{ product.metafields.custom.swatch_6_image.value }}",
             "swatch-link": "{{ product.metafields.custom.product_swatch_6_link.value }}",
             "swatch-alt": "{{ product.metafields.custom.swatch_6_alt.value }}"
+          }
+        },
+        "b505943a-f0e2-4e56-9df5-7d995c6fbee7": {
+          "type": "swatches",
+          "settings": {
+            "swatch-image": "{{ product.metafields.custom.swatch_7_image.value }}",
+            "swatch-link": "{{ product.metafields.custom.product_swatch_7_link.value }}",
+            "swatch-alt": "{{ product.metafields.custom.swatch_7_alt.value }}"
+          }
+        },
+        "d290c65c-5c92-4a10-bef8-ba085321a8ab": {
+          "type": "swatches",
+          "settings": {
+            "swatch-image": "{{ product.metafields.custom.swatch_8_image.value }}",
+            "swatch-link": "{{ product.metafields.custom.product_swatch_8_link.value }}",
+            "swatch-alt": "{{ product.metafields.custom.swatch_9_alt.value }}"
+          }
+        },
+        "023741a9-7226-4996-8974-d2d0461f7789": {
+          "type": "swatches",
+          "settings": {
+            "swatch-image": "{{ product.metafields.custom.swatch_9_image.value }}",
+            "swatch-link": "{{ product.metafields.custom.product_swatch_9_link.value }}",
+            "swatch-alt": "{{ product.metafields.custom.swatch_10_alt.value }}"
+          }
+        },
+        "612629b9-8f4c-4f73-b682-27f62727639a": {
+          "type": "swatches",
+          "settings": {
+            "swatch-image": "{{ product.metafields.custom.swatch_10_image.value }}",
+            "swatch-link": "{{ product.metafields.custom.product_swatch_10_link.value }}",
+            "swatch-alt": "{{ product.metafields.custom.swatch_8_alt.value }}"
+          }
+        },
+        "f447a319-e48a-488f-8cff-8b79f395c9cd": {
+          "type": "swatches",
+          "settings": {
+            "swatch-image": "{{ product.metafields.custom.swatch_11_image.value }}",
+            "swatch-link": "{{ product.metafields.custom.product_swatch_11_link.value }}",
+            "swatch-alt": "{{ product.metafields.custom.swatch_11_alt.value }}"
+          }
+        },
+        "eca0c99e-3bc3-4f89-b4e0-1295c831d30b": {
+          "type": "swatches",
+          "settings": {
+            "swatch-image": "{{ product.metafields.custom.swatch_12_image.value }}",
+            "swatch-link": "{{ product.metafields.custom.product_swatch_12_link.value }}",
+            "swatch-alt": "{{ product.metafields.custom.swatch_12_alt.value }}"
+          }
+        },
+        "916c98b1-0556-45eb-ad47-7d4614cb3607": {
+          "type": "swatches",
+          "settings": {
+            "swatch-image": "{{ product.metafields.custom.swatch_13_image.value }}",
+            "swatch-link": "{{ product.metafields.custom.product_swatch_13_link.value }}",
+            "swatch-alt": "{{ product.metafields.custom.swatch_13_alt.value }}"
+          }
+        },
+        "07489ced-715e-4715-8d91-fcda39833d90": {
+          "type": "swatches",
+          "settings": {
+            "swatch-image": "{{ product.metafields.custom.swatch_14_image.value }}",
+            "swatch-link": "{{ product.metafields.custom.product_swatch_14_link.value }}",
+            "swatch-alt": "{{ product.metafields.custom.swatch_14_alt.value }}"
+          }
+        },
+        "bcd9c513-588e-41ad-a9da-9f0f4668bec8": {
+          "type": "swatches",
+          "settings": {
+            "swatch-image": "{{ product.metafields.custom.swatch_15_image.value }}",
+            "swatch-link": "{{ product.metafields.custom.product_swatch_15_link.value }}",
+            "swatch-alt": "{{ product.metafields.custom.swatch_15_alt.value }}"
+          }
+        },
+        "1b506242-25f8-4026-abdf-a9131a643854": {
+          "type": "swatches",
+          "settings": {
+            "swatch-image": "{{ product.metafields.custom.swatch_16_image.value }}",
+            "swatch-link": "{{ product.metafields.custom.product_swatch_16_link.value }}",
+            "swatch-alt": "{{ product.metafields.custom.swatch_16_alt.value }}"
+          }
+        },
+        "ff2c9e55-73c7-47d8-b90d-b705f750f341": {
+          "type": "swatches",
+          "settings": {
+            "swatch-link": "",
+            "swatch-alt": ""
+          }
+        },
+        "ff414561-2fba-4ec2-b8b7-894f3f5cf7ad": {
+          "type": "swatches",
+          "settings": {
+            "swatch-link": "",
+            "swatch-alt": ""
+          }
+        },
+        "81f1d3ca-826d-46c4-8ddb-384e0b4e7910": {
+          "type": "swatches",
+          "settings": {
+            "swatch-link": "",
+            "swatch-alt": ""
+          }
+        },
+        "03d5cfd3-5650-4f0d-b475-2039ab55f6d8": {
+          "type": "swatches",
+          "settings": {
+            "swatch-link": "",
+            "swatch-alt": ""
+          }
+        },
+        "55f51695-0e6e-46aa-86d8-ec2c36d2d3fa": {
+          "type": "swatches",
+          "settings": {
+            "swatch-link": "",
+            "swatch-alt": ""
           }
         }
       },
@@ -183,14 +291,28 @@
         "4e6da9e5-c454-4bcf-9723-5a606e336d33",
         "574957e8-6c92-4e1e-8ca7-fafdaf0b57cb",
         "89244d97-2159-466b-a464-1ea30a23d94e",
-        "9981e15b-81bd-41f2-a6b8-b2bc77d8d2ae",
         "2d323637-888f-446a-b498-de48d5147a00",
         "1d97c2b2-654a-40de-8569-c5f0e9728b22",
         "2ac31be4-dede-4329-81bf-421feed169d7",
         "8ab4b6c6-cd50-44da-ba8c-3337de64ad8a",
-        "54163494-22c4-43fe-b876-19eb756fb9a1",
-        "ff699b76-5f14-4b96-b1a9-b126e8ce73e5",
-        "e1cd8fcf-adbf-4faf-b424-582fa465e1ee"
+        "67106319-8da7-42d1-8abd-0fc1727d76c3",
+        "9bd5fdcf-d752-4073-8e3d-329a3a986bf6",
+        "2eabe08e-6096-4f2b-8ae2-7e3dbd34a4f0",
+        "b505943a-f0e2-4e56-9df5-7d995c6fbee7",
+        "d290c65c-5c92-4a10-bef8-ba085321a8ab",
+        "023741a9-7226-4996-8974-d2d0461f7789",
+        "612629b9-8f4c-4f73-b682-27f62727639a",
+        "f447a319-e48a-488f-8cff-8b79f395c9cd",
+        "eca0c99e-3bc3-4f89-b4e0-1295c831d30b",
+        "916c98b1-0556-45eb-ad47-7d4614cb3607",
+        "07489ced-715e-4715-8d91-fcda39833d90",
+        "bcd9c513-588e-41ad-a9da-9f0f4668bec8",
+        "1b506242-25f8-4026-abdf-a9131a643854",
+        "ff2c9e55-73c7-47d8-b90d-b705f750f341",
+        "ff414561-2fba-4ec2-b8b7-894f3f5cf7ad",
+        "81f1d3ca-826d-46c4-8ddb-384e0b4e7910",
+        "03d5cfd3-5650-4f0d-b475-2039ab55f6d8",
+        "55f51695-0e6e-46aa-86d8-ec2c36d2d3fa"
       ],
       "settings": {
         "layout": "thumbnails-below@slides",
@@ -217,47 +339,6 @@
       ],
       "settings": {
         "trustpilot_text": "Een score van 4.8 uit 5 op basis van 346 reviews op"
-      }
-    },
-    "90a1c975-381b-45d5-9b25-57b3d3608ad8": {
-      "type": "beauty-dreaming-section",
-      "blocks": {
-        "c5e822cb-46c6-4c82-a3bc-6a77e92290e4": {
-          "type": "benefit_slide",
-          "settings": {
-            "headline": "Wakker worden met een morning glow",
-            "paragraph": "Zijde zorgt dat je wakker wordt met een natuurlijke glans en glanzende haren. Het fijn geweven kussensloop zorgt er voor dat je haar niet klit of afbreekt tijdens het slapen."
-          }
-        },
-        "5b88048a-3320-441c-a0a2-bea15329d4c5": {
-          "type": "benefit_slide",
-          "settings": {
-            "headline": "Nooit meer een bad-hair day",
-            "paragraph": "De stof zorgt voor minder wrijving. Hierdoor gaat je haar minder pluizen en wordt je wakker met glanzende haren!"
-          }
-        },
-        "6e00aa45-bbdf-49b4-93cf-9b0d3c375742": {
-          "type": "benefit_slide",
-          "settings": {
-            "headline": "Wakker worden met een morning glow",
-            "paragraph": "Zijde zorgt dat je wakker wordt met een natuurlijke glans en glanzende haren. Het fijn geweven kussensloop zorgt er voor dat je haar niet klit of afbreekt tijdens het slapen."
-          }
-        }
-      },
-      "block_order": [
-        "c5e822cb-46c6-4c82-a3bc-6a77e92290e4",
-        "5b88048a-3320-441c-a0a2-bea15329d4c5",
-        "6e00aa45-bbdf-49b4-93cf-9b0d3c375742"
-      ],
-      "settings": {
-        "header": "Beauty made during your dreams.",
-        "benefit_1_headline": "Verassende beauty voordelen",
-        "benefit_1_paragraph": "Zijde zorgt dat je wakker wordt met een natuurlijke glans en glanzende haren. Het fijn geweven kussensloop zorgt er voor dat je haar niet klit of afbreekt tijdens het slapen.",
-        "benefit_2_headline": "Gemaakt voor next-level skincare",
-        "benefit_2_paragraph": "Alle kussenslopen van Silk Dreams bevatten zilverionen technologie dat 99.7% van alle bacteriën elimineert. Zo bescherm je jouw huid tegen huidproblemen zoals acne, puistjes, onzuiverheden en roodheid.",
-        "benefit_3_headline": "Verwen jezelf of een ander",
-        "benefit_3_paragraph": "Elk item wordt prachtig verpakt en geleverd in een mooie geschenkdoos. Hergebruik je doos om je sieraden of schoonheidsproducten in op te bergen.",
-        "paragraph": "Naast een glowy skin en een stralende huid geniet je ook nog eens van glanzende haren. Het fijn geweven kussensloop zorgt er voor dat je haar niet klit of afbreekt tijdens het slapen."
       }
     },
     "903be29f-6ad7-4682-b9e6-8fce691cc565": {
@@ -338,32 +419,24 @@
         "paragraph": "Bij Silk Dreams gaat het niet alleen om slapen op luxe maar juist ook om beauty! Alle producten zijn daarom gemaakt van zijde dat doordrenkt is met zilver wat super goed is voor jouw huid en haar."
       }
     },
-    "82c53c75-e933-4431-80b0-486e2a943694": {
-      "type": "product-section-video-right",
-      "settings": {
-        "unique_selling_point": "Verminderd acne & roodheden ✨",
-        "headline": "De magische kracht van zijde",
-        "paragraph": "Deze kussensloop van zijde is behandeld met een speciale zilverionentechnologie die 99,7% van de bacteriën doodt. Zo maken bacteriën geen kans hebben en bescherm je jouw huid tegen huidproblemen zoals roodheid, acne en uitslag. Laat de magische kracht van zijde werken en geniet van een gezonde, stralende huid terwijl je heerlijk slaapt.",
-        "why_text": "<strong>Waarom je moet overstappen:<\/strong><br>✔️ Zorgt voor mooie glanzende haren<br>✔️ Elimineert bacteriën die acne veroorzaken <br>✔️ Verminderd vrijving op de huid"
-      }
-    },
     "b9dba73f-84cd-4b95-9f58-1332cbae7294": {
       "type": "product-section-image-left",
       "settings": {
-        "unique_selling_point": "Versterkt skincare routines 💖",
-        "headline": "De perfecte toevoeging tot jouw skincare routine",
-        "paragraph": "Omdat zijde van nature enorm zacht aan voelt. Is het ideaal voor je huid. Het neemt geen vocht op, waardoor nachtcrèmes effectiever kunnen worden gebruikt. Het is daarnaast algemeen bekend dat gehydrateerde huidcellen minder lijntjes en rimpels veroorzaken dan een droge huid.",
-        "why_text": "<strong>Anti-aging voordelen:<\/strong><br>✔️ Absorbeert geen vocht<br>✔️ Minder lijntjes en rimpels"
+        "unique_selling_point": "mooi en gezond haar 💖",
+        "headline": "Het beste voor jouw haar.",
+        "paragraph": "Deze scrunchies voorkomen breuken en schade aan jouw haar, wat belangrijk is om het gezond en mooi te houden.",
+        "why_text": "<strong>Zijde Scrunchie voordelen:<\/strong><br>✔️ Voorkomt breuken en schade <br>✔️ Houd het haar mooi en gezond",
+        "image": "shopify:\/\/shop_images\/IMG_4137_ee16afd4-6a1b-41ed-b35e-ae847d018d18.jpg"
       }
     },
     "a7c13b44-a68e-44a7-8a14-95f47eef3bad": {
       "type": "product-section-image-right",
       "settings": {
-        "unique_selling_point": "Mooie en gezonde haren 😍",
-        "headline": "Goed voor je haar & huid",
-        "paragraph": "Zijde helpt het vocht en collageen van je huid vast te houden, wat cruciaal is voor een natuurlijke glans. Daarnaast is de stof zacht voor het haar wat breuk in je haar voorkomt.",
-        "why_text": "<strong>Huid & haar voordelen:<\/strong><br>✔️ Zorgt voor een natuurlijke glans<br>✔️ Verminderd kans op wrijving en haar breuk",
-        "image": "shopify:\/\/shop_images\/IMG_5581.jpg"
+        "unique_selling_point": "Luxe design 😍",
+        "headline": "Perfect voor iedere outfit",
+        "paragraph": "Door de brede variatie in kleuren en luxe design, vallen deze scrunchies gemakkelijk te stylen met iedere outfit die jij draagt",
+        "why_text": "<strong>Waarom een zijde scrunchie?<\/strong><br>✔️ Luxe design<br>✔️ Goed te stylen met iedere outfit",
+        "image": "shopify:\/\/shop_images\/IMG_5740.jpg"
       }
     },
     "b3cd23a2-3f9a-4e11-b727-9effd8ad6b3e": {
@@ -372,8 +445,8 @@
         "unique_selling_point": "Het perfecte cadeau  💝",
         "headline": "Verwen jezelf of een ander",
         "paragraph": "Elk item wordt prachtig verpakt en geleverd in een mooie geschenkdoos. Hergebruik je doos om je sieraden in op te bergen.",
-        "why_text": "<strong>Silk Dreams Sleepbundle:<\/strong><br>✔️ Verpakt in een luxe giftbox<br>✔️ Natuurlijke beauty voordelen\n<br>✔️ 100 nachten proefslapen",
-        "image": "shopify:\/\/shop_images\/DSC05102-p-1600.jpg"
+        "why_text": "<strong>Silk Dreams Scrunchies:<\/strong><br>✔️ Verpakt in een luxe giftbox<br>✔️ Natuurlijke beauty voordelen\n<br>",
+        "image": "shopify:\/\/shop_images\/DSC05137_b84d3a70-e5ba-469a-b0cb-3ee548d4749c.jpg"
       }
     },
     "60a30f7a-4ec1-41b8-9dbf-ce8f01369078": {
@@ -448,9 +521,7 @@
   "order": [
     "template",
     "b1e1b0c7-8b5a-4348-a3ef-faa400b94c5e",
-    "90a1c975-381b-45d5-9b25-57b3d3608ad8",
     "903be29f-6ad7-4682-b9e6-8fce691cc565",
-    "82c53c75-e933-4431-80b0-486e2a943694",
     "b9dba73f-84cd-4b95-9f58-1332cbae7294",
     "a7c13b44-a68e-44a7-8a14-95f47eef3bad",
     "b3cd23a2-3f9a-4e11-b727-9effd8ad6b3e",

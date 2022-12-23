@@ -109,13 +109,6 @@
             "accordion_paragraph": "✔︎ Voorkomt acne, puistje & droge huid.<br>✔︎ Anti-aging, hydraterend.<br>✔︎ Geen haarklitten, pluizig haar & gespleten punten.<br>✔︎ Houdt het haar gehydrateerd<br>✔︎ Voorkomt haaruitval<br>✔︎ Zorgt voor een betere werking van jouw huidverzorgingsproducten."
           }
         },
-        "9981e15b-81bd-41f2-a6b8-b2bc77d8d2ae": {
-          "type": "accordion",
-          "settings": {
-            "accordion_title": "100 nachten proefslapen",
-            "accordion_paragraph": "We weten dat sommige dingen tijd nodig hebben, daarom bieden we een proefperiode van 100 nachten aan. Als je om wat voor reden dan ook niet van je kussensloop houdt, zelfs niet na 100 dagen, stuur hem dan terug voor een volledige terugbetaling + verzendkosten."
-          }
-        },
         "2d323637-888f-446a-b498-de48d5147a00": {
           "type": "benefit_check_mobile",
           "settings": {
@@ -139,30 +132,6 @@
           "settings": {
             "benefit-mobile": "Brengt de natuurlijke oliën van de huid weer in balans"
           }
-        },
-        "54163494-22c4-43fe-b876-19eb756fb9a1": {
-          "type": "swatches",
-          "settings": {
-            "swatch-image": "{{ product.metafields.custom.swatch_4_image.value }}",
-            "swatch-link": "{{ product.metafields.custom.product_swatch_4_link.value }}",
-            "swatch-alt": "{{ product.metafields.custom.swatch_4_alt.value }}"
-          }
-        },
-        "ff699b76-5f14-4b96-b1a9-b126e8ce73e5": {
-          "type": "swatches",
-          "settings": {
-            "swatch-image": "{{ product.metafields.custom.swatch_5_image.value }}",
-            "swatch-link": "{{ product.metafields.custom.product_swatch_5_link.value }}",
-            "swatch-alt": "{{ product.metafields.custom.swatch_5_alt.value }}"
-          }
-        },
-        "e1cd8fcf-adbf-4faf-b424-582fa465e1ee": {
-          "type": "swatches",
-          "settings": {
-            "swatch-image": "{{ product.metafields.custom.swatch_6_image.value }}",
-            "swatch-link": "{{ product.metafields.custom.product_swatch_6_link.value }}",
-            "swatch-alt": "{{ product.metafields.custom.swatch_6_alt.value }}"
-          }
         }
       },
       "block_order": [
@@ -183,14 +152,10 @@
         "4e6da9e5-c454-4bcf-9723-5a606e336d33",
         "574957e8-6c92-4e1e-8ca7-fafdaf0b57cb",
         "89244d97-2159-466b-a464-1ea30a23d94e",
-        "9981e15b-81bd-41f2-a6b8-b2bc77d8d2ae",
         "2d323637-888f-446a-b498-de48d5147a00",
         "1d97c2b2-654a-40de-8569-c5f0e9728b22",
         "2ac31be4-dede-4329-81bf-421feed169d7",
-        "8ab4b6c6-cd50-44da-ba8c-3337de64ad8a",
-        "54163494-22c4-43fe-b876-19eb756fb9a1",
-        "ff699b76-5f14-4b96-b1a9-b126e8ce73e5",
-        "e1cd8fcf-adbf-4faf-b424-582fa465e1ee"
+        "8ab4b6c6-cd50-44da-ba8c-3337de64ad8a"
       ],
       "settings": {
         "layout": "thumbnails-below@slides",
@@ -217,47 +182,6 @@
       ],
       "settings": {
         "trustpilot_text": "Een score van 4.8 uit 5 op basis van 346 reviews op"
-      }
-    },
-    "90a1c975-381b-45d5-9b25-57b3d3608ad8": {
-      "type": "beauty-dreaming-section",
-      "blocks": {
-        "c5e822cb-46c6-4c82-a3bc-6a77e92290e4": {
-          "type": "benefit_slide",
-          "settings": {
-            "headline": "Wakker worden met een morning glow",
-            "paragraph": "Zijde zorgt dat je wakker wordt met een natuurlijke glans en glanzende haren. Het fijn geweven kussensloop zorgt er voor dat je haar niet klit of afbreekt tijdens het slapen."
-          }
-        },
-        "5b88048a-3320-441c-a0a2-bea15329d4c5": {
-          "type": "benefit_slide",
-          "settings": {
-            "headline": "Nooit meer een bad-hair day",
-            "paragraph": "De stof zorgt voor minder wrijving. Hierdoor gaat je haar minder pluizen en wordt je wakker met glanzende haren!"
-          }
-        },
-        "6e00aa45-bbdf-49b4-93cf-9b0d3c375742": {
-          "type": "benefit_slide",
-          "settings": {
-            "headline": "Wakker worden met een morning glow",
-            "paragraph": "Zijde zorgt dat je wakker wordt met een natuurlijke glans en glanzende haren. Het fijn geweven kussensloop zorgt er voor dat je haar niet klit of afbreekt tijdens het slapen."
-          }
-        }
-      },
-      "block_order": [
-        "c5e822cb-46c6-4c82-a3bc-6a77e92290e4",
-        "5b88048a-3320-441c-a0a2-bea15329d4c5",
-        "6e00aa45-bbdf-49b4-93cf-9b0d3c375742"
-      ],
-      "settings": {
-        "header": "Beauty made during your dreams.",
-        "benefit_1_headline": "Verassende beauty voordelen",
-        "benefit_1_paragraph": "Zijde zorgt dat je wakker wordt met een natuurlijke glans en glanzende haren. Het fijn geweven kussensloop zorgt er voor dat je haar niet klit of afbreekt tijdens het slapen.",
-        "benefit_2_headline": "Gemaakt voor next-level skincare",
-        "benefit_2_paragraph": "Alle kussenslopen van Silk Dreams bevatten zilverionen technologie dat 99.7% van alle bacteriën elimineert. Zo bescherm je jouw huid tegen huidproblemen zoals acne, puistjes, onzuiverheden en roodheid.",
-        "benefit_3_headline": "Verwen jezelf of een ander",
-        "benefit_3_paragraph": "Elk item wordt prachtig verpakt en geleverd in een mooie geschenkdoos. Hergebruik je doos om je sieraden of schoonheidsproducten in op te bergen.",
-        "paragraph": "Naast een glowy skin en een stralende huid geniet je ook nog eens van glanzende haren. Het fijn geweven kussensloop zorgt er voor dat je haar niet klit of afbreekt tijdens het slapen."
       }
     },
     "903be29f-6ad7-4682-b9e6-8fce691cc565": {
@@ -338,42 +262,14 @@
         "paragraph": "Bij Silk Dreams gaat het niet alleen om slapen op luxe maar juist ook om beauty! Alle producten zijn daarom gemaakt van zijde dat doordrenkt is met zilver wat super goed is voor jouw huid en haar."
       }
     },
-    "82c53c75-e933-4431-80b0-486e2a943694": {
-      "type": "product-section-video-right",
-      "settings": {
-        "unique_selling_point": "Verminderd acne & roodheden ✨",
-        "headline": "De magische kracht van zijde",
-        "paragraph": "Deze kussensloop van zijde is behandeld met een speciale zilverionentechnologie die 99,7% van de bacteriën doodt. Zo maken bacteriën geen kans hebben en bescherm je jouw huid tegen huidproblemen zoals roodheid, acne en uitslag. Laat de magische kracht van zijde werken en geniet van een gezonde, stralende huid terwijl je heerlijk slaapt.",
-        "why_text": "<strong>Waarom je moet overstappen:<\/strong><br>✔️ Zorgt voor mooie glanzende haren<br>✔️ Elimineert bacteriën die acne veroorzaken <br>✔️ Verminderd vrijving op de huid"
-      }
-    },
     "b9dba73f-84cd-4b95-9f58-1332cbae7294": {
       "type": "product-section-image-left",
       "settings": {
-        "unique_selling_point": "Versterkt skincare routines 💖",
-        "headline": "De perfecte toevoeging tot jouw skincare routine",
-        "paragraph": "Omdat zijde van nature enorm zacht aan voelt. Is het ideaal voor je huid. Het neemt geen vocht op, waardoor nachtcrèmes effectiever kunnen worden gebruikt. Het is daarnaast algemeen bekend dat gehydrateerde huidcellen minder lijntjes en rimpels veroorzaken dan een droge huid.",
-        "why_text": "<strong>Anti-aging voordelen:<\/strong><br>✔️ Absorbeert geen vocht<br>✔️ Minder lijntjes en rimpels"
-      }
-    },
-    "a7c13b44-a68e-44a7-8a14-95f47eef3bad": {
-      "type": "product-section-image-right",
-      "settings": {
-        "unique_selling_point": "Mooie en gezonde haren 😍",
-        "headline": "Goed voor je haar & huid",
-        "paragraph": "Zijde helpt het vocht en collageen van je huid vast te houden, wat cruciaal is voor een natuurlijke glans. Daarnaast is de stof zacht voor het haar wat breuk in je haar voorkomt.",
-        "why_text": "<strong>Huid & haar voordelen:<\/strong><br>✔️ Zorgt voor een natuurlijke glans<br>✔️ Verminderd kans op wrijving en haar breuk",
-        "image": "shopify:\/\/shop_images\/IMG_5581.jpg"
-      }
-    },
-    "b3cd23a2-3f9a-4e11-b727-9effd8ad6b3e": {
-      "type": "product-section-image-left",
-      "settings": {
-        "unique_selling_point": "Het perfecte cadeau  💝",
-        "headline": "Verwen jezelf of een ander",
-        "paragraph": "Elk item wordt prachtig verpakt en geleverd in een mooie geschenkdoos. Hergebruik je doos om je sieraden in op te bergen.",
-        "why_text": "<strong>Silk Dreams Sleepbundle:<\/strong><br>✔️ Verpakt in een luxe giftbox<br>✔️ Natuurlijke beauty voordelen\n<br>✔️ 100 nachten proefslapen",
-        "image": "shopify:\/\/shop_images\/DSC05102-p-1600.jpg"
+        "unique_selling_point": "Beschadigd jouw haar niet💖",
+        "headline": "Voor prachtige krullen, zonder extra moeite",
+        "paragraph": "Geniet van mooie, natuurlijke krullen zonder het gebruik van hitte. Doe de curler in wanneer je gaat slapen en word wakker met prachtige krullen.",
+        "why_text": "<strong> Haar voordelen:<\/strong><br>✔️ Geen schade aan je haar <br>✔️ Houd het haar mooi en gezond",
+        "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker_1.gif"
       }
     },
     "60a30f7a-4ec1-41b8-9dbf-ce8f01369078": {
@@ -448,12 +344,8 @@
   "order": [
     "template",
     "b1e1b0c7-8b5a-4348-a3ef-faa400b94c5e",
-    "90a1c975-381b-45d5-9b25-57b3d3608ad8",
     "903be29f-6ad7-4682-b9e6-8fce691cc565",
-    "82c53c75-e933-4431-80b0-486e2a943694",
     "b9dba73f-84cd-4b95-9f58-1332cbae7294",
-    "a7c13b44-a68e-44a7-8a14-95f47eef3bad",
-    "b3cd23a2-3f9a-4e11-b727-9effd8ad6b3e",
     "60a30f7a-4ec1-41b8-9dbf-ce8f01369078",
     "2863ee1d-378c-4264-8ea1-6338ab18112a"
   ]
