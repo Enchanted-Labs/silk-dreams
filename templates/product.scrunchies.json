@@ -84,7 +84,7 @@
         "139dc70a-d718-4c01-8547-07e63799d246": {
           "type": "product_usp",
           "settings": {
-            "usp": "HET NUMMER #1 SKINCARE KUSSENSLOOP",
+            "usp": "past bij iedere outfit",
             "benefit-icon": "shopify:\/\/shop_images\/Group_1844-2.png"
           }
         },
@@ -112,25 +112,25 @@
         "2d323637-888f-446a-b498-de48d5147a00": {
           "type": "benefit_check_mobile",
           "settings": {
-            "benefit-mobile": "Verminderd acne & roodheden"
+            "benefit-mobile": "Voorkomt haarbreuk"
           }
         },
         "1d97c2b2-654a-40de-8569-c5f0e9728b22": {
           "type": "benefit_check_mobile",
           "settings": {
-            "benefit-mobile": "Versterkt andere huidverzorgingsproducten"
+            "benefit-mobile": "Laat geen knik achter"
           }
         },
         "2ac31be4-dede-4329-81bf-421feed169d7": {
           "type": "benefit_check_mobile",
           "settings": {
-            "benefit-mobile": "Voorkomt fijne lijntjes en rimpels"
+            "benefit-mobile": "Voorkomt klitten"
           }
         },
         "8ab4b6c6-cd50-44da-ba8c-3337de64ad8a": {
           "type": "benefit_check_mobile",
           "settings": {
-            "benefit-mobile": "Brengt de natuurlijke oliën van de huid weer in balans"
+            "benefit-mobile": "Blijft stevig zitten"
           }
         },
         "67106319-8da7-42d1-8abd-0fc1727d76c3": {
