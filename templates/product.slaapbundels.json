@@ -229,25 +229,25 @@
             "paragraph": "Zijde helpt het vocht en collageen van je huid vast te houden, wat cruciaal is voor een natuurlijke glans. Daarnaast is de stof zacht voor het haar wat breuk in je haar voorkomt."
           }
         },
-        "6e00aa45-bbdf-49b4-93cf-9b0d3c375742": {
-          "type": "benefit_slide",
-          "settings": {
-            "headline": "Nooit meer een bad hair day",
-            "paragraph": "Zijde zorgt dat je wakker wordt met een natuurlijke glans en glanzende haren. Het fijn geweven kussensloop zorgt er voor dat je haar niet klit of afbreekt tijdens het slapen."
-          }
-        },
         "432508f3-5f35-4d9e-9801-4408a12cc4c1": {
           "type": "benefit_slide",
           "settings": {
             "headline": "Versterkt jouw skincare routine",
             "paragraph": "Neemt geen vocht op in tegenstelling tot katoenen kussenslopen. Zo blijven jouw skincare producten heel de nacht zitten. Dit zorgt niet alleen voor een effectievere skincare routine maar bespaard ook geld!"
           }
+        },
+        "6e00aa45-bbdf-49b4-93cf-9b0d3c375742": {
+          "type": "benefit_slide",
+          "settings": {
+            "headline": "Nooit meer een bad hair day",
+            "paragraph": "Zijde zorgt dat je wakker wordt met een natuurlijke glans en glanzende haren. Het fijn geweven kussensloop zorgt er voor dat je haar niet klit of afbreekt tijdens het slapen."
+          }
         }
       },
       "block_order": [
         "c5e822cb-46c6-4c82-a3bc-6a77e92290e4",
-        "6e00aa45-bbdf-49b4-93cf-9b0d3c375742",
-        "432508f3-5f35-4d9e-9801-4408a12cc4c1"
+        "432508f3-5f35-4d9e-9801-4408a12cc4c1",
+        "6e00aa45-bbdf-49b4-93cf-9b0d3c375742"
       ],
       "settings": {
         "header": "Beauty made during your dreams.",
