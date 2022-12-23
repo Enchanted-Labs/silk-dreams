@@ -67,7 +67,7 @@
           alt=""
           class="product-in-grid-img">
         <div class="collection-content">
-          <p class="collection-title">{{ 'tn7dc55357' | t }}<br>{{ 't757223b0' | t }}</p>
+          <p class="collection-title">{{ product.title }}</p>
           <a href="#" class="link-block-3 w-inline-block"><img
               src="{{ 'cart.svg' | asset_url }}"
               loading="lazy"
@@ -77,11 +77,11 @@
               height="24"></a>
         </div>
         <div class="product-in-grid-details">
-          <p class="details-p">{{ 'tn33081804' | t }}</p>
+          <p class="details-p">{{ product.metafields.custom.color_name }}</p>
           <div class="variant-divider"></div>
-          <p class="details-p">{{ 'tn337eadd0' | t }}</p>
+          <p class="details-p">{{ product.price | money }}</p>
         </div>
-        <a href="#" class="collection-button w-button">{{ 'tae9d4a5' | t }}</a>
+        <a href="{{ product.url }}" class="collection-button w-button">{{ 'tae9d4a5' | t }}</a>
       </div>
     {% endfor %}
   </div>
