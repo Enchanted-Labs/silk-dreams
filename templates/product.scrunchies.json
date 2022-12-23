@@ -144,8 +144,9 @@
         "9bd5fdcf-d752-4073-8e3d-329a3a986bf6": {
           "type": "swatches",
           "settings": {
-            "swatch-link": "",
-            "swatch-alt": ""
+            "swatch-image": "{{ product.metafields.custom.swatch_5_image.value }}",
+            "swatch-link": "{{ product.metafields.custom.product_swatch_5_link.value }}",
+            "swatch-alt": "{{ product.metafields.custom.swatch_5_alt.value }}"
           }
         },
         "2eabe08e-6096-4f2b-8ae2-7e3dbd34a4f0": {
@@ -156,6 +157,62 @@
           }
         },
         "b505943a-f0e2-4e56-9df5-7d995c6fbee7": {
+          "type": "swatches",
+          "settings": {
+            "swatch-link": "",
+            "swatch-alt": ""
+          }
+        },
+        "d290c65c-5c92-4a10-bef8-ba085321a8ab": {
+          "type": "swatches",
+          "settings": {
+            "swatch-link": "",
+            "swatch-alt": ""
+          }
+        },
+        "023741a9-7226-4996-8974-d2d0461f7789": {
+          "type": "swatches",
+          "settings": {
+            "swatch-link": "",
+            "swatch-alt": ""
+          }
+        },
+        "612629b9-8f4c-4f73-b682-27f62727639a": {
+          "type": "swatches",
+          "settings": {
+            "swatch-link": "",
+            "swatch-alt": ""
+          }
+        },
+        "f447a319-e48a-488f-8cff-8b79f395c9cd": {
+          "type": "swatches",
+          "settings": {
+            "swatch-link": "",
+            "swatch-alt": ""
+          }
+        },
+        "eca0c99e-3bc3-4f89-b4e0-1295c831d30b": {
+          "type": "swatches",
+          "settings": {
+            "swatch-link": "",
+            "swatch-alt": ""
+          }
+        },
+        "916c98b1-0556-45eb-ad47-7d4614cb3607": {
+          "type": "swatches",
+          "settings": {
+            "swatch-link": "",
+            "swatch-alt": ""
+          }
+        },
+        "07489ced-715e-4715-8d91-fcda39833d90": {
+          "type": "swatches",
+          "settings": {
+            "swatch-link": "",
+            "swatch-alt": ""
+          }
+        },
+        "bcd9c513-588e-41ad-a9da-9f0f4668bec8": {
           "type": "swatches",
           "settings": {
             "swatch-link": "",
@@ -188,7 +245,15 @@
         "67106319-8da7-42d1-8abd-0fc1727d76c3",
         "9bd5fdcf-d752-4073-8e3d-329a3a986bf6",
         "2eabe08e-6096-4f2b-8ae2-7e3dbd34a4f0",
-        "b505943a-f0e2-4e56-9df5-7d995c6fbee7"
+        "b505943a-f0e2-4e56-9df5-7d995c6fbee7",
+        "d290c65c-5c92-4a10-bef8-ba085321a8ab",
+        "023741a9-7226-4996-8974-d2d0461f7789",
+        "612629b9-8f4c-4f73-b682-27f62727639a",
+        "f447a319-e48a-488f-8cff-8b79f395c9cd",
+        "eca0c99e-3bc3-4f89-b4e0-1295c831d30b",
+        "916c98b1-0556-45eb-ad47-7d4614cb3607",
+        "07489ced-715e-4715-8d91-fcda39833d90",
+        "bcd9c513-588e-41ad-a9da-9f0f4668bec8"
       ],
       "settings": {
         "layout": "thumbnails-below@slides",
