@@ -40,20 +40,20 @@
               "link": ""
             }
           },
+          "b9c641a7-3429-4081-b361-03fdebc1f650": {
+            "type": "swiper_block",
+            "settings": {
+              "collection": "Kussensloop",
+              "collection_tagline": "#1 BESTSELLER",
+              "link": ""
+            }
+          },
           "b4446422-746f-4ee7-8767-3d704a48303a": {
             "type": "swiper_block",
             "settings": {
               "collection": "Bestsellers",
               "collection_tagline": "MOST WANTED",
               "collection_image": "shopify:\/\/shop_images\/DSC05102-p-1600.jpg",
-              "link": ""
-            }
-          },
-          "b9c641a7-3429-4081-b361-03fdebc1f650": {
-            "type": "swiper_block",
-            "settings": {
-              "collection": "Kussensloop",
-              "collection_tagline": "#1 BESTSELLER",
               "link": ""
             }
           }
@@ -63,8 +63,8 @@
           "d6622b85-5643-4b6f-8a81-70fb48415215",
           "438fd108-bc91-4a4b-86cf-d7f564f3132c",
           "b2ff1e1a-d4ce-4258-9086-ee1f8faec4c1",
-          "b4446422-746f-4ee7-8767-3d704a48303a",
-          "b9c641a7-3429-4081-b361-03fdebc1f650"
+          "b9c641a7-3429-4081-b361-03fdebc1f650",
+          "b4446422-746f-4ee7-8767-3d704a48303a"
         ],
         "settings": {
           "announcement_bar_text": "Gratis verzending <span class=\"text-span-2\">op bestellingen <\/span>vanaf €49,95",
