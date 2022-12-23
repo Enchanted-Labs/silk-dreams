@@ -34,8 +34,9 @@
           "438fd108-bc91-4a4b-86cf-d7f564f3132c": {
             "type": "swiper_block",
             "settings": {
-              "collection": "Kussensloop",
-              "collection_tagline": "#1 BESTSELLER",
+              "collection": "Sleepbundle",
+              "collection_tagline": "HET PERFECTE CADEAU",
+              "collection_image": "shopify:\/\/shop_images\/3671a759-b5fa-4b16-9f6c-d1cb8f3cdb5b.jpg",
               "link": ""
             }
           },
