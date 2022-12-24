@@ -170,7 +170,7 @@
           "settings": {
             "swatch-image": "{{ product.metafields.custom.swatch_8_image.value }}",
             "swatch-link": "{{ product.metafields.custom.product_swatch_8_link.value }}",
-            "swatch-alt": "{{ product.metafields.custom.swatch_9_alt.value }}"
+            "swatch-alt": "{{ product.metafields.custom.swatch_8_alt.value }}"
           }
         },
         "023741a9-7226-4996-8974-d2d0461f7789": {
@@ -178,7 +178,7 @@
           "settings": {
             "swatch-image": "{{ product.metafields.custom.swatch_9_image.value }}",
             "swatch-link": "{{ product.metafields.custom.product_swatch_9_link.value }}",
-            "swatch-alt": "{{ product.metafields.custom.swatch_10_alt.value }}"
+            "swatch-alt": "{{ product.metafields.custom.swatch_9_alt.value }}"
           }
         },
         "612629b9-8f4c-4f73-b682-27f62727639a": {
@@ -186,7 +186,7 @@
           "settings": {
             "swatch-image": "{{ product.metafields.custom.swatch_10_image.value }}",
             "swatch-link": "{{ product.metafields.custom.product_swatch_10_link.value }}",
-            "swatch-alt": "{{ product.metafields.custom.swatch_8_alt.value }}"
+            "swatch-alt": "{{ product.metafields.custom.swatch_10_alt.value }}"
           }
         },
         "f447a319-e48a-488f-8cff-8b79f395c9cd": {
