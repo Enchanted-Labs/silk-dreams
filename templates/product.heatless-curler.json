@@ -112,25 +112,13 @@
         "2d323637-888f-446a-b498-de48d5147a00": {
           "type": "benefit_check_mobile",
           "settings": {
-            "benefit-mobile": "Verminderd acne & roodheden"
+            "benefit-mobile": "Krult zonder het gebruik van warmte"
           }
         },
         "1d97c2b2-654a-40de-8569-c5f0e9728b22": {
           "type": "benefit_check_mobile",
           "settings": {
-            "benefit-mobile": "Versterkt andere huidverzorgingsproducten"
-          }
-        },
-        "2ac31be4-dede-4329-81bf-421feed169d7": {
-          "type": "benefit_check_mobile",
-          "settings": {
-            "benefit-mobile": "Voorkomt fijne lijntjes en rimpels"
-          }
-        },
-        "8ab4b6c6-cd50-44da-ba8c-3337de64ad8a": {
-          "type": "benefit_check_mobile",
-          "settings": {
-            "benefit-mobile": "Brengt de natuurlijke oliën van de huid weer in balans"
+            "benefit-mobile": "Zorgt voor volume en mooie volle krullen"
           }
         }
       },
@@ -153,9 +141,7 @@
         "574957e8-6c92-4e1e-8ca7-fafdaf0b57cb",
         "89244d97-2159-466b-a464-1ea30a23d94e",
         "2d323637-888f-446a-b498-de48d5147a00",
-        "1d97c2b2-654a-40de-8569-c5f0e9728b22",
-        "2ac31be4-dede-4329-81bf-421feed169d7",
-        "8ab4b6c6-cd50-44da-ba8c-3337de64ad8a"
+        "1d97c2b2-654a-40de-8569-c5f0e9728b22"
       ],
       "settings": {
         "layout": "thumbnails-below@slides",
