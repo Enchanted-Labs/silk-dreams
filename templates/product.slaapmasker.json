@@ -132,6 +132,28 @@
           "settings": {
             "benefit-mobile": "Verbetert slaapkwaliteit"
           }
+        },
+        "c8293e0f-966a-4338-95b7-e523c21ccc19": {
+          "type": "swatches",
+          "settings": {
+            "swatch-image": "{{ product.metafields.custom.swatch_4_image.value }}",
+            "swatch-link": "{{ product.metafields.custom.product_swatch_4_link.value }}",
+            "swatch-alt": "{{ product.metafields.custom.swatch_4_alt.value }}"
+          }
+        },
+        "c0c493a7-275a-4b3c-804b-d314f6d61bdf": {
+          "type": "swatches",
+          "settings": {
+            "swatch-link": "",
+            "swatch-alt": ""
+          }
+        },
+        "47d6f2e0-5f6b-4522-8f02-404f29751ec1": {
+          "type": "swatches",
+          "settings": {
+            "swatch-link": "",
+            "swatch-alt": ""
+          }
         }
       },
       "block_order": [
@@ -155,7 +177,10 @@
         "2d323637-888f-446a-b498-de48d5147a00",
         "1d97c2b2-654a-40de-8569-c5f0e9728b22",
         "2ac31be4-dede-4329-81bf-421feed169d7",
-        "8ab4b6c6-cd50-44da-ba8c-3337de64ad8a"
+        "8ab4b6c6-cd50-44da-ba8c-3337de64ad8a",
+        "c8293e0f-966a-4338-95b7-e523c21ccc19",
+        "c0c493a7-275a-4b3c-804b-d314f6d61bdf",
+        "47d6f2e0-5f6b-4522-8f02-404f29751ec1"
       ],
       "settings": {
         "layout": "thumbnails-below@slides",
