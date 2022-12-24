@@ -62,8 +62,29 @@
         "e167f9ff-7913-4da7-86ba-436b879c9898": {
           "type": "faq_block_1",
           "settings": {
-            "question": "Hoe lang gaat een zijde kussensloop mee?",
+            "question": "Hoe lang gaat een zijden kussensloop mee?",
             "answer": "Onze kussenslopen gaan gemiddeld 2 jaar mee met regulier gebruik."
+          }
+        },
+        "a02fde7c-ac96-4642-8c84-f3a0bcb8bd26": {
+          "type": "faq_block_1",
+          "settings": {
+            "question": "Hoe vaak moet ik mijn zijden kussensloop wassen?",
+            "answer": "Een zijden kussensloop hoef je minder vaak te wassen dan een katoenen kussensloop. Een katoenen kussensloop moet je eigenlijk drie keer per week verschonene om viezigheid te voorkomen. Een zijde kussensloop hoef je maar eens per week te verschonen om goed schoon te blijven."
+          }
+        },
+        "2de711b9-c95f-4feb-a135-d5f2e2ed803f": {
+          "type": "faq_block_1",
+          "settings": {
+            "question": "Hoe was ik mijn zijden kussensloop in de wasmachine?",
+            "answer": "Omdat zijde een eiwit is moet je het op de juiste manier wassen, anders slijt het sneller. Was je zijden kussensloop met een pH-neutraal wasmiddel, wij raden aan een fijnwasmiddel te gebruiken bedoeld voor zijde en wol. Gebruik op je wasmachine de handwas\/wol programma, met 30ºC en maximaal 400 toeren. Hiernaast is het belangrijk om het is een waszakje te stoppen tijdens het wassen."
+          }
+        },
+        "bbec3b13-6252-4d5c-855a-d3a561319c34": {
+          "type": "faq_block_1",
+          "settings": {
+            "question": "Hoe was ik mijn zijden kussensloop met de hand?",
+            "answer": "Maak een lauwwarm sopje met je pH-neutrale wasmiddel. stop je zijden kussensloop in het waszakje en was het in het sopje voor een minuut. Laat het niet weken, schrob en wrijf niet hard en spoel na afloop af met water."
           }
         },
         "a72f268b-73c4-4444-9c1e-9c2d4341f48c": {
@@ -91,6 +112,9 @@
         "bc7e03e4-0757-4e9c-a3fe-b58329f14a90",
         "2a1f19c7-c6ab-4f60-b72c-d1e93684da52",
         "e167f9ff-7913-4da7-86ba-436b879c9898",
+        "a02fde7c-ac96-4642-8c84-f3a0bcb8bd26",
+        "2de711b9-c95f-4feb-a135-d5f2e2ed803f",
+        "bbec3b13-6252-4d5c-855a-d3a561319c34",
         "a72f268b-73c4-4444-9c1e-9c2d4341f48c",
         "a81df415-e9e2-49be-9ba3-fd2b941e9852"
       ],
