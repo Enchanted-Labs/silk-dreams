@@ -6,8 +6,8 @@
         "0ab9720e-262c-4d87-a432-0f28054e107f": {
           "type": "faq_block_1",
           "settings": {
-            "question": "Wat houdt 100 nachten proefslapen in?",
-            "answer": "Basically, you can design anything that you can ever imagine. The main thing here is to have a parent container and two child elements. One for the FAQ question and another for FAQ answer. The child element for FAQ answer should be set to overflow: hidden and transform-origin set to top mid."
+            "question": "Waar zijn jullie producten van gemaakt?",
+            "answer": "Al onze producten zijn gemaakt van 100%, zilver doordrenkt, 22 momme moerbei zijde. Dit zijde"
           }
         },
         "a72f268b-73c4-4444-9c1e-9c2d4341f48c": {
