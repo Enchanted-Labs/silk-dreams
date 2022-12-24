@@ -144,8 +144,9 @@
         "c0c493a7-275a-4b3c-804b-d314f6d61bdf": {
           "type": "swatches",
           "settings": {
-            "swatch-link": "",
-            "swatch-alt": ""
+            "swatch-image": "{{ product.metafields.custom.swatch_5_image.value }}",
+            "swatch-link": "{{ product.metafields.custom.product_swatch_5_link.value }}",
+            "swatch-alt": "{{ product.metafields.custom.swatch_5_alt.value }}"
           }
         },
         "47d6f2e0-5f6b-4522-8f02-404f29751ec1": {
