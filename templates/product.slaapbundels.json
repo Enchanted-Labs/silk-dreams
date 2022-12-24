@@ -218,11 +218,20 @@
             "paragraph": "“Wowww I'm impressed! Na een week erop slapen merk ik al het verschil 😍...",
             "name_and_date": "Jessica, 4 days ago"
           }
+        },
+        "63350e8f-abc4-480a-a3e0-0fcdbef3d96e": {
+          "type": "review",
+          "settings": {
+            "headline": "“Zeer tevreden!”",
+            "paragraph": "“Ik ben zeer tevreden, het was mooi verpakt in een luxe doos. Ben er super...",
+            "name_and_date": "Aniek, 3 days ago"
+          }
         }
       },
       "block_order": [
         "b3376165-326a-4052-ac55-09379ba85ffb",
-        "0b3b2ea7-d8b4-47c1-9fc7-e43c64afa241"
+        "0b3b2ea7-d8b4-47c1-9fc7-e43c64afa241",
+        "63350e8f-abc4-480a-a3e0-0fcdbef3d96e"
       ],
       "settings": {
         "trustpilot_text": "Een score van 4.8 uit 5 op basis van 346 reviews op"
