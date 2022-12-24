@@ -142,6 +142,13 @@
             "question": "Na hoeveel dagen kan ik mijn pakketje retouneren?",
             "answer": "WIj hebben een 30 dagen retour beleid. Dit betekend dat jij 30 dagen na je bestelling je bestelling kunt retouneren."
           }
+        },
+        "1f3e81bc-e0c2-48e9-bd9f-657c1e858d8e": {
+          "type": "faq_block_3",
+          "settings": {
+            "question": "Na hoeveel dagen krijg ik mijn geld terug?",
+            "answer": "Wij sturen jou een bericht wanneer de retour is verwerkt. Enkele dagen na ontvanst van de retour kan je je geld op je rekening verwachten."
+          }
         }
       },
       "block_order": [
@@ -164,7 +171,8 @@
         "2dbb83ae-9c54-4747-994b-03fd87839b2a",
         "224ce51c-c67a-4da0-8840-1c9248214902",
         "a81df415-e9e2-49be-9ba3-fd2b941e9852",
-        "b5967263-84ad-4b5e-b2bf-eb3fc8898657"
+        "b5967263-84ad-4b5e-b2bf-eb3fc8898657",
+        "1f3e81bc-e0c2-48e9-bd9f-657c1e858d8e"
       ],
       "settings": {
         "tagline": "SILK DREAMS",
