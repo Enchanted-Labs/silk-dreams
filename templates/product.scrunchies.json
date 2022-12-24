@@ -264,8 +264,9 @@
         "ff414561-2fba-4ec2-b8b7-894f3f5cf7ad": {
           "type": "swatches",
           "settings": {
-            "swatch-link": "",
-            "swatch-alt": ""
+            "swatch-image": "{{ product.metafields.custom.swatch_20_image.value }}",
+            "swatch-link": "{{ product.metafields.custom.product_swatch_20_link.value }}",
+            "swatch-alt": "{{ product.metafields.custom.swatch_20_alt.value }}"
           }
         },
         "55f51695-0e6e-46aa-86d8-ec2c36d2d3fa": {
