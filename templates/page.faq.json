@@ -132,8 +132,15 @@
         "a81df415-e9e2-49be-9ba3-fd2b941e9852": {
           "type": "faq_block_3",
           "settings": {
-            "question": "Wat houdt 100 nachten proefslapen in?",
-            "answer": "Basically, you can design anything that you can ever imagine. The main thing here is to have a parent container and two child elements. One for the FAQ question and another for FAQ answer. The child element for FAQ answer should be set to overflow: hidden and transform-origin set to top mid."
+            "question": "Hoe retouneer is mijn pakketje?",
+            "answer": "Het is heel simpel, stuur ons een mailte op zakelijk@comfywise.nl, vermeld hierin je bestelnummer, dan sturen wij jou een retourlabel die jij kan gebruiken om je pakketje terug te sturen."
+          }
+        },
+        "b5967263-84ad-4b5e-b2bf-eb3fc8898657": {
+          "type": "faq_block_3",
+          "settings": {
+            "question": "Na hoeveel dagen kan ik mijn pakketje retouneren?",
+            "answer": "WIj hebben een 30 dagen retour beleid. Dit betekend dat jij 30 dagen na je bestelling je bestelling kunt retouneren."
           }
         }
       },
@@ -156,7 +163,8 @@
         "a72f268b-73c4-4444-9c1e-9c2d4341f48c",
         "2dbb83ae-9c54-4747-994b-03fd87839b2a",
         "224ce51c-c67a-4da0-8840-1c9248214902",
-        "a81df415-e9e2-49be-9ba3-fd2b941e9852"
+        "a81df415-e9e2-49be-9ba3-fd2b941e9852",
+        "b5967263-84ad-4b5e-b2bf-eb3fc8898657"
       ],
       "settings": {
         "tagline": "SILK DREAMS",
