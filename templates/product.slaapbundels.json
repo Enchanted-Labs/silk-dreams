@@ -88,11 +88,11 @@
             "benefit-icon": "shopify:\/\/shop_images\/Group_1844-2.png"
           }
         },
-        "4e6da9e5-c454-4bcf-9723-5a606e336d33": {
+        "89244d97-2159-466b-a464-1ea30a23d94e": {
           "type": "accordion",
           "settings": {
-            "accordion_title": "Je zult niet meer zonder kunnen!",
-            "accordion_paragraph": "sdsdasdasdasd"
+            "accordion_title": "Huid & haar voordelen",
+            "accordion_paragraph": "✔︎ Voorkomt acne, puistje & droge huid.<br>✔︎ Anti-aging, hydraterend.<br>✔︎ Geen haarklitten, pluizig haar & gespleten punten.<br>✔︎ Houdt het haar gehydrateerd<br>✔︎ Voorkomt haaruitval<br>✔︎ Zorgt voor een betere werking van jouw huidverzorgingsproducten."
           }
         },
         "574957e8-6c92-4e1e-8ca7-fafdaf0b57cb": {
@@ -100,13 +100,6 @@
           "settings": {
             "accordion_title": "Vandaag besteld, morgen in huis",
             "accordion_paragraph": "We verwerken alle Nederlandse en Belgische bestellingen direct na de bestelling bij ons binnenkomt.\n<br><br>\nVoor 23:59 uur besteld = morgen in huis!"
-          }
-        },
-        "89244d97-2159-466b-a464-1ea30a23d94e": {
-          "type": "accordion",
-          "settings": {
-            "accordion_title": "Huid & haar voordelen",
-            "accordion_paragraph": "✔︎ Voorkomt acne, puistje & droge huid.<br>✔︎ Anti-aging, hydraterend.<br>✔︎ Geen haarklitten, pluizig haar & gespleten punten.<br>✔︎ Houdt het haar gehydrateerd<br>✔︎ Voorkomt haaruitval<br>✔︎ Zorgt voor een betere werking van jouw huidverzorgingsproducten."
           }
         },
         "9981e15b-81bd-41f2-a6b8-b2bc77d8d2ae": {
@@ -180,9 +173,8 @@
         "191f604e-a674-4355-9e3a-8e4d63c76dd3",
         "2d1e1192-e5c7-4b28-a7c8-1913171c355a",
         "139dc70a-d718-4c01-8547-07e63799d246",
-        "4e6da9e5-c454-4bcf-9723-5a606e336d33",
-        "574957e8-6c92-4e1e-8ca7-fafdaf0b57cb",
         "89244d97-2159-466b-a464-1ea30a23d94e",
+        "574957e8-6c92-4e1e-8ca7-fafdaf0b57cb",
         "9981e15b-81bd-41f2-a6b8-b2bc77d8d2ae",
         "2d323637-888f-446a-b498-de48d5147a00",
         "1d97c2b2-654a-40de-8569-c5f0e9728b22",
