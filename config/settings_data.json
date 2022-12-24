@@ -10,7 +10,7 @@
               "collection": "Sleepbundle",
               "collection_tagline": "LUXE GIFTBOX",
               "collection_image": "shopify:\/\/shop_images\/3671a759-b5fa-4b16-9f6c-d1cb8f3cdb5b.jpg",
-              "link": ""
+              "link": "shopify:\/\/products\/premium-zijden-slaapbundel-champagne"
             }
           },
           "d6622b85-5643-4b6f-8a81-70fb48415215": {
@@ -19,7 +19,7 @@
               "collection": "Slaapmaskers",
               "collection_tagline": "OOGVERKOELEND",
               "collection_image": "shopify:\/\/shop_images\/IMG_5606.jpg",
-              "link": ""
+              "link": "shopify:\/\/products\/zijden-slaapmasker-sky-blue"
             }
           },
           "b9c641a7-3429-4081-b361-03fdebc1f650": {
@@ -28,16 +28,7 @@
               "collection": "Hair Curler",
               "collection_tagline": "HEATLESS CURLS",
               "collection_image": "shopify:\/\/shop_images\/ezgif.com-gif-maker_1.gif",
-              "link": ""
-            }
-          },
-          "789714b7-1036-47c8-8210-1b96da39db3c": {
-            "type": "swiper_block",
-            "settings": {
-              "collection": "Kussensloop",
-              "collection_tagline": "#1 BESTSELLER",
-              "collection_image": "shopify:\/\/shop_images\/IMG_2205.jpg",
-              "link": ""
+              "link": "shopify:\/\/products\/heatless-curler-graphite"
             }
           },
           "b2ff1e1a-d4ce-4258-9086-ee1f8faec4c1": {
@@ -46,16 +37,7 @@
               "collection": "Scrunchies",
               "collection_tagline": "STYLISH",
               "collection_image": "shopify:\/\/shop_images\/IMG_5575.jpg",
-              "link": ""
-            }
-          },
-          "b4446422-746f-4ee7-8767-3d704a48303a": {
-            "type": "swiper_block",
-            "settings": {
-              "collection": "Bestsellers",
-              "collection_tagline": "MOST WANTED",
-              "collection_image": "shopify:\/\/shop_images\/DSC05102-p-1600.jpg",
-              "link": ""
+              "link": "shopify:\/\/products\/3-pack-large-scrunchies-champagne"
             }
           }
         },
@@ -63,9 +45,7 @@
           "438fd108-bc91-4a4b-86cf-d7f564f3132c",
           "d6622b85-5643-4b6f-8a81-70fb48415215",
           "b9c641a7-3429-4081-b361-03fdebc1f650",
-          "789714b7-1036-47c8-8210-1b96da39db3c",
-          "b2ff1e1a-d4ce-4258-9086-ee1f8faec4c1",
-          "b4446422-746f-4ee7-8767-3d704a48303a"
+          "b2ff1e1a-d4ce-4258-9086-ee1f8faec4c1"
         ],
         "settings": {
           "announcement_bar_text": "Gratis verzending <span class=\"text-span-2\">op bestellingen <\/span>vanaf €49,95",
