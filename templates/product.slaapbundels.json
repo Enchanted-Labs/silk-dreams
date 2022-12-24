@@ -226,12 +226,21 @@
             "paragraph": "“Ik ben zeer tevreden, het was mooi verpakt in een luxe doos. Ben er super...",
             "name_and_date": "Aniek, 3 days ago"
           }
+        },
+        "5f606d8d-e42a-413d-97f8-6cc1daa6a9bf": {
+          "type": "review",
+          "settings": {
+            "headline": "“Super kussensloop! 🤩”",
+            "paragraph": "“Super kussensloop! 🤩 Ik had het veel eerder moeten doen. Mijn sleepbundle...",
+            "name_and_date": "Jessica, 4 days ago"
+          }
         }
       },
       "block_order": [
         "b3376165-326a-4052-ac55-09379ba85ffb",
         "0b3b2ea7-d8b4-47c1-9fc7-e43c64afa241",
-        "63350e8f-abc4-480a-a3e0-0fcdbef3d96e"
+        "63350e8f-abc4-480a-a3e0-0fcdbef3d96e",
+        "5f606d8d-e42a-413d-97f8-6cc1daa6a9bf"
       ],
       "settings": {
         "trustpilot_text": "Een score van 4.8 uit 5 op basis van 346 reviews op"
