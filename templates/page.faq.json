@@ -31,6 +31,13 @@
             "answer": "Zeker! Al onze producten hebben het OEKO-TEX 100 label, en bevatten dus geen schadelijke stoffen."
           }
         },
+        "8efc12c9-9f62-4733-9d19-334b31fae5b9": {
+          "type": "faq_block_1",
+          "settings": {
+            "question": "Welke voordelen brengt het slapen op zijde met zich mee?",
+            "answer": "Als jij een mooie en gezonde huid\/haren wilt is de eerste stap overstappen van katoen naar zijde. Ons zijde hydrateerd je haar en huid, en door onze zilverionentechnologie heeft het ook nog eens een antibacteriële werking waardoor je bactierën geen kans geeft om schade aan te richten."
+          }
+        },
         "02ab26d7-62a0-430a-b447-6654f8ce21bc": {
           "type": "faq_block_1",
           "settings": {
@@ -87,11 +94,39 @@
             "answer": "Maak een lauwwarm sopje met je pH-neutrale wasmiddel. stop je zijden kussensloop in het waszakje en was het in het sopje voor een minuut. Laat het niet weken, schrob en wrijf niet hard en spoel na afloop af met water."
           }
         },
+        "d7502e3a-3c54-4893-b4b1-ae6301af0b08": {
+          "type": "faq_block_1",
+          "settings": {
+            "question": "Hoe droog ik mijn zijden kussensloop?",
+            "answer": "Laat het gewoon drogen aan een wasrek. Leg het niet in de zon want dit kan het zijde beschadigen. Door het waterafstotende werking van zijde is jouw kussensloop binnen no-time droog. Als jij de kussensloop in de ochtend wast, kan je er in de avond weer op slapen!"
+          }
+        },
+        "b4230535-ba03-4b0d-8142-378fc0857d55": {
+          "type": "faq_block_1",
+          "settings": {
+            "question": "Wat houdt 100 nachten proefslapen in?",
+            "answer": "Wij bieden alleen voor slaapbundels en kussenslopen 100 nachten proefslapen aan. Hierdoor kan jij testen of dit is wat je zoekt. Als het niet bevalt retouneer je het product terug en krijg jij je geld terug!"
+          }
+        },
         "a72f268b-73c4-4444-9c1e-9c2d4341f48c": {
           "type": "faq_block_2",
           "settings": {
-            "question": "Wat houdt 100 nachten proefslapen in?",
-            "answer": "Basically, you can design anything that you can ever imagine. The main thing here is to have a parent container and two child elements. One for the FAQ question and another for FAQ answer. The child element for FAQ answer should be set to overflow: hidden and transform-origin set to top mid."
+            "question": "Wat zijn jullie levertijden?",
+            "answer": "Voor 22:00 besteld is morgen in huis"
+          }
+        },
+        "2dbb83ae-9c54-4747-994b-03fd87839b2a": {
+          "type": "faq_block_2",
+          "settings": {
+            "question": "Waar is mijn pakketje?",
+            "answer": "Je hebt van ons een bevestigings mail gekregen over je bestelling met daarin een track and trace link, zodat jij ten alle tijden kan bekijken waar je pakketje is. <br> Toch bezorgd over de levering van jouw pakketje? Stuur gerust een mailtje naar zakelijk@comfywise.nl voor al je vragen"
+          }
+        },
+        "224ce51c-c67a-4da0-8840-1c9248214902": {
+          "type": "faq_block_2",
+          "settings": {
+            "question": "Mijn pakketje is niet aangekomen?",
+            "answer": "Stuur ons een mailtje op zakelijk@comfywise.nl, dan helpt een van onze klantenservice medewerkers je om jow pakketje te vinden"
           }
         },
         "a81df415-e9e2-49be-9ba3-fd2b941e9852": {
@@ -107,6 +142,7 @@
         "6376a986-5545-4d06-88cc-fbe438ddc944",
         "a5a37486-164b-43e8-9a15-e1fd931b80cb",
         "4b865290-c693-45b8-abad-8174dcadd008",
+        "8efc12c9-9f62-4733-9d19-334b31fae5b9",
         "02ab26d7-62a0-430a-b447-6654f8ce21bc",
         "1c3d9b97-6674-4af9-9fb1-dc671837fcdd",
         "bc7e03e4-0757-4e9c-a3fe-b58329f14a90",
@@ -115,7 +151,11 @@
         "a02fde7c-ac96-4642-8c84-f3a0bcb8bd26",
         "2de711b9-c95f-4feb-a135-d5f2e2ed803f",
         "bbec3b13-6252-4d5c-855a-d3a561319c34",
+        "d7502e3a-3c54-4893-b4b1-ae6301af0b08",
+        "b4230535-ba03-4b0d-8142-378fc0857d55",
         "a72f268b-73c4-4444-9c1e-9c2d4341f48c",
+        "2dbb83ae-9c54-4747-994b-03fd87839b2a",
+        "224ce51c-c67a-4da0-8840-1c9248214902",
         "a81df415-e9e2-49be-9ba3-fd2b941e9852"
       ],
       "settings": {
