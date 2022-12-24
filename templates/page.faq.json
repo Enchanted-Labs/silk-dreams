@@ -10,6 +10,13 @@
             "answer": "Al onze producten zijn gemaakt van 100% 22 momme moerbei zijde. Dit zijde is behandeld met een speciale zilverionentechnologie die 99,97% van alle bacteriën dood."
           }
         },
+        "6376a986-5545-4d06-88cc-fbe438ddc944": {
+          "type": "faq_block_1",
+          "settings": {
+            "question": "Wat betekend momme\/mm?",
+            "answer": "Momme (mm) wordt gebruikt om de dichtheid van zijden stoffen te meten en inzicht te geven in de kwaliteit van een zijden stof."
+          }
+        },
         "a72f268b-73c4-4444-9c1e-9c2d4341f48c": {
           "type": "faq_block_2",
           "settings": {
@@ -27,6 +34,7 @@
       },
       "block_order": [
         "0ab9720e-262c-4d87-a432-0f28054e107f",
+        "6376a986-5545-4d06-88cc-fbe438ddc944",
         "a72f268b-73c4-4444-9c1e-9c2d4341f48c",
         "a81df415-e9e2-49be-9ba3-fd2b941e9852"
       ],
