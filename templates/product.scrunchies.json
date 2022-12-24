@@ -255,15 +255,17 @@
         "81f1d3ca-826d-46c4-8ddb-384e0b4e7910": {
           "type": "swatches",
           "settings": {
-            "swatch-link": "",
-            "swatch-alt": ""
+            "swatch-image": "{{ product.metafields.custom.swatch_18_image.value }}",
+            "swatch-link": "{{ product.metafields.custom.product_swatch_18_link.value }}",
+            "swatch-alt": "{{ product.metafields.custom.swatch_18_alt.value }}"
           }
         },
         "03d5cfd3-5650-4f0d-b475-2039ab55f6d8": {
           "type": "swatches",
           "settings": {
-            "swatch-link": "",
-            "swatch-alt": ""
+            "swatch-image": "{{ product.metafields.custom.swatch_19_image.value }}",
+            "swatch-link": "{{ product.metafields.custom.product_swatch_19_link.value }}",
+            "swatch-alt": "{{ product.metafields.custom.swatch_19_alt.value }}"
           }
         },
         "55f51695-0e6e-46aa-86d8-ec2c36d2d3fa": {
