@@ -206,6 +206,14 @@
         "b3376165-326a-4052-ac55-09379ba85ffb": {
           "type": "review",
           "settings": {
+            "headline": "“Echt een aanrader!”",
+            "paragraph": "“Zal nooit meer op katoen slapen! Het is super zacht en komt in een giftbox die...",
+            "name_and_date": "Heleen, 2 days ago"
+          }
+        },
+        "0b3b2ea7-d8b4-47c1-9fc7-e43c64afa241": {
+          "type": "review",
+          "settings": {
             "headline": "“Can’t live without it!”",
             "paragraph": "“Can’t live without it!” It’s so soft to my skin and feels great to sleep on, my sk...",
             "name_and_date": "Jessica, 4 days ago"
@@ -213,7 +221,8 @@
         }
       },
       "block_order": [
-        "b3376165-326a-4052-ac55-09379ba85ffb"
+        "b3376165-326a-4052-ac55-09379ba85ffb",
+        "0b3b2ea7-d8b4-47c1-9fc7-e43c64afa241"
       ],
       "settings": {
         "trustpilot_text": "Een score van 4.8 uit 5 op basis van 346 reviews op"
@@ -434,14 +443,14 @@
         "headline": "Misschien vindt je dit ook leuk",
         "rec_product_list": [
           "3-pack-large-scrunchies-olijf-groen",
-          "heatless-curler-white",
+          "heatless-curler-1",
           "3-pack-skinny-scrunchies-3"
         ],
         "rec-product_list_mobile": [
           "3-pack-skinny-scrunchies-3",
-          "heatless-curler-white",
+          "heatless-curler-1",
           "3-pack-large-scrunchies-olijf-groen",
-          "heatless-curler-rose",
+          "heatless-curler-2",
           "3-pack-skinny-scrunchies-rose-1"
         ]
       }
