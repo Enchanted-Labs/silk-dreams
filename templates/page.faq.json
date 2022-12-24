@@ -17,6 +17,55 @@
             "answer": "Momme (mm) wordt gebruikt om de dichtheid van zijden stoffen te meten en inzicht te geven in de kwaliteit van een zijden stof."
           }
         },
+        "a5a37486-164b-43e8-9a15-e1fd931b80cb": {
+          "type": "faq_block_1",
+          "settings": {
+            "question": "Wat houd OEKO-TEX in?",
+            "answer": "Het OEKO-TEX 100 label geeft aan dat tijdens de productie van textiel geen schadelijke stoffen zijn gebruikt."
+          }
+        },
+        "4b865290-c693-45b8-abad-8174dcadd008": {
+          "type": "faq_block_1",
+          "settings": {
+            "question": "Bevatten jullie producten het OEKO-TEX label?",
+            "answer": "Zeker! Al onze producten hebben het OEKO-TEX 100 label, en bevatten dus geen schadelijke stoffen."
+          }
+        },
+        "02ab26d7-62a0-430a-b447-6654f8ce21bc": {
+          "type": "faq_block_1",
+          "settings": {
+            "question": "Wat betekend zilverionentechnologie?",
+            "answer": "Wij gebruiken de de meest geavanceerde zilverionentechnologie om zilver ionen tussen de vezels van het zijde te plaatsen. Een zilver ion is een enkel deeltje van zilver. Zilver is een natuurlijk mineraal met antibacteriële werking wat 99,97% van alle bacteriën dood."
+          }
+        },
+        "1c3d9b97-6674-4af9-9fb1-dc671837fcdd": {
+          "type": "faq_block_1",
+          "settings": {
+            "question": "Kan je de zilver ionen eruit wassen?",
+            "answer": "Nee, je kan de zilver ionen niet uit onze producten wassen. De zilver ionen worden na 1\/2 jaar minder actief, maar ze zullen altijd actief blijven!"
+          }
+        },
+        "bc7e03e4-0757-4e9c-a3fe-b58329f14a90": {
+          "type": "faq_block_1",
+          "settings": {
+            "question": "Is het gebruik van zilver ionen veilig?",
+            "answer": "Ja! Al onze producten zijn SGS getest en zijn hiervoor geslaagd."
+          }
+        },
+        "2a1f19c7-c6ab-4f60-b72c-d1e93684da52": {
+          "type": "faq_block_1",
+          "settings": {
+            "question": "Past het kussensloop om mijn kussen heen?",
+            "answer": "Ja! Onze normale kussenslopen passen goed om kussens uit Nederland. Als jij een iets groter kussen hebt hebben wij ook een grotere maat kussensloop voor jou!"
+          }
+        },
+        "e167f9ff-7913-4da7-86ba-436b879c9898": {
+          "type": "faq_block_1",
+          "settings": {
+            "question": "Hoe lang gaat een zijde kussensloop mee?",
+            "answer": "Onze kussenslopen gaan gemiddeld 2 jaar mee met regulier gebruik."
+          }
+        },
         "a72f268b-73c4-4444-9c1e-9c2d4341f48c": {
           "type": "faq_block_2",
           "settings": {
@@ -35,6 +84,13 @@
       "block_order": [
         "0ab9720e-262c-4d87-a432-0f28054e107f",
         "6376a986-5545-4d06-88cc-fbe438ddc944",
+        "a5a37486-164b-43e8-9a15-e1fd931b80cb",
+        "4b865290-c693-45b8-abad-8174dcadd008",
+        "02ab26d7-62a0-430a-b447-6654f8ce21bc",
+        "1c3d9b97-6674-4af9-9fb1-dc671837fcdd",
+        "bc7e03e4-0757-4e9c-a3fe-b58329f14a90",
+        "2a1f19c7-c6ab-4f60-b72c-d1e93684da52",
+        "e167f9ff-7913-4da7-86ba-436b879c9898",
         "a72f268b-73c4-4444-9c1e-9c2d4341f48c",
         "a81df415-e9e2-49be-9ba3-fd2b941e9852"
       ],
