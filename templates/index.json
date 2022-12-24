@@ -14,47 +14,6 @@
         "button_link_know_more_text": "Lees meer"
       }
     },
-    "4364f7c3-42ee-4f1b-a770-78daa760972b": {
-      "type": "category-slider",
-      "blocks": {
-        "8ade2a5c-cb7d-42f1-9dee-a577b49f335d": {
-          "type": "category_slide_block",
-          "settings": {
-            "title": "Kussenslopen",
-            "collection_link": ""
-          }
-        },
-        "375608ef-79ba-4bb4-b41c-36c0c9686abc": {
-          "type": "category_slide_block",
-          "settings": {
-            "title": "Kussenslopen",
-            "collection_link": ""
-          }
-        },
-        "ab3dd1d5-c6e9-41b5-9240-5152caa37cd2": {
-          "type": "category_slide_block",
-          "settings": {
-            "title": "Kussenslopen",
-            "collection_link": ""
-          }
-        },
-        "8b38b341-ca68-4b15-a67a-274dfb8f63fe": {
-          "type": "category_slide_block",
-          "settings": {
-            "title": "Kussenslopen",
-            "collection_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "8ade2a5c-cb7d-42f1-9dee-a577b49f335d",
-        "375608ef-79ba-4bb4-b41c-36c0c9686abc",
-        "ab3dd1d5-c6e9-41b5-9240-5152caa37cd2",
-        "8b38b341-ca68-4b15-a67a-274dfb8f63fe"
-      ],
-      "settings": {
-      }
-    },
     "0a67c109-9a53-450e-b92f-f13f51959138": {
       "type": "hovering-usps",
       "settings": {
@@ -207,12 +166,6 @@
         "link": "shopify:\/\/products\/premium-zijden-slaapbundel-champagne"
       }
     },
-    "96bfefbb-13c6-4abd-a6c8-d453c9c1b5b7": {
-      "type": "trustpilot-reviews",
-      "settings": {
-        "trustpilot_text": "Een score van 4.8 uit 5 op basis van 346 reviews op"
-      }
-    },
     "c0ac047f-07dd-4c08-b3c8-f3f00e2e2eec": {
       "type": "product-section-2",
       "settings": {
@@ -309,7 +262,7 @@
           "settings": {
             "category_headline": "Premium Zijden Kussenslopen",
             "category_information": "Brengt jouw skincare routine naar het volgende niveau",
-            "first_link": "shopify:\/\/products\/copy-of-premium-zijden-slaapbundel-3"
+            "first_link": "shopify:\/\/products\/premium-zijden-slaapbundel-champagne"
           }
         },
         "877637a8-874e-4275-8b42-8624feb5dbcc": {
@@ -317,7 +270,7 @@
           "settings": {
             "category_headline": "Slaapbundels",
             "category_information": "Pefect voor de feestdagen. Het complete pakket.",
-            "second_link": "shopify:\/\/products\/premium-zijden-kussensloop-10"
+            "second_link": "shopify:\/\/products\/premium-zijden-slaapbundel-champagne"
           }
         },
         "7908f6c2-0e2c-4fa0-8b77-e5b23e36b1c9": {
@@ -404,12 +357,10 @@
   },
   "order": [
     "4a5123b9-46c2-47b8-9b52-fc3a94121c83",
-    "4364f7c3-42ee-4f1b-a770-78daa760972b",
     "0a67c109-9a53-450e-b92f-f13f51959138",
     "c7e99ba0-1cf6-463d-adde-e817ded80d57",
     "d86555a2-1454-4d56-b51d-9eacc21cb7f1",
     "4afbf917-8a83-4398-afa0-1334878d85ec",
-    "96bfefbb-13c6-4abd-a6c8-d453c9c1b5b7",
     "c0ac047f-07dd-4c08-b3c8-f3f00e2e2eec",
     "d75e7238-ba93-43d1-9880-d9682fc55ba1",
     "c48a5cd6-f629-4096-9bc3-68429fa32bef",
