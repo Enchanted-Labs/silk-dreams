@@ -1,10 +1,5 @@
 {
   "sections": {
-    "template": {
-      "type": "template-page",
-      "settings": {
-      }
-    },
     "2ae37aa5-9a71-4d42-ad1a-435202fc9f32": {
       "type": "faq-template",
       "blocks": {
@@ -46,7 +41,6 @@
     }
   },
   "order": [
-    "template",
     "2ae37aa5-9a71-4d42-ad1a-435202fc9f32"
   ]
 }
