@@ -507,6 +507,7 @@
         },
         "6fff6eee-6d5a-4870-9ff3-b2cf50cdc7ac": {
           "type": "faq",
+          "disabled": true,
           "settings": {
             "question": "Wat is het verschil tussen jullie kussenslopen en slaapbundels?",
             "answer": "Onze slaapbundels worden in tegenstelling tot de kussenslopen ook geleverd met een slaapmasker en scrunchie gemaakt van 22 mm zijde. Een slaapbundel is dus het complete pakket!"
