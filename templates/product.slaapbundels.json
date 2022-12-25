@@ -188,7 +188,7 @@
         "layout": "thumbnails-below@slides",
         "image_width": "wide",
         "image_spacing": 10,
-        "swatch-title": "Color",
+        "swatch-title": "KLEUR",
         "swatch-color": "{{ product.metafields.custom.color_name.value }}"
       }
     },
