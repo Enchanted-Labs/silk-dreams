@@ -463,34 +463,18 @@
             "answer": "Na het ontvangen van jouw bestelling zullen wij hem op werkdagen voor 23:59 uur naar jou opsturen. En dan heb je hem de volgende dag meteen in huis!"
           }
         },
-        "7db261db-bdc2-4f7c-ab0b-9dcfa7cae48a": {
-          "type": "faq",
-          "settings": {
-            "question": "Wat bedoelen jullie met proefslapen?",
-            "answer": "Met proefslapen bedoelen we letterlijk dat je mag proefslapen! Je mag hem dus uittesten en kijken of het iets voor je is. Zo geniet je zonder risico van de voordelen! Bij items waarop je mag proefslapen verwachten we wel dat je ons het pakketje net terug stuurt in de orginele verpakking."
-          }
-        },
         "05cad643-4939-44c1-a231-d0e231aabb8c": {
           "type": "faq",
           "settings": {
-            "question": "Wat betekent momme\/mm?",
-            "answer": "Momme (mm) wordt gebruikt om de dichtheid van zijden stoffen te meten en inzicht te geven in de kwaliteit van een zijden stof."
-          }
-        },
-        "6fff6eee-6d5a-4870-9ff3-b2cf50cdc7ac": {
-          "type": "faq",
-          "settings": {
-            "question": "Wat is het verschil tussen jullie kussenslopen en slaapbundels?",
-            "answer": "Onze slaapbundels worden in tegenstelling tot de kussenslopen ook geleverd met een slaapmasker en scrunchie gemaakt van 22 mm zijde. Een slaapbundel is dus het complete pakket!"
+            "question": "Wat als ik niet blij ben met mijn scrunchies?",
+            "answer": "Als je voor welke reden dan ook niet blij bent met jouw setje scrunchies kun je ze altijd zonder vragen retourneren. Binnen 14-dagen."
           }
         }
       },
       "block_order": [
         "27971ce7-1aaf-41c3-bb5f-73f55abafa7a",
         "bf50a822-0592-4573-9a22-ec0e0daaf71d",
-        "7db261db-bdc2-4f7c-ab0b-9dcfa7cae48a",
-        "05cad643-4939-44c1-a231-d0e231aabb8c",
-        "6fff6eee-6d5a-4870-9ff3-b2cf50cdc7ac"
+        "05cad643-4939-44c1-a231-d0e231aabb8c"
       ],
       "settings": {
         "sub_heading": "FAQ",
