@@ -276,6 +276,7 @@
     },
     "90a1c975-381b-45d5-9b25-57b3d3608ad8": {
       "type": "beauty-dreaming-section",
+      "disabled": true,
       "blocks": {
         "c5e822cb-46c6-4c82-a3bc-6a77e92290e4": {
           "type": "benefit_slide",
