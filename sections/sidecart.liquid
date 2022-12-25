@@ -237,7 +237,7 @@ href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
             <p class="cart-info-p">Verzendkosten:</p>
             <p class="cart-info-output">
               {% if freeShippingPrice <= cartPriceCents %}
-                GRATIS
+                €0,- (Gratis Verzending)
                 {% else %}
                 {{ section.settings.shipping | money }}
                 {% endif %}
