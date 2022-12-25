@@ -164,7 +164,7 @@ font-weight: 400;
           {% case block.type %}
           {% when 'tagline' %}
           <div class="product__tagline">
-            <p option:text="Product Tagline" class="paragraph-29">Voor glanzende haren en een mooiere huid</p>
+            <p option:text="Product Tagline" class="paragraph-29">{{ product.description }}</p>
           </div>
           {% endcase %}
           {% endfor %}
