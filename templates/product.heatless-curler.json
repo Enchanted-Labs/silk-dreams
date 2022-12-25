@@ -77,14 +77,14 @@
         "2d1e1192-e5c7-4b28-a7c8-1913171c355a": {
           "type": "product_usp",
           "settings": {
-            "usp": "14-dagen bedenktijd",
+            "usp": "100 nachten proefslapen",
             "benefit-icon": "shopify:\/\/shop_images\/Group_1844-1.png"
           }
         },
         "139dc70a-d718-4c01-8547-07e63799d246": {
           "type": "product_usp",
           "settings": {
-            "usp": "heatless je haar krullen",
+            "usp": "HET NUMMER #1 SKINCARE KUSSENSLOOP",
             "benefit-icon": "shopify:\/\/shop_images\/Group_1844-2.png"
           }
         },
@@ -92,7 +92,7 @@
           "type": "accordion",
           "settings": {
             "accordion_title": "Je zult niet meer zonder kunnen!",
-            "accordion_paragraph": "Meest makkelijke en natuurlijke manier om mooie krullen in jouw haren te krijgen. Doe de zijden heatless curler ‘s nachts in en word wakker met natuurlijk ogende krullen!"
+            "accordion_paragraph": "sdsdasdasdasd"
           }
         },
         "574957e8-6c92-4e1e-8ca7-fafdaf0b57cb": {
@@ -105,8 +105,8 @@
         "89244d97-2159-466b-a464-1ea30a23d94e": {
           "type": "accordion",
           "settings": {
-            "accordion_title": "Haar voordelen",
-            "accordion_paragraph": "Geen haarklitten, pluizig haar & gespleten punten.<br>✔︎ Houdt het haar gehydrateerd<br>✔︎ Voorkomt haaruitval<br>✔︎ Prachtige en natuurlijke krullen. <br>✔︎ Beschadigd je haar niet"
+            "accordion_title": "Huid & haar voordelen",
+            "accordion_paragraph": "✔︎ Voorkomt acne, puistje & droge huid.<br>✔︎ Anti-aging, hydraterend.<br>✔︎ Geen haarklitten, pluizig haar & gespleten punten.<br>✔︎ Houdt het haar gehydrateerd<br>✔︎ Voorkomt haaruitval<br>✔︎ Zorgt voor een betere werking van jouw huidverzorgingsproducten."
           }
         },
         "2d323637-888f-446a-b498-de48d5147a00": {
@@ -232,31 +232,11 @@
     "b9dba73f-84cd-4b95-9f58-1332cbae7294": {
       "type": "product-section-image-left",
       "settings": {
-        "unique_selling_point": "Beschadigd jouw haar niet 💖",
-        "headline": "Houd jouw haren voor altijd mooi en gezond",
-        "paragraph": "Met de Heatless Curler creëer je moeiteloos mooie golven en krullen op een natuurlijke manier zonder hitte. Dit voorkomt uitgedroogd haar en haarbreuk. Daarnaast is de heatless curler gemaakt van 22mm zijde wat zorgt voor minder pluis en klitten.",
-        "why_text": "<strong> Beauty voordelen:<\/strong><br>✔️ Krult zonder het gebruik van hitte <br>✔️ Houd het haar mooi en gezond",
+        "unique_selling_point": "Beschadigd jouw haar niet💖",
+        "headline": "Voor de mooiste krullen",
+        "paragraph": "Krult jouw haar zonder het gebruik van hitte. Zo blijft je haar gezond! Doe de curler in je haar wanneer je gaat slapen en wordt wakker met prachtige krullen.",
+        "why_text": "<strong> Haar voordelen:<\/strong><br>✔️ Geen schade aan je haar <br>✔️ Houd het haar mooi en gezond",
         "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker_1.gif"
-      }
-    },
-    "3f97b5b0-6d3b-49d4-80e3-1f5a1bde6f2d": {
-      "type": "product-section-image-right",
-      "settings": {
-        "unique_selling_point": "Voor mooie krullen met volume 😍",
-        "headline": "Super makkelijk je haren krullen binnen enkele uren",
-        "paragraph": "Krullen is eenvoudig! Je verdeeld je haar in twee gelijke delen en gebruikt de haarklem om de heatless curler aan de bovenkant van je hoofd vast te zetten. Vervolgens wikkel je jouw haar vanaf het midden (dus bij de haarklem) naar beneden om de heatless curler. Pak vervolgens de scrunchies om de uiteinden vast te maken. En zo heb je na ongeveer 4 uur mooie heatless curls!",
-        "why_text": "<strong>De Heatless Curler:<\/strong><br>✔️ Super gemakkelijk je haren krullen<br>✔️ Binnen enkele uren het gewenste eind resultaat",
-        "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker_14.gif"
-      }
-    },
-    "7fa6b57d-27e4-4e53-a0a4-8baec8481309": {
-      "type": "product-section-image-left",
-      "settings": {
-        "unique_selling_point": "Je hoeft niets erbij te kopen 💖",
-        "headline": "De complete set",
-        "paragraph": "Alle Heatless Curlers van Silk Dreams worden inclusief een haarklem en twee matchende 3 cm scrunchies geleverd. Zodat je niets meer erbij hoeft te kopen!",
-        "why_text": "<strong>Wat je ontvangt:<\/strong> <br>✔️ Heatless Curler<br>✔️ Twee matchende large scrunchies<br>✔️ Haarklem",
-        "image": "shopify:\/\/shop_images\/DSC04969_1.jpg"
       }
     },
     "60a30f7a-4ec1-41b8-9dbf-ce8f01369078": {
@@ -300,16 +280,17 @@
         "tagline": "SILK DREAMS",
         "headline": "Misschien vindt je dit ook leuk",
         "rec_product_list": [
-          "3-pack-large-scrunchies-olijf-groen",
-          "heatless-curler-white",
-          "3-pack-skinny-scrunchies-3"
+          "heatless-curler-graphite",
+          "3-pack-skinny-scrunchies-champagne",
+          "3-pack-skinny-scrunchies-olijf-groen"
         ],
         "rec-product_list_mobile": [
-          "premium-zijden-slaapbundel-champagne",
-          "premium-zijden-slaapbundel-olive-green",
-          "premium-zijden-slaapbundel-graphite",
-          "large-scrunchie-champagne",
-          "large-scrunchie-rose"
+          "3-pack-skinny-scrunchies-champagne",
+          "3-pack-skinny-scrunchies-winter",
+          "3-pack-skinny-scrunchies-summer",
+          "heatless-curler-graphite",
+          "heatless-curler-rose",
+          "zijden-slaapmasker-champagne"
         ]
       }
     }
@@ -318,8 +299,6 @@
     "template",
     "903be29f-6ad7-4682-b9e6-8fce691cc565",
     "b9dba73f-84cd-4b95-9f58-1332cbae7294",
-    "3f97b5b0-6d3b-49d4-80e3-1f5a1bde6f2d",
-    "7fa6b57d-27e4-4e53-a0a4-8baec8481309",
     "60a30f7a-4ec1-41b8-9dbf-ce8f01369078",
     "2863ee1d-378c-4264-8ea1-6338ab18112a"
   ]
