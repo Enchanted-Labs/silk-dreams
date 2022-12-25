@@ -315,11 +315,19 @@
             "question": "Welke voordelen brengt het slapen op zijde met zich mee?",
             "answer": "Als jij een mooie en gezonde huid\/haren wilt is de eerste stap overstappen van katoen naar zijde. Ons zijde hydrateerd je haar en huid, en door onze zilverionentechnologie heeft het ook nog eens een antibacteriële werking waardoor je bactierën geen kans geeft om schade aan te richten."
           }
+        },
+        "85a2416d-fd6a-4946-9382-987f6950a277": {
+          "type": "faq",
+          "settings": {
+            "question": "Wat betekend momme\/mm?",
+            "answer": "Momme (mm) wordt gebruikt om de dichtheid van zijden stoffen te meten en inzicht te geven in de kwaliteit van een zijden stof."
+          }
         }
       },
       "block_order": [
         "bf50a822-0592-4573-9a22-ec0e0daaf71d",
-        "77d97f1c-55d9-4437-b553-5c103d84d592"
+        "77d97f1c-55d9-4437-b553-5c103d84d592",
+        "85a2416d-fd6a-4946-9382-987f6950a277"
       ],
       "settings": {
         "sub_heading": "FAQ",
