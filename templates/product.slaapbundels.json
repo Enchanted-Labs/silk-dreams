@@ -441,7 +441,7 @@
       "settings": {
         "unique_selling_point": "Verminderd acne & roodheden ✨",
         "headline": "De magische kracht van zijde",
-        "paragraph": "Behandeld met een speciale zilverionentechnologie die 99,7% van de bacteriën doodt. Zo maken bacteriën geen kans hebben en bescherm je jouw huid tegen huidproblemen zoals roodheid, acne en uitslag. Laat de magische kracht van zijde werken en geniet van een gezonde, stralende huid terwijl je heerlijk slaapt.",
+        "paragraph": "Deze kussensloop van zijde is behandeld met een speciale zilverionentechnologie die 99,7% van de bacteriën doodt. Zo maken bacteriën geen kans hebben en bescherm je jouw huid tegen huidproblemen zoals roodheid, acne en uitslag. Laat de magische kracht van zijde werken en geniet van een gezonde, stralende huid terwijl je heerlijk slaapt.",
         "why_text": "<strong>Waarom je moet overstappen:<\/strong><br>✔️ Zorgt voor mooie glanzende haren<br>✔️ Elimineert bacteriën die acne veroorzaken <br>✔️ Verminderd vrijving op de huid"
       }
     },
@@ -533,17 +533,15 @@
         "headline": "Misschien vindt je dit ook leuk",
         "rec_product_list": [
           "3-pack-large-scrunchies-olijf-groen",
-          "heatless-curler-1",
-          "3-pack-skinny-scrunchies-3"
+          "3-pack-large-scrunchies-champagne",
+          "3-pack-skinny-scrunchies-sky-blue"
         ],
         "rec-product_list_mobile": [
-          "heatless-curler-1",
-          "heatless-curler-2",
           "heatless-curler-graphite",
-          "premium-zijden-slaapbundel-champagne",
-          "premium-zijden-slaapbundel-olive-green",
-          "premium-zijden-slaapbundel-sky-blue",
-          "premium-zijden-slaapbundel-white"
+          "heatless-curler-rose",
+          "3-pack-large-scrunchies-champagne",
+          "3-pack-skinny-scrunchies-sky-blue",
+          "3-pack-skinny-scrunchies-rose"
         ]
       }
     }
