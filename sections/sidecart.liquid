@@ -145,9 +145,9 @@ href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
             </div>
             <p class="cart-message-default" data-ajax-cart-section>
               {% if freeShippingPrice <= cartPriceCents %}
-                  Gefeliciteerd! Jouw bestelling komt in aanmerking voor gratis verzending
+                  Gefeliciteerd! Jouw bestelling komt in aanmerking voor gratis verzending.
                   {% else %}
-                  Spendeer nog {{ freeShippingPrice | minus: cartPriceCents | money }} voor gratis verzending
+                  Spendeer nog {{ freeShippingPrice | minus: cartPriceCents | money }} voor gratis verzending.
                   {% endif %}
               </p>
           </div>
