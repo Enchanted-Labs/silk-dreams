@@ -308,10 +308,18 @@
             "question": "Wanneer wordt mijn item bezorgd?",
             "answer": "Na het ontvangen van jouw bestelling zullen wij hem op werkdagen voor 23:59 uur naar jou opsturen. En dan heb je hem de volgende dag meteen in huis!"
           }
+        },
+        "77d97f1c-55d9-4437-b553-5c103d84d592": {
+          "type": "faq",
+          "settings": {
+            "question": "Welke voordelen brengt het slapen op zijde met zich mee?",
+            "answer": "Als jij een mooie en gezonde huid\/haren wilt is de eerste stap overstappen van katoen naar zijde. Ons zijde hydrateerd je haar en huid, en door onze zilverionentechnologie heeft het ook nog eens een antibacteriële werking waardoor je bactierën geen kans geeft om schade aan te richten."
+          }
         }
       },
       "block_order": [
-        "bf50a822-0592-4573-9a22-ec0e0daaf71d"
+        "bf50a822-0592-4573-9a22-ec0e0daaf71d",
+        "77d97f1c-55d9-4437-b553-5c103d84d592"
       ],
       "settings": {
         "sub_heading": "FAQ",
