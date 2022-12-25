@@ -56,13 +56,13 @@
           "b2ff1e1a-d4ce-4258-9086-ee1f8faec4c1"
         ],
         "settings": {
-          "announcement_bar_text": "Gratis verzending <span class=\"text-span-2\">op bestellingen <\/span>vanaf €49,95",
+          "announcement_bar_text": "Christmas Week  - 30% Korting op alles 🤍",
           "swiper_tagline": "MOST-WANTED ITEMS 😍",
           "button_text": "Ontdek het skin clearing kussensloop",
           "menu": "header-menu",
           "mobile_menu": "mobile-handle",
-          "announcement_text": "#cbb9a8",
-          "announcement_bar_color": "#f6f3f0"
+          "announcement_text": "#ffffff",
+          "announcement_bar_color": "#000000"
         }
       },
       "above-hero-usp-bar": {
