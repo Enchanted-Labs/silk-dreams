@@ -239,6 +239,16 @@
         "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker_1.gif"
       }
     },
+    "4b4801fa-d1a0-4538-8512-59fe705bc312": {
+      "type": "product-section-image-right",
+      "settings": {
+        "unique_selling_point": "Het heatless resultaat 😍🤍",
+        "headline": "De perfecte toevoeging tot jouw skincare routine",
+        "paragraph": "Omdat zijde van nature enorm zacht aan voelt. Is het ideaal voor je huid. Het neemt geen vocht op, waardoor nachtcrèmes effectiever kunnen worden gebruikt. Het is daarnaast algemeen bekend dat gehydrateerde huidcellen minder lijntjes en rimpels veroorzaken dan een droge huid.",
+        "why_text": "Anti-aging voordelen:✔️  Absorbeert geen vocht✔️ Minder lijntjes en rimpels",
+        "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker_14.gif"
+      }
+    },
     "60a30f7a-4ec1-41b8-9dbf-ce8f01369078": {
       "type": "faq",
       "blocks": {
@@ -298,6 +308,7 @@
     "template",
     "903be29f-6ad7-4682-b9e6-8fce691cc565",
     "b9dba73f-84cd-4b95-9f58-1332cbae7294",
+    "4b4801fa-d1a0-4538-8512-59fe705bc312",
     "60a30f7a-4ec1-41b8-9dbf-ce8f01369078",
     "2863ee1d-378c-4264-8ea1-6338ab18112a"
   ]
