@@ -249,6 +249,15 @@
         "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker_14.gif"
       }
     },
+    "7fa6b57d-27e4-4e53-a0a4-8baec8481309": {
+      "type": "product-section-image-left",
+      "settings": {
+        "unique_selling_point": "Versterkt skincare routines 💖",
+        "headline": "Zeg hallo tegen een natuurlijke glans",
+        "paragraph": "Naast een glowy skin en een stralende huid geniet je ook nog eens van glanzende haren. Het fijn geweven kussensloop zorgt er voor dat je haar niet klit of afbreekt tijdens het slapen.",
+        "why_text": "Hydratie voordelen:✔️ Houdt het gezicht gehydrateerd✔️ Laat gezichtsproducten een beter effect hebben"
+      }
+    },
     "60a30f7a-4ec1-41b8-9dbf-ce8f01369078": {
       "type": "faq",
       "blocks": {
@@ -309,6 +318,7 @@
     "903be29f-6ad7-4682-b9e6-8fce691cc565",
     "b9dba73f-84cd-4b95-9f58-1332cbae7294",
     "3f97b5b0-6d3b-49d4-80e3-1f5a1bde6f2d",
+    "7fa6b57d-27e4-4e53-a0a4-8baec8481309",
     "60a30f7a-4ec1-41b8-9dbf-ce8f01369078",
     "2863ee1d-378c-4264-8ea1-6338ab18112a"
   ]
