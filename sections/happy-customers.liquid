@@ -13,7 +13,6 @@
           <div block="Image" class="slide__block swiper-slide">
             <div class="image_parent"><img
                 src="{{ block.settings.image | img_url: 'master' }}"
-                loading="lazy"
                 srcset="{{ block.settings.image | img_url: 'master' }} 500w, {{ block.settings.image | img_url: 'master' }} 511w"
                 alt=""
                 class="swiper-lazy swiper-lazy-loaded"></div>
