@@ -120,6 +120,12 @@
           "settings": {
             "benefit-mobile": "Zorgt voor volume en mooie volle krullen"
           }
+        },
+        "f34be10c-1f17-4ad2-940e-90388003d4a1": {
+          "type": "benefit_check_mobile",
+          "settings": {
+            "benefit-mobile": "Inclusief matchende scrunchies & een haarklem"
+          }
         }
       },
       "block_order": [
@@ -141,7 +147,8 @@
         "574957e8-6c92-4e1e-8ca7-fafdaf0b57cb",
         "89244d97-2159-466b-a464-1ea30a23d94e",
         "2d323637-888f-446a-b498-de48d5147a00",
-        "1d97c2b2-654a-40de-8569-c5f0e9728b22"
+        "1d97c2b2-654a-40de-8569-c5f0e9728b22",
+        "f34be10c-1f17-4ad2-940e-90388003d4a1"
       ],
       "settings": {
         "layout": "thumbnails-below@slides",
